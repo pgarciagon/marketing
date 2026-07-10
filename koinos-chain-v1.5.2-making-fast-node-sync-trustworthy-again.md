@@ -50,11 +50,11 @@ Contract execution:  create B -> remove B -> root includes remove(B)
 Old receipt replay:              remove B -> key absent -> no-op
 ```
 
-![Execution records a tombstone, old replay drops it, and v1.5.2 preserves it to reproduce the signed Merkle root](images/state-delta-tombstone-replay-illustration.png)
+![Three-panel explanation of the tombstone replay bug: execution records a delete marker, old fast replay drops it when the key is absent, and v1.5.2 preserves it so the Merkle root matches](images/state-delta-tombstone-replay-illustration.png)
 
-*Execution records the transient deletion in the receipt. The old replay path
-drops that tombstone and computes a different fingerprint; v1.5.2 preserves it
-and reconstructs the complete Merkle root.*
+*A tombstone is an explicit delete marker. The old fast-replay path discarded
+that marker when the key was already absent; v1.5.2 preserves it and reproduces
+the Merkle root signed by the network.*
 
 One missing tombstone meant one missing Merkle leaf. The reconstructed root no longer matched the root signed by the network.
 
