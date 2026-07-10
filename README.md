@@ -1,5 +1,7 @@
 # Koinos Chain v1.5.2: Making Fast Node Sync Trustworthy Again
 
+![Koinos Chain v1.5.2 — Fast Sync, Verified](images/koinos-chain-v1.5.2-medium-cover.png)
+
 On July 9, 2026, Koinos released [`koinos-chain` v1.5.2](https://github.com/koinos/koinos-chain/releases/tag/v1.5.2). This release fixes a subtle but important problem in the way the chain microservice reconstructs state from historical block receipts.
 
 The release is the result of a shared effort across the Koinos Community Foundation and the wider Koinos community. Node operators reported and preserved the failure evidence; community contributors reproduced the problem, audited the full chain history, designed and tested the repair; and upstream maintainers reviewed, integrated, and released the changes. The resolution depended on all of those contributions.
