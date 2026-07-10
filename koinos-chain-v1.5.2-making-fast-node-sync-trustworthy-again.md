@@ -295,6 +295,27 @@ No single step would have been sufficient by itself. The operator reports identi
 - [`koinos-state-db-cpp` v1.2.1 release](https://github.com/koinos/koinos-state-db-cpp/releases/tag/v1.2.1)
 - [Official Compose pin update to `CHAIN_TAG=v1.5.2`](https://github.com/koinos/koinos/commit/821674672e699bf56e94d7c0e8bce122e83d1482)
 
+## Suggested post for X
+
+Publish this post when the Medium article is public, replacing
+`<MEDIUM_ARTICLE_URL>` with its final URL:
+
+```text
+Koinos node operators: upgrade koinos-chain to v1.5.2.
+
+This community-built release fixes fast state-delta replay, verifies Merkle roots at the causal block, and safely handles two historical anomalies.
+
+Read the full story: <MEDIUM_ARTICLE_URL>
+
+#Koinos #Web3
+```
+
+Attach the article cover image from
+`images/koinos-chain-v1.5.2-medium-cover.png`. Use the Medium article as the
+only link so the post has one clear destination. Suggested image alt text:
+“Koinos Chain v1.5.2 — Fast Sync, Verified, illustrated with a repaired chain
+of connected data blocks and a Merkle tree.”
+
 ---
 
 This article documents a shared Koinos Community Foundation and Koinos community effort.
