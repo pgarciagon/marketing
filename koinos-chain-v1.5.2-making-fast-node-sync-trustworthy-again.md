@@ -50,6 +50,12 @@ Contract execution:  create B -> remove B -> root includes remove(B)
 Old receipt replay:              remove B -> key absent -> no-op
 ```
 
+![Execution records a tombstone, old replay drops it, and v1.5.2 preserves it to reproduce the signed Merkle root](images/state-delta-tombstone-replay-illustration.png)
+
+*Execution records the transient deletion in the receipt. The old replay path
+drops that tombstone and computes a different fingerprint; v1.5.2 preserves it
+and reconstructs the complete Merkle root.*
+
 One missing tombstone meant one missing Merkle leaf. The reconstructed root no longer matched the root signed by the network.
 
 This distinction is important: normal contract execution **should** ignore many attempts to remove missing keys, because otherwise it would invent state changes. Replaying a serialized historical receipt is different. The receipt already says that the removal was part of the committed delta, so replay must preserve it exactly.
