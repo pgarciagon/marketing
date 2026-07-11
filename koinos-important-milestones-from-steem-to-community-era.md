@@ -50,13 +50,27 @@ The company would later become the center of Koinos development through the ERC-
 
 The core Koinos Group names referenced in this chronology are:
 
-- **Andrew Levine**: CEO of Koinos Group and the main public communicator for the project.
-- **Steve Gerbino**: Koinos co-founder and blockchain architect; announced as CTO of Koinos Group in April 2022.
-- **Michael Vandeberg**: Koinos founder and blockchain architect; one of the main protocol architects referenced in technical roadmap and governance discussions.
-- **Ron Hamenahem**: Koinos founder, project manager and developer on the current Koinos team page; also described in company profiles as COO / design and operations lead.
+- **Andrew Levine**: CEO of Koinos Group and the main public communicator for the project. Public profile: X [`@andrarchy`](https://x.com/andrarchy).
+- **Steve Gerbino**: Koinos co-founder and blockchain architect; announced as CTO of Koinos Group in April 2022. Public profiles: X [`@ssgerbino`](https://x.com/ssgerbino), GitHub [`sgerbino`](https://github.com/sgerbino), LinkedIn [`stevegerbino`](https://www.linkedin.com/in/stevegerbino/).
+- **Michael Vandeberg**: Koinos founder and blockchain architect; one of the main protocol architects referenced in technical roadmap and governance discussions. Public profiles: X [`@koinosvandeberg`](https://x.com/koinosvandeberg), GitHub [`mvandeberg`](https://github.com/mvandeberg), LinkedIn [`michaelvandeberg`](https://www.linkedin.com/in/michaelvandeberg/).
+- **Ron Hamenahem**: Koinos founder, project manager and developer on the current Koinos team page; also described in company profiles as COO / design and operations lead. Public profile: GitHub [`brklyn8900`](https://github.com/brklyn8900).
 - **Nathaniel Caldwell**: Koinos co-founder / blockchain architect referenced in early Koinos technical material, including the "easy fork" testnet discussion.
 
 Those roles changed over time, especially after Koinos Group stopped being the operating center of the chain. Later names in this article, such as Luke Willis, Kui He, Julián González, Justin Welch, Adriano Foschi, MiXiBo, Ederaleng, Roamin, Jon Rice, and `@interfecto`, are treated as community contributors unless a cited source explicitly says otherwise.
+
+Known public profiles for recurring community contributors include:
+
+- **Luke Willis**: X [`@lukemwillis`](https://x.com/lukemwillis), GitHub [`lukemwillis`](https://github.com/lukemwillis).
+- **Kui He**: X [`@kuixihe`](https://x.com/kuixihe), LinkedIn [`kuixihe`](https://www.linkedin.com/in/kuixihe).
+- **Julián González**: Telegram [`@joticajulian`](https://t.me/joticajulian), X [`@joticajulian`](https://x.com/joticajulian), GitHub [`joticajulian`](https://github.com/joticajulian).
+- **Justin Welch / Justin W.**: X [`@ogjustinw`](https://x.com/ogjustinw), GitHub [`jredbeard`](https://github.com/jredbeard), LinkedIn [`justin-welch-5520a9112`](https://www.linkedin.com/in/justin-welch-5520a9112/).
+- **Adriano Foschi**: X [`@adrihoke`](https://x.com/adrihoke), GitHub [`adrianofoschi`](https://github.com/adrianofoschi), LinkedIn [`adrianofoschi`](https://www.linkedin.com/in/adrianofoschi).
+- **MiXiBo**: GitHub [`MiXiBo`](https://github.com/MiXiBo).
+- **Ederaleng**: X [`@ederaleng`](https://x.com/ederaleng), Telegram [`@ederaleng`](https://t.me/ederaleng).
+- **Roamin**: GitHub [`roaminro`](https://github.com/roaminro).
+- **Jon Rice**: X [`@jonricecrypto`](https://x.com/jonricecrypto), LinkedIn [`jonricecrypto`](https://www.linkedin.com/in/jonricecrypto/). Earlier Federation-era X posts also referenced [`@jonrice`](https://x.com/jonrice).
+- **Pablo Garcia / pgarcgo**: Telegram [`@pgarcgo`](https://t.me/pgarcgo), X [`@pgarcgo`](https://x.com/pgarcgo), GitHub [`pgarciagon`](https://github.com/pgarciagon).
+- **`@interfecto`**: X [`@interf3cto`](https://x.com/interf3cto), GitHub [`interfecto`](https://github.com/interfecto).
 
 ## 06.10.2020 - Whitepaper and KOIN Mining Are Announced
 
