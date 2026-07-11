@@ -8,7 +8,7 @@ The sources used here include the original Hive chronology, Koinos whitepaper, K
 
 ## Methodology: Telegram as Community Evidence
 
-For this revision, I used a local Telegram session and generated an evidence report containing 2,172 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `cafe`, `Cafe identity`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, `v1.5.2`, `Julian Gonzalez`, `Julián González`, `joticajulian`, `Jga`, `Arkinos`, `Koinos Nicknames`, `Manuscript`, and `Fogata`.
+For this revision, I used a local Telegram session and generated an evidence report containing 2,172 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `Konio`, `Sovrano`, `Veive`, `Adriano Foschi`, `cafe`, `Cafe identity`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, `v1.5.2`, `Julian Gonzalez`, `Julián González`, `joticajulian`, `Jga`, `Arkinos`, `Koinos Nicknames`, `Manuscript`, and `Fogata`.
 
 Telegram is not used here as the sole source of official dates. It is used as a community record: it shows how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local evidence file is archived next to this article as `koinos-telegram-evidence.json`.
 
@@ -217,6 +217,14 @@ On June 15, 2023, Julian published [Koinos Polls](https://hive.blog/koinos/@jga/
 
 That same period also included his post on updating the claiming contract and his June 26 post, [Is Koinos a decentralized blockchain?](https://hive.blog/koinos/@jga/is-koinos-a-decentralized-blockchain), which directly criticized the concentration of block production. In chronological terms, this is where the post-mainnet conversation shifted from "the chain launched" to "how decentralized is the chain in practice?"
 
+## 25.07.2023 - Adriano Launches Konio, the First Native Mobile Wallet
+
+On July 25, 2023, Koinos community channels shared the release of Konio v1.5.2 with a simple message: "FAST SIMPLE FREE." Konio was Adriano Foschi's native mobile wallet for Koinos, and its GitHub repository describes it as the first Koinos blockchain native mobile wallet, built for Android and iOS.
+
+Konio matters because Koinos' promise was not only technical. A fee-less blockchain still needs wallets that ordinary users can install, understand, and use away from a browser extension. Adriano later explained that he had discovered Koinos at the beginning of 2023 and created Konio because there was no mobile wallet for the chain. That made Konio one of the first serious attempts to turn Koinos' fee-less design into a mobile-first user experience.
+
+The later history was mixed. By 2025, community messages described Konio as inactive and not updated for the KCS-4 transition. But that does not reduce its historical role. Konio was the first native mobile-wallet step, and it also foreshadowed Adriano's later direction: moving from a conventional mobile wallet toward smart accounts, modular authorization, and Sovrano.
+
 ## August 2023 - KoinDX Launches the First DEX on Koinos
 
 On July 31, 2023, Koinos Group announced its partnership with KoinDX, describing it as the first decentralized exchange on Koinos. Public KoinDX launch posts followed in early August, making KoinDX the first major DeFi trading venue native to the chain.
@@ -407,6 +415,14 @@ The most important items included:
 - more redundant microservices;
 - optimistic execution and dynamic sharding as long-term goals.
 
+## 13.11.2024 - Sovrano Auth Testnet Begins the Post-Konio Wallet Track
+
+On November 13, 2024, Koinos community channels shared the Sovrano Auth testnet announcement. The first public focus was not simply another wallet screen. It was passwordless account creation, authentication, authorization, and an SDK that developers could begin integrating into dApps.
+
+This was the next step in Adriano Foschi's wallet work after Konio. His public GitHub profile identifies him as creator of Konio, Veive, and Sovrano. Konio had solved the earlier mobile-wallet gap. Veive and Sovrano moved the problem up a layer: instead of only giving users a mobile wallet, they tried to make smart accounts feel closer to familiar payment and login systems.
+
+That distinction matters. Koinos had always argued for fee-less, familiar user experience, but account abstraction is where that promise becomes practical: recovery, permissions, spending limits, delegated actions, and dApp authorization can be handled through account logic rather than raw key management. As Konio became less maintained after KCS-4, Sovrano became the forward-looking continuation of Adriano's accessibility track.
+
 ## 20.12.2024 - Roadmap Update and 2025 Plans
 
 On December 20, 2024, Michael Vandeberg published [Roadmap Update Q4 2024](https://medium.com/koinosnetwork/roadmap-update-q4-2024-e16ba1b3c3ce). The same day, Steve Gerbino published [Koinos Group Update: 2025 is Our Year](https://medium.com/koinosnetwork/koinos-group-update-2025-is-our-year-46c4942e9390).
@@ -552,9 +568,9 @@ The Koinos story has several distinct phases:
 5. **Testnet era:** microservices, Roamin's AssemblyScript/TypeScript smart contract path, governance, KPoB, mana, and modular architecture take shape.
 6. **Mainnet:** Koinos launches on November 5, 2022, and completes initial decentralization on December 5, 2022.
 7. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-8. **First mainnet year:** BurnKoin, Fogata, KAP, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+8. **First mainnet year:** BurnKoin, Fogata, KAP, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 9. **Governance proof:** Julian Gonzalez's system-call proposal becomes the first forkless governance upgrade in 2024.
-10. **Developer and user tooling:** Arkinos, KCS-4 work, Kondor, Manuscript, and ecosystem dApps make the chain more usable.
+10. **Developer and user tooling:** Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, and ecosystem dApps make the chain more usable.
 11. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
 12. **Koinos Group transition:** the company steps back, and the community must maintain the chain.
 13. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
@@ -587,6 +603,9 @@ The central question is no longer only whether Koinos has interesting technology
 - Koinos Group: [ANN: KoinDX & Koinos Group Partnership](https://medium.com/koinos-group/ann-koindx-koinos-group-partnership-3916ebe57405)
 - KoinDX: [KoinDX Docs](https://docs.koindx.com/)
 - KoinDX: [KoinDX Mana Fountain](https://medium.com/@koindx/koindx-mana-fountain-98253a10dc2c)
+- GitHub: [konio-io/konio-mobile](https://github.com/konio-io/konio-mobile)
+- Konio: [Welcome in our Medium space!](https://medium.com/@konio_io/welcome-9b49af842775)
+- GitHub: [Adriano Foschi](https://github.com/adrianofoschi)
 - MiXiBo: [The Koincity Project: Launchpad for the Koinos Blockchain](https://mixibo.medium.com/the-koincity-project-launchpad-for-the-koinos-blockchain-b7ed343e0229)
 - Koinos Network: [Chainge integrates Koinos](https://medium.com/koinosnetwork/koinos-goes-cross-chain-57d6e311fa86)
 - Koinos Network: [The Koinos Community is partnering with Rhubarb Media](https://medium.com/koinosnetwork/the-koinos-community-is-partnering-with-rhubarb-media-a146ddeff309)
