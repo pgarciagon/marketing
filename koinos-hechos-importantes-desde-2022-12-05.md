@@ -132,6 +132,16 @@ El update de Steve Gerbino resumia el estado del ecosistema de forma mas estrate
 
 Ese texto tambien conectaba la mejora KOIN/VHP con la confianza que necesitan Kollection, KoinCity y KoinDX para automatizar listados y reducir revision manual de contratos.
 
+## 2025 - La salida de Koinos Group cambia la naturaleza del proyecto
+
+Una parte imprescindible de la historia posterior a mainnet es que Koinos dejo de ser, en la practica, un proyecto dirigido por Koinos Group. En diciembre de 2024 ya habia senales publicas de transicion: Andrew Levine anuncio en `@koinos_community` que dejaba la compania despues de hablarlo con sus cofundadores. Durante 2025, las conversaciones comunitarias fueron volviendose mas explicitas: Koinos Group dejaba de operar como el centro del proyecto y parte de sus arquitectos principales pasaban a trabajar en Respublica.
+
+El 15.12.2025, en `@thekoinosarmy`, se resumio la situacion de forma directa: Koinos Group se habia cerrado y Steve Gerbino y Michael Vandeberg estaban construyendo un nuevo proyecto llamado Respublica, mientras la Koinos Community Foundation asumiria el mantenimiento central de Koinos Chain.
+
+Esto cambia el tono de la cronologia. Hasta aqui, muchos hitos podian leerse como ejecucion de una empresa sobre una red descentralizada. A partir de este periodo, la pregunta pasa a ser mas dura: si la empresa que impulso el lanzamiento deja de liderar, puede la comunidad mantener la cadena, la infraestructura y el relato del proyecto por si misma?
+
+La respuesta inicial fue imperfecta, pero real: se formaron grupos de mantenimiento, se empezo a organizar una fundacion comunitaria, se discutieron roles, se preservaron servicios basicos y se mantuvo viva la red aun con menor actividad, menor visibilidad y menos recursos.
+
 ## 2025 - Vortex, vKOIN y acceso multichain
 
 La web oficial de Koinos situa el lanzamiento de Vortex en Q3 2025. La cuenta oficial de X anuncio posteriormente que [Vortex Bridge estaba live y funcional](https://x.com/KoinosNetwork/status/1967629423022313777), consolidando una pieza que habia empezado en pruebas publicas en 2024.
@@ -151,6 +161,22 @@ El registro de Telegram confirma esta transicion con actividad practica. El 14.0
 
 Tambien aparece el lado menos elegante de la adopcion: durante 2026, usuarios preguntaban en `@koinos_community` como retirar desde MEXC, como pasar vKOIN a KOIN nativo y como usar Vortex con Metamask y Kondor. Estos mensajes son valiosos porque muestran el trabajo real de soporte comunitario que acompana a cualquier expansion multichain.
 
+## 2025-2026 - Precio, delistings y cambio de foco hacia DEX
+
+La cronologia tambien debe incluir la parte negativa: el precio de KOIN sufrio una evolucion claramente desfavorable, la liquidez se redujo, la visibilidad en mercados centralizados se deterioro y la comunidad tuvo que improvisar salidas.
+
+MEXC se convirtio en el ejemplo mas visible. En enero de 2026 se explico en `@koinos_community` que la Koinos Community Foundation no habia podido alcanzar nuevos terminos con MEXC para mantener el listing de KOIN, activo desde 2022. En marzo y abril de 2026, el grupo principal y Koinos Army discutian abiertamente el golpe del delisting, la baja actividad, las dificultades para conseguir un CEX alternativo y la necesidad de mover tokens a wallets nativas o a rutas DeFi.
+
+Ese deterioro obligo a cambiar prioridades. En vez de depender de exchanges centralizados con volumen bajo y riesgo de delisting, la comunidad empezo a empujar liquidez en DEX y pares envueltos. Aparecen tres ideas recurrentes:
+
+- liquidez vKOIN/KOIN en Ethereum, Solana y Base;
+- uso de Vortex para volver de vKOIN a KOIN nativo;
+- pools mas profundos en DEX como alternativa a CEX pequenos o poco comprometidos.
+
+El 26.01.2026 se hablaba en `@koinos_community` de alrededor de 5,1 millones de KOIN en liquidez combinada ETH + SOL para wKOIN/vKOIN, mas que la liquidez historica de Chainge y respaldada 1:1. En febrero de 2026 se discutio una propuesta KFS para expandir Koinos a Base, desplegar wKOIN mediante Wormhole y lanzar un pool de liquidez en Base. En junio de 2026, los usuarios ya recibian instrucciones practicas para comprar vKOIN en Ethereum, Base o Solana y puentearlo despues a Koinos nativo.
+
+Este giro no elimina el dano producido por el precio y los delistings, pero si muestra una adaptacion: Koinos paso de buscar validacion externa por CEX a construir rutas propias de liquidez multichain y DEX.
+
 ## 2025 - Fondo, fundacion y transicion comunitaria
 
 En la hoja de ruta publicada en [koinos.io](https://koinos.io/), Q4 2025 incluye dos objetivos institucionales: **Koinos Fund** y **Transition to Koinos Community Foundation**.
@@ -163,6 +189,18 @@ Telegram aporta una capa adicional: en mayo y junio de 2025, `@KoinosTCB` discut
 
 Ese conjunto de mensajes muestra que la fundacion no aparecio como una abstraccion de roadmap: fue una respuesta practica a una necesidad de coordinacion, custodia de fondos, propuestas y mantenimiento basico de infraestructura.
 
+En 2026, la funcion de la Koinos Community Foundation se volvio todavia mas concreta. El 07.03.2026 se explico en `@koinos_community` que la "foundation" era, por el momento, un grupo de usuarios intentando mantener viva la infraestructura: seed nodes, API nodes, block producers, validadores de Vortex, websites y dominios. El 19.04.2026 se resumio igual de claro: cuando Koinos Group cerro, la comunidad formo la Koinos Community Foundation para mantener voluntariamente la blockchain.
+
+Esta parte es central porque aterriza la descentralizacion en trabajo operativo. Mantener una blockchain no significa solo votar propuestas; significa pagar servidores, operar nodos, resolver fallos, contestar usuarios, sostener APIs, mantener dominios y coordinar a voluntarios.
+
+## 29.05.2026 - La API publica se descentraliza con un load balancer
+
+Otro hito importante fue la descentralizacion practica de `api.koinos.io`. El 29.05.2026 se compartio en `@koinos_community` y `@thekoinosarmy` una actualizacion del ecosistema: la testnet publica volvia a estar disponible y la API "oficial" quedaba conectada mediante un load balancer de Cloudflare sobre multiples operadores de nodos.
+
+Esto es mas importante de lo que parece. Si `api.koinos.io` depende de un unico servidor o de un unico operador, la experiencia de desarrolladores y usuarios sigue teniendo un punto unico de fallo. Al poner la API detras de un balanceador con varios operadores, Koinos se acerca mas a su propia narrativa: no solo una cadena descentralizada en consenso, sino tambien una infraestructura publica menos dependiente de una sola entidad.
+
+El mismo mensaje invitaba a mas voluntarios a sumarse. Eso deja claro que la descentralizacion de infraestructura no es un estado final, sino un proceso: cuantos mas operadores independientes sostengan API nodes, seed nodes y productores, menos fragil sera el ecosistema.
+
 ## 2026 - Maduracion operativa: releases, nodos y correcciones profundas
 
 En 2026, la historia siguio moviendose hacia la madurez operativa. El repositorio principal de Koinos muestra releases de la familia 2.x. En [GitHub releases](https://github.com/koinos/koinos/releases), por ejemplo, `v2.1.0` introdujo REST en el paquete principal, `v2.2.0` incluyo mejoras de estabilidad P2P y soporte para transacciones con nonces secuenciales, y `v2.2.1` actualizo componentes como `koinos-chain`.
@@ -172,6 +210,14 @@ El 09.07.2026, `koinos-chain v1.5.2` se publico para corregir un problema de rec
 La correccion reforzo algo esencial para cualquier blockchain: no basta con producir bloques; los nodos deben poder reproducir y verificar el historial de forma confiable. La investigacion comunitaria y tecnica alrededor de este problema muestra una red mas madura, donde operadores, desarrolladores y mantenedores colaboran para aislar fallos profundos, reproducirlos y corregirlos.
 
 El mismo dia, el grupo `@koinos_community` compartio una explicacion en espanol para operadores: `koinos-chain v1.5.2` corregia un problema importante en la sincronizacion rapida del estado, agregaba verificacion temprana de raices Merkle y gestionaba de forma segura dos anomalias historicas. La presencia de ese mensaje en Telegram es relevante porque convierte una release tecnica en una instruccion operativa para productores, nodos API y miembros de la comunidad que mantienen infraestructura.
+
+## 26.06.2026 - Kondor 2.0 vuelve a poner una wallet clave sobre la mesa
+
+El 26.06.2026 se anuncio en `@koinos_community` la publicacion de Kondor v2 para pruebas beta. Kondor habia sido una de las wallets mas importantes del ecosistema Koinos desde testnet, y su regreso en una version nueva tenia valor simbolico y practico.
+
+Practico, porque los usuarios necesitaban una forma mantenida y actualizada de interactuar con Koinos nativo, mover fondos desde MEXC o desde rutas multichain, y usar Vortex con una wallet compatible. Simbolico, porque despues de meses de dudas sobre continuidad, delistings y salida de Koinos Group, el lanzamiento de Kondor v2 fue percibido en Telegram como una senal de que piezas fundamentales del ecosistema estaban volviendo poco a poco.
+
+El 02.07.2026, un usuario resumio ese sentimiento en el grupo principal: "Some really foundational stuff coming back slowly. Kondor v2 as well... Really great to see." No es un anuncio institucional, pero captura bien el momento: la recuperacion no venia de una gran campana, sino de infraestructura basica que volvia a funcionar.
 
 ## Balance desde el 05.12.2022
 
@@ -190,7 +236,11 @@ Los hechos mas importantes de esta etapa pueden resumirse asi:
 9. El roadmap tecnico hizo visibles las prioridades de seguridad, nodos, APIs, SDKs y experiencia de desarrollador.
 10. La transicion hacia Koinos Community Foundation y la creacion de un Koinos Fund apuntan a institucionalizar el crecimiento comunitario.
 11. Las releases de 2026 y correcciones como `koinos-chain v1.5.2` muestran una red que ya no solo innova, sino que aprende a operar con rigor.
-12. La evidencia de Telegram muestra que muchos hitos no fueron solo anuncios: requirieron traduccion, soporte a usuarios, coordinacion de subgrupos, propuestas KFS, mantenimiento de nodos y trabajo comunitario continuo.
+12. La salida de Koinos Group obligo a la comunidad a pasar de apoyar el proyecto a mantener partes criticas de el.
+13. La evolucion negativa del precio, los problemas con CEX y el delisting de MEXC forzaron un giro hacia liquidez DEX, vKOIN y rutas multichain.
+14. La Koinos Community Foundation empezo a actuar como estructura de mantenimiento para seed nodes, API nodes, block producers, validadores de Vortex, dominios y servicios publicos.
+15. La descentralizacion de `api.koinos.io` mediante un load balancer con multiples operadores y la publicacion de Kondor v2 fueron senales practicas de reconstruccion.
+16. La evidencia de Telegram muestra que muchos hitos no fueron solo anuncios: requirieron traduccion, soporte a usuarios, coordinacion de subgrupos, propuestas KFS, mantenimiento de nodos y trabajo comunitario continuo.
 
 Koinos sigue siendo un proyecto pequeno comparado con las grandes L1, pero su historia desde diciembre de 2022 muestra una linea coherente: insistir en que la experiencia blockchain debe parecerse mas a internet que a una terminal financiera; que los usuarios no deberian pagar gas por cada accion; y que la gobernanza, la modularidad y la comunidad pueden ser mas que slogans si se prueban en produccion.
 
