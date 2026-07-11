@@ -255,6 +255,14 @@ On September 30, 2023, Julian published [Koinos Nicknames](https://hive.blog/koi
 
 Nicknames were not a core protocol milestone, but they were important for usability. They addressed a real user failure mode: even experienced users can lose funds by mistyping or misreading an address-like identifier.
 
+## Late September 2023 - MiXiBo Launches KoinCity
+
+In late September 2023, MiXiBo launched KoinCity, described in his later article as the first launchpad for the Koinos blockchain. Development had started in October 2022, and the platform went public roughly a year later with launchpad creation, token locks, integrated chat, KAP profiles, and integrations with KoinDX, Kondor, Konio, WalletConnect, Nicknames, and Koinos Garden.
+
+KoinCity deserves its own milestone because it filled a different ecosystem gap from KoinDX or Kollection. KoinDX gave Koinos a DEX, Kollection gave it NFTs, and KoinCity tried to give entrepreneurs a no-code route to launch tokens and presales on Koinos. That mattered because a layer-one needs more than base infrastructure: it needs repeatable paths for community projects to appear without every founder writing custom contracts from scratch.
+
+Its later history was more difficult. Telegram evidence from 2025 shows KoinCity going offline, returning in limited form, and discussing alignment with KCS-4 before further updates. Even if the project later became inactive or discontinued as a regularly maintained launchpad, it remains historically important as one of the first serious attempts to make Koinos a place where ordinary users could create, launch, discuss, and fund new tokens.
+
 ## 25.10.2023 - Koinos Goes Cross-Chain with Chainge
 
 On October 25, 2023, Koinos Network published [Chainge integrates Koinos](https://medium.com/koinosnetwork/koinos-goes-cross-chain-57d6e311fa86). The Chainge/Fusion integration allowed KOIN to move to Ethereum as wKOIN and allowed assets such as ETH to move toward Koinos.
@@ -544,7 +552,7 @@ The Koinos story has several distinct phases:
 5. **Testnet era:** microservices, Roamin's AssemblyScript/TypeScript smart contract path, governance, KPoB, mana, and modular architecture take shape.
 6. **Mainnet:** Koinos launches on November 5, 2022, and completes initial decentralization on December 5, 2022.
 7. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-8. **First mainnet year:** BurnKoin, Fogata, KAP, KoinDX, KoinosPro, Koinos Polls, Nicknames, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+8. **First mainnet year:** BurnKoin, Fogata, KAP, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 9. **Governance proof:** Julian Gonzalez's system-call proposal becomes the first forkless governance upgrade in 2024.
 10. **Developer and user tooling:** Arkinos, KCS-4 work, Kondor, Manuscript, and ecosystem dApps make the chain more usable.
 11. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
@@ -579,6 +587,7 @@ The central question is no longer only whether Koinos has interesting technology
 - Koinos Group: [ANN: KoinDX & Koinos Group Partnership](https://medium.com/koinos-group/ann-koindx-koinos-group-partnership-3916ebe57405)
 - KoinDX: [KoinDX Docs](https://docs.koindx.com/)
 - KoinDX: [KoinDX Mana Fountain](https://medium.com/@koindx/koindx-mana-fountain-98253a10dc2c)
+- MiXiBo: [The Koincity Project: Launchpad for the Koinos Blockchain](https://mixibo.medium.com/the-koincity-project-launchpad-for-the-koinos-blockchain-b7ed343e0229)
 - Koinos Network: [Chainge integrates Koinos](https://medium.com/koinosnetwork/koinos-goes-cross-chain-57d6e311fa86)
 - Koinos Network: [The Koinos Community is partnering with Rhubarb Media](https://medium.com/koinosnetwork/the-koinos-community-is-partnering-with-rhubarb-media-a146ddeff309)
 - Koinos Network: [Welcome to 2024 Koinos Community!](https://medium.com/koinosnetwork/welcome-to-2024-koinos-community-cb45f1d59cde)
