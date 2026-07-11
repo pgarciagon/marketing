@@ -77,24 +77,6 @@ By April 13, 2021, six months after mining began, approximately 99.34% of all KO
 
 This completed the fair launch phase. The next challenge was no longer distribution. It was execution: could the team build the chain that would make those ERC-20 balances native?
 
-## 2021-2026 - The Cafe Miner and Distribution Concerns
-
-The KOIN mining phase was designed as a fair launch, but it did not prevent concentration. Over time, community members repeatedly discussed the main mining account known as "cafe".
-
-The most detailed Telegram summary appeared much later, on April 26, 2026, in `@koinos_community`. A community audit described the cafe miner as having produced roughly 67 million KOIN over its lifetime. The same message argued that most of that KOIN had already been sold or redistributed before the October 2022 snapshot, and that the more relevant number was around 22.4 million KOIN in coordinated or Sybil-flagged snapshot wallets, roughly 22% of supply.
-
-That distinction matters. The raw mining number made the launch look heavily dominated by one miner, but the snapshot analysis suggested a more complicated picture: much of the mined supply moved through markets, OTC transfers, or downstream wallets before mainnet. At the same time, community members continued to investigate wallet links and questioned whether some downstream claims were truly independent.
-
-Cafe therefore became part of Koinos' long-running decentralization debate. The project avoided an ICO and pre-mine, but open mining still produced concentration, and the community later had to reason through whether that concentration was market distribution, Sybil behavior, or something in between.
-
-The identity of Cafe became its own mystery. In November 2023, `@thekoinosarmy` summarized the basic uncertainty well: people called the account "cafe" because that string appeared in the original address, but nobody knew whether it was a person, a group, a man, a woman, or simply an external miner with unusually large hash power. Earlier public discussion had already described the miner as having "monster hash power" and selling regularly into Uniswap, which made some people frame Cafe as an outside mining actor rather than a normal community participant.
-
-Later speculation became much more personal and much less certain. One line of analysis tried to connect Cafe-linked Ethereum and Koinos addresses with claims, OTC explanations, KAP name mints, Kollection-related transactions, and even $MONG memecoin trading activity. That led to public accusations involving Justin W. from Kollection. Other participants immediately treated the matter more cautiously: one reply said the analysis was still "elucubraciones", another noted that the same chain of reasoning had almost pulled in unrelated people, and another said they had only traced the pattern as far as Kui before stopping.
-
-Other names appeared more loosely. Glen was floated in `@thekoinosarmy` as a casual guess around the same "who is Cafe?" discussion, while Kui appeared mainly as an address or transaction link in the analysis, not as a proven identification. I did not find a solid public Telegram record in this evidence archive supporting the separate idea that Cafe was specifically a Chinese miner. What the archive does support is narrower: the community moved between several theories, none of them conclusively proven, and the uncertainty itself became part of the distrust around Cafe.
-
-For that reason, Cafe should be treated in this chronology as an unresolved identity question. The important historical fact is not that any named person was Cafe, but that a large, pseudonymous mining actor became powerful enough that the community later spent years debating whether the original distribution was fair, whether some later wallets were truly independent, and whether on-chain correlations were enough to accuse real people.
-
 ## 30.06.2021 - First Koinos Testnet Launches
 
 On June 30, 2021, Koinos launched its first public testnet, version 0.1.
@@ -151,6 +133,12 @@ On October 31, 2022, the ERC-20 KOIN snapshot was completed successfully. This s
 
 The snapshot connected the 2020 fair mining phase to the future native chain. Without it, the fair launch would have remained only an Ethereum-era distribution event.
 
+KoinosScan's later [claims analysis](https://koinosscan.com/claims) gives a useful way to read this moment. It lists the snapshot at Ethereum block 15,868,963 and reconstructs 3,754 snapshot addresses holding about 99.74 million KOIN. By the time of that dataset, 1,974 addresses had claimed about 79.03 million KOIN, while 1,780 addresses still had about 20.71 million KOIN unclaimed.
+
+The same dataset also gives a more careful way to discuss mining concentration. Its Cafe spotlight identifies a coordinated `0x1337cafe...` cluster of seven known wallets that mined about 67.56 million KOIN, sent about 52.09 million to Uniswap, sent about 16.39 million elsewhere, and retained only about 506,365 KOIN directly in the snapshot. The page also uses weighted F1-F7 heuristics to group broader Sybil-style clusters, but those heuristics should be treated as analytical signals, not as proof of a real-world identity.
+
+This distinction matters. The raw mining number makes Cafe look like the dominant actor of the mining phase, but the snapshot and claims data show a more complicated path: much of the mined KOIN had already moved through Uniswap, OTC transfers, or downstream wallets before mainnet. The historically important question is therefore not only "who mined it?", but "where did it sit at the snapshot, who claimed it, and whether downstream wallets were independent or coordinated."
+
 ## 05.11.2022 - Koinos Mainnet Launches
 
 On November 5, 2022, Koinos mainnet launched successfully.
@@ -165,13 +153,37 @@ On December 5, 2022, the team removed the temporary control path and Koinos ente
 
 This is where the earlier Spanish chronology ended. It is also where the second act begins: the network had launched, but now it had to survive real usage, market cycles, infrastructure problems, governance, and eventually the withdrawal of Koinos Group as the central operating force.
 
-## 2023 - First Full Year of Mainnet: Stabilize Before Scaling
+## 02.01.2023 - Fogata and Block-Production Decentralization
+
+On January 2, 2023, Julian Gonzalez published [Fogata - mining pools for koinos](https://hive.blog/koinos/@jga/fogata). Less than two months after mainnet, the post framed mining pools as a way to reduce block-production concentration and make KPoB participation more accessible.
+
+This belongs early in the post-mainnet chronology because it links directly to Koinos' first decentralization test. Removing Koinos Group's temporary control path did not automatically mean block production was broadly distributed. Tools such as Fogata mattered because decentralization had to become operational, not only constitutional.
+
+## 06.02.2023 - Running Multiple Producers on the Microservice Architecture
+
+On February 6, 2023, Julian followed with [How to setup a second producer in Koinos Blockchain](https://hive.blog/koinos/@jga/koinos-2-producers). The post explained how Koinos' microservice architecture allowed more than one producer to be run from a single node setup.
+
+This was a practical operator milestone. It showed that Koinos' modular architecture was not only an internal engineering choice, but something community operators could use to improve producer participation and experiment with pool infrastructure.
+
+## 20.04.2023 - Koinos Group Focuses on Infrastructure and Applications
 
 On April 20, 2023, Andrew Levine published [Koinos Group in 2023](https://medium.com/koinos-group/koinos-group-in-2023-f1b597839c79). The post explained that, after launching mainnet on November 5, 2022, Koinos Group had shifted focus toward Koinos Pro, a SaaS product intended to make integration with the blockchain easier.
 
 The message was straightforward: Koinos had a fee-less network, but developers and businesses still needed reliable infrastructure. Koinos Pro was presented as the bridge between the chain and applications: APIs, scaling, and a future Mana Fountain so developers could access resources without operating every layer themselves.
 
 The same article mentioned Koinos Play and gaming-oriented collaborations, including GameStack, Royal Reptile Studios, and Splinterlands. Not all of those efforts later had the same public visibility, but they show the early post-mainnet exploration phase: Koinos was looking for use cases where fee-less interaction could matter to normal users.
+
+## 15.06.2023 - Koinos Polls and Early Governance Coordination
+
+On June 15, 2023, Julian published [Koinos Polls](https://hive.blog/koinos/@jga/polls), a free dApp for measuring consensus before code was ready for an on-chain governance proposal. The timing matters: Koinos had governance, but the community still needed lower-friction ways to discuss whether a proposal was worth building.
+
+That same period also included his post on updating the claiming contract and his June 26 post, [Is Koinos a decentralized blockchain?](https://hive.blog/koinos/@jga/is-koinos-a-decentralized-blockchain), which directly criticized the concentration of block production. In chronological terms, this is where the post-mainnet conversation shifted from "the chain launched" to "how decentralized is the chain in practice?"
+
+## 05.08.2023 - Julian Proposes a Security-Oriented System Call
+
+On August 5, 2023, Julian published [[koinos proposals] Improve security in koinos](https://hive.blog/koinos/@jga/improve-security-koinos). The proposal argued for a new system call to help classify addresses and improve token and NFT security, especially around smart wallets and authorization.
+
+This was the start of the work that would later become Koinos' first forkless mainnet governance upgrade. It is important to place it here, before the February 2024 milestone, because the applied upgrade was not a sudden company release. It came from months of public community discussion, testing, and iteration.
 
 ## 21.08.2023 - Koinos Federation and the Marketing Coordination Problem
 
@@ -183,7 +195,17 @@ The Federation idea tried to fill that gap. But it also became controversial. Cr
 
 The debate around Jon was part of that broader tension. Some community members saw him as bringing professional marketing and crypto media experience. Others criticized the proposal as too centralized, too close to a quasi-foundation before the community had clear governance norms, or too willing to dilute supply in exchange for listings and market-making support.
 
-In July 2024, the argument resurfaced when a community message pushed back against the claim that the Federation had proposed simply giving newly inflated tokens to Koinos Group to sell to VCs. The reply clarified that the proposal involved a treasury overseen by a committee, potential OTC sales, exchange listings, market making, marketing, developer grants, and vesting terms for a major buyer. Whether one considers that responsible ecosystem funding or unacceptable dilution, it was one of the earliest serious attempts to solve Koinos' coordination problem.
+## 17.09.2023 - The New System Call Reaches Testnet
+
+On September 17, 2023, Julian wrote that the new Koinos system call was live on testnet. On October 24, he published a second update describing a revised approach after discussion with Michael Vandeberg and Steve Gerbino.
+
+This is a good example of how Koinos governance was supposed to work in practice: not only voting, but public technical debate, testnet deployment, adjustment, and eventual mainnet proposal.
+
+## 30.09.2023 - Koinos Nicknames
+
+On September 30, 2023, Julian published [Koinos Nicknames](https://hive.blog/koinos/@jga/nicknames), a human-readable naming service designed for safer transfers. The October updates improved similarity detection so users would be less likely to send funds to confusingly similar names.
+
+Nicknames were not a core protocol milestone, but they were important for usability. They addressed a real user failure mode: even experienced users can lose funds by mistyping or misreading an address-like identifier.
 
 ## 25.10.2023 - Koinos Goes Cross-Chain with Chainge
 
@@ -196,6 +218,18 @@ In hindsight, Chainge was an early bridge in a narrative that would later become
 The later community view of Chainge became much darker. By 2026, Telegram discussions repeatedly described the Chainge situation as a major loss event. Community members claimed that users lost assets such as BTC, ETH, and USDT through wrapped assets and that the incident damaged KOIN's reputation, liquidity, and price. Some messages used words like "robbery", "rugged", or "scam"; those should be read as community allegations and sentiment, not as a legal finding in this article.
 
 What can be said safely is that Chainge moved from being seen as an interoperability win to being seen by many community members as one of the largest strategic mistakes in Koinos' post-mainnet history. It also explains why Vortex later mattered so much: the community wanted a bridge path it could understand, operate, and replace if needed.
+
+## November 2023 - Cafe Identity Speculation Becomes a Community Topic
+
+By November 2023, Cafe had become not only a distribution concern but also an identity mystery. In `@thekoinosarmy`, community members summarized the basic uncertainty: the account was called "cafe" because of the original address prefix, but nobody knew whether it represented one person, a group, an external miner, or coordinated wallets.
+
+Later speculation became much more personal and much less certain. Some analysis tried to connect Cafe-linked Ethereum and Koinos addresses with claims, OTC explanations, KAP name mints, Kollection-related transactions, and even $MONG memecoin trading activity. Names such as Justin W., Glen, and Kui appeared in discussions, but the Telegram evidence archive does not support treating any of those as proven identifications. The historically safe conclusion is narrower: Cafe became powerful enough that the community spent years debating mining concentration, downstream wallet independence, and the limits of on-chain attribution.
+
+## 06.12.2023 - Governance Proposal Submitted on Mainnet
+
+On December 6, 2023, Julian published [The gov proposal has been submitted in Koinos mainnet](https://hive.blog/koinos/@jga/gov-proposal-get-contract-metadata). The proposal added `get_contract_metadata`, a system call used to classify addresses as normal wallets or smart contract wallets.
+
+This was the concrete bridge between the August security proposal and the February 2024 governance milestone. The proposal had been discussed publicly and reviewed by several developers, including Michael Vandeberg from Koinos Group.
 
 ## 21.12.2023 - Community Marketing with Rhubarb Media
 
@@ -212,6 +246,12 @@ On January 12, 2024, Andrew Levine published [Welcome to 2024 Koinos Community!]
 The thesis was concrete: TypeScript smart contracts, Koinos Pro, and an active community could make Koinos easier to build on than older, more expensive, or more VC-driven chains.
 
 This marked a change in the question. It was no longer only whether Koinos could launch a decentralized fee-less mainnet. The question became whether it could attract enough developers to turn that technical advantage into applications.
+
+## 14.01.2024 - Governance Proposal Resubmitted
+
+On January 14, 2024, Julian published [Governance proposal in Koinos Mainnet (second try)](https://hive.blog/koinos/@jga/gov-proposal-in-koinos-mainnet-second-try). The first attempt had passed the voting threshold but failed during application because the proposal operations were not constructed correctly.
+
+This failed-and-resubmitted sequence is worth keeping in the chronology. It shows that forkless governance was powerful but unforgiving: community developers could upgrade the chain, but they also had to learn the exact mechanics of proposal construction, operation ordering, and application.
 
 ## 12.02.2024 - First Governance Proposal Applied Without a Hard Fork
 
@@ -239,7 +279,11 @@ This was another symptom of the same structural problem. Because Koinos had no l
 
 The donation effort was controversial but important. Supporters saw it as proof that the community was willing to fund growth directly. Critics worried about accountability, who controlled the funds, whether listings were worth paying for, and whether community money should be spent on CEX access instead of infrastructure, liquidity, or developer grants.
 
-The story continued into 2025. On October 25, 2025, `@koinos_community` announced that the Koinos Community Donations Fund had been handed over to the Koinos Community Foundation for transparent community-run management. The transferred funds were reported as 14,230 USD in stablecoins and 127,610.22 KOIN donated to the Koinos Funding System for future developer and ecosystem grants. The stablecoins were intended as initial liquidity for Koinos trading pairs, beginning on Solana and later expanding to other ecosystems.
+## 16.04.2024 - Arkinos Makes Contract Development Faster
+
+On April 16, 2024, Julian introduced [Arkinos](https://hive.blog/koinos/@jga/arkinos), a tool for creating and deploying Koinos smart contracts quickly. It provided templates for tokens, NFTs, and generic contracts, and was designed to let a developer create a contract and a basic website to interact with it in minutes.
+
+Arkinos connects directly to the January 2024 developer-experience theme. Koinos had a fee-less architecture, but developers still needed tools that made contract creation approachable. Telegram later shows developers asking Julian how Arkinos handled authorization and reporting projects built with Cursor and Arkinos, which suggests it was used as practical tooling rather than only announced as a demo.
 
 ## 2024 - Ecosystem Becomes Concrete: dApps, Wallets, and Explorers
 
@@ -253,27 +297,11 @@ During 2024, the official Koinos website began showing a more recognizable ecosy
 
 This mattered because a layer-one without an ecosystem remains abstract infrastructure. Wallets, DEXs, marketplaces, explorers, and launchpads made Koinos usable.
 
-## 2023-2025 - Julian Gonzalez and the Community Software Layer
+## 29.06.2024 - Nicknames Become More Flexible
 
-Reviewing Julian Gonzalez's Hive posts shows a useful pattern: his work sits between the core protocol and everyday users. Koinos Group built much of the original chain, but Julian repeatedly worked on the connective layer that made the chain usable by operators, developers, and wallet users.
+On June 29, 2024, Julian published a Nicknames update that allowed the linked address to differ from the nickname owner. This made Nicknames more useful for profiles, token identities, and project addresses, not only for simple personal account naming.
 
-That started immediately after mainnet. On January 2, 2023, he published **Fogata - mining pools for koinos**, framing mining pools as a way to reduce block-production concentration after the first months of mainnet. On February 6, 2023, he followed with a guide for running a second producer on the microservice architecture. These were not glamorous product launches, but they linked directly to Koinos' Proof-of-Burn reality: decentralization depended on more people being able to operate producers and participate in block production.
-
-By mid-2023, his attention had moved to governance tooling. **Koinos Polls** proposed a free dApp for measuring consensus before code was ready for an on-chain governance proposal. Around the same time, his posts on the claiming contract and Koinos decentralization argued that the system was still vulnerable to concentration and that community coordination mattered as much as protocol design.
-
-His most important protocol-adjacent contribution was the work that led to the first forkless mainnet governance upgrade. In August 2023, he proposed improving Koinos security with a new system call. In September and October 2023, he documented the testnet iterations. In December 2023 and January 2024, he submitted and resubmitted the mainnet governance proposal for `get_contract_metadata`. That proposal became the February 2024 milestone where Koinos proved that system logic could be upgraded through governance rather than a traditional hard fork.
-
-The same period also produced **Koinos Nicknames**, a human-readable naming system designed for safer transfers. The October 2023 updates around similarity detection and the June 2024 update allowing a nickname to point to a different address show a recurring theme: Julian was not only building isolated apps, but trying to reduce common failure modes in user experience.
-
-In April 2024, he introduced **Arkinos**, a tool for creating and deploying Koinos contracts quickly. This connects directly to the 2024 developer-experience push. Telegram later shows the tool being used in practice: in September 2025, Jga proposed documentation sections around Koilib, Kondor, Veive, Arkinos, node operators, architecture, system contracts, and governance proposals. In October and November 2025, other developers were asking him how Arkinos handled authorization and were reporting projects built with Cursor and Arkinos. That is important because a chain's tooling only matters historically when other builders can actually use it.
-
-Wallet work followed the same path. Kondor reached v1.0.0 in October 2024 with NFT display and account history improvements, and Manuscript was announced in February 2025 as a wallet approach supporting hardware wallets, Ethereum-compatible wallet management, natural-language transactions, and Koinos Nicknames. Together, Kondor, Manuscript, Nicknames, and Arkinos show a consistent direction: make Koinos feel less like a raw protocol and more like a usable platform.
-
-This was also recognized inside the ecosystem. In August 2024, a message shared in `@koinoshispano` from Koinos Group's ecosystem update thanked community builders and singled out Julian for delivering critical components including Kondor, Fogata, and Arkinos. That is useful context because it links the posts and repositories to how the wider ecosystem understood their importance at the time.
-
-Finally, Julian's work became part of the institutional transition. The September 2025 Koinos Community Foundation announcement listed Julián González among the community contributors. In October 2025, his Hive post announced that the Koinos Fund System was live, describing it as an on-chain, transparent, DHF-like funding mechanism after governance approval. Telegram cross-checks show community members asking him KFS questions, asking him to review proposals after earlier proposal problems, and later referencing a `merkle-fallback` patch he provided during operational recovery.
-
-The important conclusion is not that one person replaced Koinos Group. He did not. The more accurate reading is that Julian Gonzalez became one of the clearest examples of the post-mainnet community software layer: block-production tooling, governance experiments, safer authorization, naming, contract templates, wallets, funding infrastructure, documentation, and emergency support.
+This sits naturally after the broader ecosystem section: as dApps and tokens appeared, identity and addressing became more important. Nicknames were part of making the ecosystem legible.
 
 ## 09.07.2024 - Vortex Enters Public Testing
 
@@ -285,6 +313,12 @@ The design used independent guardian nodes: five of seven guardians had to valid
 
 On Telegram, Vortex appeared even before the official post as one of the most anticipated catalysts. On May 25, 2024, `@koinoshispano` summarized that Koinos Group had announced a bridge called Vortex. In July 2024, KoinCity groups were already discussing how Chainge and Vortex would coexist.
 
+## July 2024 - Federation Debate Resurfaces
+
+In July 2024, the Koinos Federation argument resurfaced when a community message pushed back against the claim that the Federation had proposed simply giving newly inflated tokens to Koinos Group to sell to VCs. The reply clarified that the proposal involved a treasury overseen by a committee, potential OTC sales, exchange listings, market making, marketing, developer grants, and vesting terms for a major buyer.
+
+Whether one considers that responsible ecosystem funding or unacceptable dilution, it belonged to the same chronological problem as the March donation addresses: Koinos had no large treasury, but it still needed listings, liquidity, grants, marketing, and coordination.
+
 ## July-October 2024 - KCS-4 and Safer Token Standards
 
 In 2024, Koinos advanced its contract standards. The official X account discussed KCS-1 as a fee-less token standard, while later roadmap posts described moving KOIN and VHP toward KCS-4.
@@ -292,6 +326,12 @@ In 2024, Koinos advanced its contract standards. The official X account discusse
 The technical reason was important: dApps such as Kollection, KoinCity, and KoinDX need safer and more predictable token contracts. If every token introduces a different authorization model or attack surface, automated listings become risky.
 
 On September 27, 2024, Julian Gonzalez explained in `@koinoshispano` that KOIN and VHP had a security weakness or design limitation that made new standards and safer authorization patterns necessary. That Telegram message helps explain why KCS-4 was not cosmetic. It was part of making tokens safer for DEXs, marketplaces, and smart wallets.
+
+## 13.10.2024 - Kondor v1.0.0 Is Released
+
+On October 13, 2024, Julian published [Kondor v1.0.0 is live](https://hive.blog/koinos/@jga/kondor-v1-is-live). The release added a more mature wallet experience, including NFT display through the Kollection API and account history for token transfers.
+
+Kondor had been important since testnet because Koinos needed a wallet that made fee-less interaction usable. The v1.0.0 release signaled that community wallet infrastructure was maturing alongside DEXs, NFT tools, token launchers, and bridge experiments.
 
 ## 24.10.2024 - A More Explicit Technical Roadmap
 
@@ -321,15 +361,35 @@ Steve Gerbino's update summarized the ecosystem more strategically: after mainne
 
 That post also connected KOIN/VHP improvements to the trust needed by Kollection, KoinCity, and KoinDX to automate listings and reduce manual contract review.
 
-## 2025 - Koinos Group Steps Back and the Project Changes Nature
+## Late 2024-Early 2025 - Koinos Group Starts Stepping Back
 
 One essential part of the post-mainnet story is that Koinos stopped being, in practice, a project led by Koinos Group. In December 2024, Andrew Levine announced in `@koinos_community` that he was leaving the company after discussions with his co-founders. During 2025, community conversations became more explicit: Koinos Group was no longer the center of the project, and some of its core architects moved toward a new project, Respublica.
 
-On December 15, 2025, `@thekoinosarmy` summarized the situation directly: Koinos Group had shut down, Steve Gerbino and Michael Vandeberg were building Respublica, and the Koinos Community Foundation would take over core maintenance of Koinos Chain.
-
 This changes the tone of the chronology. Until then, many milestones could be read as company execution on top of a decentralized network. After this transition, the harder question became: if the company that launched the chain no longer leads it, can the community maintain the chain, infrastructure, and narrative by itself?
 
-The initial answer was imperfect but real. Maintenance groups formed, a community foundation began taking shape, roles were discussed, basic services were preserved, and the chain remained alive despite less visibility, lower market confidence, and fewer resources.
+## 06.02.2025 - Manuscript Extends Wallet Usability
+
+On February 6, 2025, Julian published [Manuscript: Koinos wallet that supports hardware wallets](https://hive.blog/koinos/@jga/manuscript). Manuscript was presented as a wallet approach supporting Ledger and Trezor, Ethereum-compatible wallet management through tools such as MetaMask, natural-language transactions, and Koinos Nicknames.
+
+Chronologically, Manuscript belongs before the foundation crisis because it shows that community software work was still moving forward while the institutional center was weakening. Together with Kondor, Nicknames, and Arkinos, it pushed Koinos toward a more usable platform rather than a raw protocol.
+
+## May-June 2025 - The Community Foundation Takes Shape
+
+In May and June 2025, `@KoinosTCB` discussed the need for a community entity, internal roles, and a GitHub project to organize future direction. This is where the later Koinos Community Foundation begins to appear as an operational answer rather than only a roadmap item.
+
+The initial answer was imperfect but real. Maintenance groups formed, roles were discussed, basic services were preserved, and the chain remained alive despite less visibility, lower market confidence, and fewer resources.
+
+## 04.09.2025 - Koinos Community Foundation Is Announced
+
+On September 4, 2025, a Koinos Community Foundation announcement circulated in the community. It framed the foundation as stewardship, not a takeover, and described the goal as guiding Koinos from a company-led blockchain toward a community-governed project with visible execution.
+
+The announcement listed several community contributors, including Julián González. This is important for the chronological treatment of Julian's work: by this point, his role had moved beyond individual tools such as Fogata, Nicknames, Arkinos, Kondor, and Manuscript into the broader maintenance and coordination layer.
+
+## 14.09.2025 - Vortex Bridge Goes Live
+
+The official Koinos website placed Vortex launch in Q3 2025, and Telegram confirms the practical launch window. On September 14, 2025, `@KoinosTCB` and `@thekoinosarmy` announced that Vortex Bridge was live for Ethereum and Koinos.
+
+Vortex has to be understood as the successor to the Chainge disappointment. The earlier Chainge integration had been celebrated as cross-chain access, but by 2026 community discussions described it as a major loss event and strategic mistake. Vortex represented a more controlled route for bridging native KOIN and wrapped assets.
 
 ## 15.09.2025 - Koinos Group Tokens, Taxes, and the Community Buyout Question
 
@@ -349,26 +409,31 @@ Those discussions also exposed governance concerns. If a foundation or community
 
 This episode is important because it compressed several Koinos tensions into one problem: investor rights, tax reality, market pressure, foundation legitimacy, community custody, and the unresolved question of whether Koinos could turn the remains of Koinos Group into a community-controlled asset rather than a final overhang.
 
-## 2025 - Vortex, vKOIN, and Multichain Access
+## 14.10.2025 - Koinos Fund System Goes Live
 
-The official Koinos website placed Vortex launch in Q3 2025. The official X account later announced that Vortex Bridge was live and functional, consolidating a piece of infrastructure that had started public testing in 2024.
+On October 14, 2025, Julian published [The Koinos Fund System is Live!](https://hive.blog/koinos/@jga/the-koinos-fund-system-is-live). The post described KFS as a decentralized and transparent funding mechanism approved through governance. It changed inflation from a 2% flow to block producers into a 4% split: 2% for block producers and 2% for the Koinos Fund.
 
-The Koinos website also showed routes to acquire KOIN or wrapped representations:
+This was one of the clearest examples of Koinos moving from company-led funding hopes toward on-chain community funding. Telegram cross-checks show community members thanking `@joticajulian` for the KFS work, asking him KFS questions, and later asking him to review proposals after earlier proposal problems.
 
-- DeFiLlama DEX with vKOIN on Ethereum;
-- DeFiLlama DEX with vKOIN on Base;
-- Jupiter DEX on Solana;
-- KoinDX as the native DEX.
+## 25.10.2025 - Donations Fund Moves to Community Control
 
-It also listed vKOIN contract addresses on Ethereum, Base, and Solana, while warning that long-term holders should bridge back to native KOIN on Koinos to avoid bridge and wrapped-token risk.
+On October 25, 2025, `@koinos_community` announced that the Koinos Community Donations Fund had been handed over to the Koinos Community Foundation for transparent community-run management.
 
-Telegram confirms this transition in practical terms. On September 14, 2025, `@KoinosTCB` and `@thekoinosarmy` announced that Vortex Bridge was live for Ethereum and Koinos. On September 20, the technical group began reporting vKOIN buys and bridge transactions. On November 4, 2025, the community shared that vKOIN was live on Solana via Wormhole as part of an approved KFS proposal.
+The transferred funds were reported as 14,230 USD in stablecoins and 127,610.22 KOIN donated to the Koinos Funding System for future developer and ecosystem grants. The stablecoins were intended as initial liquidity for Koinos trading pairs, beginning on Solana and later expanding to other ecosystems.
 
-The less polished side also appears in Telegram. During 2026, users asked how to withdraw from MEXC, how to convert vKOIN to native KOIN, and how to use Vortex with Metamask and Kondor. Those messages show the real support work that accompanies multichain expansion.
+## 04.11.2025 - vKOIN Reaches Solana Through Wormhole
 
-Vortex also has to be understood as the successor to the Chainge disappointment. A May 2026 message in `@koinos_community` summarized the hindsight view clearly: the Chainge finance deal had been a bad one, and if Vortex had launched instead of, or alongside, Chainge, things might have gone differently. That is speculative, but it captures the community lesson: bridge infrastructure cannot be treated as a peripheral dependency when it carries user funds and shapes market confidence.
+On November 4, 2025, the community shared that vKOIN was live on Solana via Wormhole as part of an approved KFS proposal. This sits after the KFS launch because it shows the fund starting to support practical liquidity and multichain expansion.
 
-## 2025-2026 - Price Decline, Delistings, and a Shift Toward DEX Liquidity
+The Koinos website also showed routes to acquire KOIN or wrapped representations through DeFiLlama DEX routes on Ethereum and Base, Jupiter on Solana, and KoinDX as the native DEX. It warned that long-term holders should bridge back to native KOIN on Koinos to avoid bridge and wrapped-token risk.
+
+## 15.12.2025 - Koinos Group Shutdown Is Summarized Publicly
+
+On December 15, 2025, `@thekoinosarmy` summarized the situation directly: Koinos Group had shut down, Steve Gerbino and Michael Vandeberg were building Respublica, and the Koinos Community Foundation would take over core maintenance of Koinos Chain.
+
+This turned the earlier 2025 drift into a public reality. From this point, the community was no longer only supplementing Koinos Group. It was responsible for keeping the chain, infrastructure, and narrative alive.
+
+## January-April 2026 - Delistings and the Shift Toward DEX Liquidity
 
 The negative side belongs in the chronology as well. KOIN suffered a clearly unfavorable price evolution, liquidity weakened, centralized exchange visibility deteriorated, and the community had to improvise.
 
@@ -380,25 +445,19 @@ That deterioration forced a change in priorities. Instead of depending on centra
 - Vortex as the route back to native KOIN;
 - deeper DEX pools as an alternative to weak CEX listings.
 
-On January 26, 2026, `@koinos_community` discussed roughly 5.1 million KOIN in combined ETH + SOL liquidity for wKOIN/vKOIN, more than Chainge historically had and backed 1:1. In February 2026, the community discussed a KFS proposal to expand Koinos to Base, deploy wKOIN through Wormhole, and launch a Base liquidity pool. By June 2026, users were receiving practical instructions for buying vKOIN on Ethereum, Base, or Solana and bridging it back to native KOIN.
+On January 26, 2026, `@koinos_community` discussed roughly 5.1 million KOIN in combined ETH + SOL liquidity for wKOIN/vKOIN, more than Chainge historically had and backed 1:1. In February 2026, the community discussed a KFS proposal to expand Koinos to Base, deploy wKOIN through Wormhole, and launch a Base liquidity pool.
 
 This shift did not erase the damage caused by price decline and delistings, but it did show adaptation: Koinos moved from seeking validation through centralized exchanges toward building its own multichain DEX liquidity paths.
 
 The Chainge loss discussion fed directly into this shift. Community members argued that Koinos needed open, transparent pools on Ethereum, Solana, and Base, rather than depending on opaque wrapped assets or a single bridge provider. Whether every accusation against Chainge is ultimately proven or not, the practical consequence was clear: Koinos' liquidity strategy became more defensive, more multichain, and more community-operated.
 
-## 2025 - Koinos Fund, Foundation, and Community Transition
+## February-April 2026 - Foundation Work Becomes Operational
 
-The roadmap on [koinos.io](https://koinos.io/) included two institutional goals for Q4 2025: **Koinos Fund** and **Transition to Koinos Community Foundation**.
-
-The first aimed to create resources for ecosystem development through grants and project support. The second aimed to transfer ecosystem governance and development toward the Koinos Community Foundation.
-
-Telegram adds detail. In May and June 2025, `@KoinosTCB` discussed the need for a community entity, internal roles, and a GitHub project to organize future direction. On October 16, 2025, the community shared that `kfs.koinscan.io` was live. On October 25, `@koinos_community` announced that the Koinos Community Donations Fund had been handed over to the Koinos Community Foundation for transparent community-run management.
-
-This shows that the foundation was not only a roadmap abstraction. It was a practical response to coordination, custody, proposals, and basic infrastructure needs.
-
-In 2026, that role became even more concrete. On March 7, 2026, `@koinos_community` explained that the foundation was, for the moment, a group of users trying to keep infrastructure alive: seed nodes, API nodes, block producers, Vortex validators, websites, and domains. On April 19, the same idea was summarized bluntly: when Koinos Group shut down, the community formed the Koinos Community Foundation to maintain the blockchain voluntarily.
+In 2026, the Koinos Community Foundation role became more concrete. On March 7, 2026, `@koinos_community` explained that the foundation was, for the moment, a group of users trying to keep infrastructure alive: seed nodes, API nodes, block producers, Vortex validators, websites, and domains. On April 19, the same idea was summarized bluntly: when Koinos Group shut down, the community formed the Koinos Community Foundation to maintain the blockchain voluntarily.
 
 This is central because it grounds decentralization in operational labor. Maintaining a blockchain does not only mean voting. It means paying servers, running nodes, fixing failures, answering users, sustaining APIs, maintaining domains, and coordinating volunteers.
+
+Julian's role also appears here in operational form. In February 2026, after a previous KFS proposal caused chain problems, community members asked him to review another proposal. On February 18, `pgarcgo` reported that starting chain microservices with a `merkle-fallback` tag, using a patch provided by `@joticajulian`, started both producers and the seed node. That is not a polished product launch, but it is exactly the kind of maintenance work a small post-company network depends on.
 
 ## 29.05.2026 - `api.koinos.io` Is Decentralized Behind a Load Balancer
 
@@ -406,9 +465,17 @@ On May 29, 2026, `@koinos_community` and `@thekoinosarmy` shared an ecosystem up
 
 This matters more than it may appear. If `api.koinos.io` depends on a single server or operator, developers and users still face a single point of failure. By putting the API behind a load balancer with multiple operators, Koinos moved closer to its own narrative: not only decentralized consensus, but public infrastructure less dependent on one entity.
 
-The same message invited more volunteers to join. Infrastructure decentralization is not a final state. It is a process: the more independent operators support API nodes, seed nodes, and producers, the less fragile the ecosystem becomes.
+The same message invited more volunteers to join and told them to contact `@joticajulian` if they wanted to connect nodes to the load-balanced API setup. Infrastructure decentralization is not a final state. It is a process: the more independent operators support API nodes, seed nodes, and producers, the less fragile the ecosystem becomes.
 
-## 2026 - Operational Maturity: Releases, Nodes, and Deep Fixes
+## 26.06.2026 - Kondor 2.0 Returns
+
+On June 26, 2026, `@koinos_community` announced Kondor v2 for beta testing. Kondor had been one of the most important wallets in the Koinos ecosystem since testnet, and its return carried both practical and symbolic weight.
+
+Practically, users needed a maintained wallet to interact with native Koinos, move funds from MEXC or multichain routes, and use Vortex with a compatible wallet. Symbolically, after months of uncertainty, delistings, and the Koinos Group transition, Kondor v2 looked like a sign that foundational ecosystem pieces were returning.
+
+On July 2, a user summarized the mood in the main group: "Some really foundational stuff coming back slowly. Kondor v2 as well... Really great to see." It was not an institutional announcement, but it captured the moment well: recovery was not coming from a grand campaign, but from basic infrastructure coming back online.
+
+## 09.07.2026 - `koinos-chain v1.5.2` Fixes Fast Sync State Reconstruction
 
 In 2026, the story moved further toward operational maturity. The main Koinos repository shows releases in the 2.x family. For example, `v2.1.0` introduced REST in the main package, `v2.2.0` included P2P stability improvements and support for sequential nonce transactions, and `v2.2.1` updated components such as `koinos-chain`.
 
@@ -417,14 +484,6 @@ On July 9, 2026, `koinos-chain v1.5.2` was published to fix a fast-sync state re
 This fix reinforced something essential for any blockchain: producing blocks is not enough. Nodes must be able to replay and verify history reliably. The investigation around the issue shows a more mature network in which operators, developers, and maintainers worked together to isolate deep failures, reproduce them, and ship a fix.
 
 The same day, `@koinos_community` shared a Spanish operator-facing explanation: `koinos-chain v1.5.2` fixed an important fast-sync state issue, added earlier Merkle-root verification, and safely handled two historical anomalies. That turned a technical release into an operational instruction for producers, API nodes, and community infrastructure maintainers.
-
-## 26.06.2026 - Kondor 2.0 Returns
-
-On June 26, 2026, `@koinos_community` announced Kondor v2 for beta testing. Kondor had been one of the most important wallets in the Koinos ecosystem since testnet, and its return carried both practical and symbolic weight.
-
-Practically, users needed a maintained wallet to interact with native Koinos, move funds from MEXC or multichain routes, and use Vortex with a compatible wallet. Symbolically, after months of uncertainty, delistings, and the Koinos Group transition, Kondor v2 looked like a sign that foundational ecosystem pieces were returning.
-
-On July 2, 2026, a user summarized the mood in the main group: "Some really foundational stuff coming back slowly. Kondor v2 as well... Really great to see." It was not an institutional announcement, but it captured the moment well: recovery was not coming from a grand campaign, but from basic infrastructure coming back online.
 
 ## Summary
 
@@ -436,17 +495,16 @@ The Koinos story has several distinct phases:
 4. **Fair launch:** KOIN is mined as an ERC-20 without ICO or pre-mine.
 5. **Testnet era:** microservices, governance, KPoB, mana, and modular architecture take shape.
 6. **Mainnet:** Koinos launches on November 5, 2022, and completes initial decentralization on December 5, 2022.
-7. **Distribution debate:** the Cafe miner becomes a long-running concern around mining concentration and snapshot independence.
-8. **First mainnet year:** KoinosPro, Chainge, Rhubarb, the Koinos Federation debate, donation funds, and early ecosystem building.
-9. **Governance proof:** the first forkless governance proposal is applied in 2024.
-10. **Community software layer:** Julian Gonzalez's work around Fogata, governance, Nicknames, Arkinos, Kondor, Manuscript, and KFS shows how community tooling filled gaps between the core chain and users.
-11. **Ecosystem tools:** KoinDX, KoinCity, Kollection, Koinos Blocks, wallets, and standards mature.
-12. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
-13. **Koinos Group transition:** the company steps back, and the community must maintain the chain.
-14. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
-15. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
-16. **Infrastructure decentralization:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators.
-17. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
+7. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
+8. **First mainnet year:** Fogata, KoinosPro, Koinos Polls, Nicknames, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+9. **Governance proof:** Julian Gonzalez's system-call proposal becomes the first forkless governance upgrade in 2024.
+10. **Developer and user tooling:** Arkinos, KCS-4 work, Kondor, Manuscript, and ecosystem dApps make the chain more usable.
+11. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
+12. **Koinos Group transition:** the company steps back, and the community must maintain the chain.
+13. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
+14. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
+15. **Infrastructure decentralization:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators.
+16. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
 
 Koinos remains small compared with major layer-ones, but its history is unusually rich. It carries lessons from Steem, the Hive split, fair launch experiments, fee-less UX, modular blockchain architecture, company-led development, community-led maintenance, market failure, and infrastructure rebuilding.
 
@@ -456,6 +514,7 @@ The central question is no longer only whether Koinos has interesting technology
 
 - Original Hive chronology: [Algunos hechos importantes narrados en orden cronologico](https://hive.blog/koinos/@koinosenespanol/algunas-hechos-importantes-narrados-en-orden-cronologico)
 - Koinos whitepaper: [Koinos whitepaper](https://koinos.io/whitepaper)
+- KoinosScan: [KOIN claims and distribution analysis](https://koinosscan.com/claims)
 - OpenOrchard / Koinos origin posts linked from the original Hive chronology
 - Koinos Group: [Koinos Group in 2023](https://medium.com/koinos-group/koinos-group-in-2023-f1b597839c79)
 - Koinos Network: [Chainge integrates Koinos](https://medium.com/koinosnetwork/koinos-goes-cross-chain-57d6e311fa86)
@@ -475,7 +534,10 @@ The central question is no longer only whether Koinos has interesting technology
 - Julian Gonzalez: [Is Koinos a decentralized blockchain?](https://hive.blog/koinos/@jga/is-koinos-a-decentralized-blockchain)
 - Julian Gonzalez: [Koinos Polls](https://hive.blog/koinos/@jga/polls)
 - Julian Gonzalez: [[koinos proposals] Improve security in koinos](https://hive.blog/koinos/@jga/improve-security-koinos)
+- Julian Gonzalez: [The new koinos system call is now live in the testnet!](https://hive.blog/koinos/@jga/check-authority-2-testnet)
+- Julian Gonzalez: [New Koinos System Call live in the Testnet](https://hive.blog/koinos/@jga/new-koinos-system-call-live-in-the-testnet)
 - Julian Gonzalez: [Koinos Nicknames](https://hive.blog/koinos/@jga/nicknames)
+- Julian Gonzalez: [Governance proposal in Koinos Mainnet (second try)](https://hive.blog/koinos/@jga/gov-proposal-in-koinos-mainnet-second-try)
 - Julian Gonzalez: [The gov proposal has been submitted in Koinos mainnet](https://hive.blog/koinos/@jga/gov-proposal-get-contract-metadata)
 - Julian Gonzalez: [New Tool "Arkinos": Create and deploy Koinos contracts FAST](https://hive.blog/koinos/@jga/arkinos)
 - Julian Gonzalez: [Kondor v1.0.0 is live](https://hive.blog/koinos/@jga/kondor-v1-is-live)
