@@ -8,7 +8,7 @@ The sources used here include the original Hive chronology, Koinos whitepaper, K
 
 ## Methodology: Telegram as Community Evidence
 
-For this revision, I used a local Telegram session and generated an evidence report containing 2,150 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `cafe`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, and `v1.5.2`.
+For this revision, I used a local Telegram session and generated an evidence report containing 2,157 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `cafe`, `Cafe identity`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, and `v1.5.2`.
 
 Telegram is not used here as the sole source of official dates. It is used as a community record: it shows how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local evidence file is archived next to this article as `koinos-telegram-evidence.json`.
 
@@ -86,6 +86,14 @@ The most detailed Telegram summary appeared much later, on April 26, 2026, in `@
 That distinction matters. The raw mining number made the launch look heavily dominated by one miner, but the snapshot analysis suggested a more complicated picture: much of the mined supply moved through markets, OTC transfers, or downstream wallets before mainnet. At the same time, community members continued to investigate wallet links and questioned whether some downstream claims were truly independent.
 
 Cafe therefore became part of Koinos' long-running decentralization debate. The project avoided an ICO and pre-mine, but open mining still produced concentration, and the community later had to reason through whether that concentration was market distribution, Sybil behavior, or something in between.
+
+The identity of Cafe became its own mystery. In November 2023, `@thekoinosarmy` summarized the basic uncertainty well: people called the account "cafe" because that string appeared in the original address, but nobody knew whether it was a person, a group, a man, a woman, or simply an external miner with unusually large hash power. Earlier public discussion had already described the miner as having "monster hash power" and selling regularly into Uniswap, which made some people frame Cafe as an outside mining actor rather than a normal community participant.
+
+Later speculation became much more personal and much less certain. One line of analysis tried to connect Cafe-linked Ethereum and Koinos addresses with claims, OTC explanations, KAP name mints, Kollection-related transactions, and even $MONG memecoin trading activity. That led to public accusations involving Justin W. from Kollection. Other participants immediately treated the matter more cautiously: one reply said the analysis was still "elucubraciones", another noted that the same chain of reasoning had almost pulled in unrelated people, and another said they had only traced the pattern as far as Kui before stopping.
+
+Other names appeared more loosely. Glen was floated in `@thekoinosarmy` as a casual guess around the same "who is Cafe?" discussion, while Kui appeared mainly as an address or transaction link in the analysis, not as a proven identification. I did not find a solid public Telegram record in this evidence archive supporting the separate idea that Cafe was specifically a Chinese miner. What the archive does support is narrower: the community moved between several theories, none of them conclusively proven, and the uncertainty itself became part of the distrust around Cafe.
+
+For that reason, Cafe should be treated in this chronology as an unresolved identity question. The important historical fact is not that any named person was Cafe, but that a large, pseudonymous mining actor became powerful enough that the community later spent years debating whether the original distribution was fair, whether some later wallets were truly independent, and whether on-chain correlations were enough to accuse real people.
 
 ## 30.06.2021 - First Koinos Testnet Launches
 

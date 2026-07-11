@@ -66,7 +66,13 @@
     "tax loss harvest",
     "10Mio tokens",
     "symbolic price",
-    "Koinos Group funds community foundation"
+    "Koinos Group funds community foundation",
+    "Cafe identity speculation",
+    "who is Cafe",
+    "Justin Kollection Cafe",
+    "Glen Cafe",
+    "Kui Cafe",
+    "Chinese miner Cafe"
   ],
   "counts": {
     "Koincast (Ӄ)": 322,
@@ -76,7 +82,7 @@
     "Koinos - Social Sharing Group (Ӄ)": 186,
     "Koincity (official) Ӄ": 181,
     "Koinos TCB Group": 246,
-    "messages": 2150
+    "messages": 2157
   },
   "messages": [
     {
@@ -22958,6 +22964,76 @@
       "link": null,
       "text": "because maybe to increase the creadibitly to actors out of this group we should have this funds in a multisig account where at least x numbers of our 8 signatures are needed to validate the transsaction no?",
       "sender": "pgarcgo",
+      "urls": []
+    },
+    {
+      "date": "2023-11-15T02:10:13+00:00",
+      "chat": "The Official Koinos Army Community Chat (Ӄ)",
+      "username": "thekoinosarmy",
+      "message_id": 116493,
+      "query": "Cafe identity speculation",
+      "link": "https://t.me/thekoinosarmy/116493",
+      "text": "I have never been particularly interested in it. Not so much as others.\n\nBut the mystery has captured my attention, especially with the Koinos fed announcement and feedback today also. Timing is interesting!\n\nIt’s probably just Glen",
+      "urls": []
+    },
+    {
+      "date": "2023-11-15T23:14:17+00:00",
+      "chat": "Koincast (Ӄ)",
+      "username": "koinoshispano",
+      "message_id": 22553,
+      "query": "Cafe identity speculation",
+      "link": "https://t.me/koinoshispano/22553",
+      "text": "Yo creo que el análisis de H es muy bueno, y finalmente sí parece solo una persona.",
+      "urls": []
+    },
+    {
+      "date": "2023-11-16T00:15:48+00:00",
+      "chat": "Koincast (Ӄ)",
+      "username": "koinoshispano",
+      "message_id": 22572,
+      "query": "Cafe identity speculation",
+      "link": "https://t.me/koinoshispano/22572",
+      "text": "Y si este es cafe. No es Justin",
+      "urls": []
+    },
+    {
+      "date": "2023-11-16T00:28:21+00:00",
+      "chat": "Koincast (Ӄ)",
+      "username": "koinoshispano",
+      "message_id": 22625,
+      "query": "Cafe identity speculation",
+      "link": "https://t.me/koinoshispano/22625",
+      "text": "no lo conoce, lo suyo son tambien elucubraciones",
+      "urls": []
+    },
+    {
+      "date": "2023-11-16T00:37:18+00:00",
+      "chat": "Koincast (Ӄ)",
+      "username": "koinoshispano",
+      "message_id": 22629,
+      "query": "Cafe identity speculation",
+      "link": "https://t.me/koinoshispano/22629",
+      "text": "yo no lo veo tan claro, tanto que casi me mete a mi en el saco",
+      "urls": []
+    },
+    {
+      "date": "2023-11-16T01:17:38+00:00",
+      "chat": "Koincast (Ӄ)",
+      "username": "koinoshispano",
+      "message_id": 22638,
+      "query": "Cafe identity speculation",
+      "link": "https://t.me/koinoshispano/22638",
+      "text": "Dice haber escrito su propio software de minería...",
+      "urls": []
+    },
+    {
+      "date": "2023-11-16T08:31:11+00:00",
+      "chat": "Koincast (Ӄ)",
+      "username": "koinoshispano",
+      "message_id": 22673,
+      "query": "Cafe identity speculation",
+      "link": "https://t.me/koinoshispano/22673",
+      "text": "su teoría me parece sólida.",
       "urls": []
     }
   ]
