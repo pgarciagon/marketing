@@ -8,7 +8,7 @@ The sources used here include the original Hive chronology, Koinos whitepaper, K
 
 ## Methodology: Telegram as Community Evidence
 
-For this revision, I used a local Telegram session and generated an evidence report containing 2,129 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `cafe`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, and `v1.5.2`.
+For this revision, I used a local Telegram session and generated an evidence report containing 2,150 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `cafe`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, and `v1.5.2`.
 
 Telegram is not used here as the sole source of official dates. It is used as a community record: it shows how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local evidence file is archived next to this article as `koinos-telegram-evidence.json`.
 
@@ -301,6 +301,24 @@ This changes the tone of the chronology. Until then, many milestones could be re
 
 The initial answer was imperfect but real. Maintenance groups formed, a community foundation began taking shape, roles were discussed, basic services were preserved, and the chain remained alive despite less visibility, lower market confidence, and fewer resources.
 
+## 15.09.2025 - Koinos Group Tokens, Taxes, and the Community Buyout Question
+
+The transition raised an immediate and sensitive question: what would happen to the KOIN and VHP still held by Koinos Group?
+
+On September 15, 2025, a message signed by Steve Gerbino and Michael Vandeberg was shared in `@thekoinosarmy`. It announced that Koinos Group would begin winding down operations, that its market-making agreement had ended on September 13, that CEX delistings were possible, and that domains and GitHub ownership were being transferred to the community. The same message also asked users in the Koinos Group Fogata pool to withdraw their VHP before the pool stopped receiving returns.
+
+The most important part concerned the remaining company tokens. The message said that roughly **10 million KOIN/VHP** were not committed to anything, but that the tokens belonged to investors under Koinos Group's investment agreements when the company dissolved. Because of that, Koinos Group said it could not simply give those tokens away to another entity.
+
+The tax explanation was also important. The message stated that Koinos Group had incurred taxable gains during market making and might need to sell KOIN cheaply in order to offset those gains with losses and reduce its IRS bill. If that happened, the company said it would sell KOIN at an extreme discount to prominent developers and community members who had demonstrated commitment and promised to use the tokens for the growth and development of the Koinos ecosystem.
+
+That turned the remaining Koinos Group supply into both a risk and an opportunity. The risk was obvious: a large holder exiting could create market pressure or uncertainty. The opportunity was that, if handled carefully, those tokens could move from a defunct company balance sheet into the hands of active community builders.
+
+Telegram discussions the next day show how the community tried to reason through this. Some members argued that Koinos Group had few natural buyers, while the most interested buyers were already inside the community. Others suggested that the Koinos Community Foundation could act as the community representative and buy the tokens if Koinos Group made an offer, ideally at a very low or symbolic price. The group also discussed waiting until Koinos Group finished calculating taxes, expenses, and costs before making assumptions.
+
+Those discussions also exposed governance concerns. If a foundation or community group received a large amount of KOIN, what should it do with it? Members discussed the need for a community communication, a rough consensus process through Telegram polling, and a multisig account to improve credibility outside the immediate working group. Even this was treated cautiously: Telegram sentiment could be manipulated, and a multisig would still require trusted signers and clear rules.
+
+This episode is important because it compressed several Koinos tensions into one problem: investor rights, tax reality, market pressure, foundation legitimacy, community custody, and the unresolved question of whether Koinos could turn the remains of Koinos Group into a community-controlled asset rather than a final overhang.
+
 ## 2025 - Vortex, vKOIN, and Multichain Access
 
 The official Koinos website placed Vortex launch in Q3 2025. The official X account later announced that Vortex Bridge was live and functional, consolidating a piece of infrastructure that had started public testing in 2024.
@@ -394,9 +412,10 @@ The Koinos story has several distinct phases:
 10. **Ecosystem tools:** KoinDX, KoinCity, Kollection, Koinos Blocks, wallets, and standards mature.
 11. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
 12. **Koinos Group transition:** the company steps back, and the community must maintain the chain.
-13. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
-14. **Infrastructure decentralization:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators.
-15. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
+13. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
+14. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
+15. **Infrastructure decentralization:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators.
+16. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
 
 Koinos remains small compared with major layer-ones, but its history is unusually rich. It carries lessons from Steem, the Hive split, fair launch experiments, fee-less UX, modular blockchain architecture, company-led development, community-led maintenance, market failure, and infrastructure rebuilding.
 

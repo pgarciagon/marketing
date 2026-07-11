@@ -59,7 +59,14 @@
     "lost a good bit of the TVL",
     "Chainge Finance scammer",
     "DJ Qian",
-    "wrapped BTC"
+    "wrapped BTC",
+    "Koinos Group tokens",
+    "taxable gains",
+    "IRS",
+    "tax loss harvest",
+    "10Mio tokens",
+    "symbolic price",
+    "Koinos Group funds community foundation"
   ],
   "counts": {
     "Koincast (Ӄ)": 322,
@@ -68,7 +75,8 @@
     "KoinDX": 205,
     "Koinos - Social Sharing Group (Ӄ)": 186,
     "Koincity (official) Ӄ": 181,
-    "Koinos TCB Group": 246
+    "Koinos TCB Group": 246,
+    "messages": 2150
   },
   "messages": [
     {
@@ -17601,9 +17609,9 @@
       "chat": "The Official Koinos Army Community Chat (Ӄ)",
       "username": "thekoinosarmy",
       "message_id": 194078,
-      "query": "KOIN VHP",
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
       "link": "https://t.me/thekoinosarmy/194078",
-      "text": "Koinos community, It has sadly come time for Koinos Group to begin winding down our operations. We have been working with the community to make this transition as smooth as possible. The launch of the Vortex bridge is a massive step forward for Koinos and demonstrates the resolve of the community to take their destiny in to their own hands. Parts of the transition are already underway with some more to come. Our market making agreement came to an end on the 13th. As such, we expect KOIN may be delisted on CEXs. This is the exact reason why Vortex is necessary. We are transferring domains and github ownership to the community to maintain the code base and websites. We are planning to bring down our nodes by the end of the month. If you are participating in the Koinos Group Fogata pool, please withdraw your VHP and move it to a new pool. We will keep our block producer running until the end of the month at which point the pool will stop receiving any returns. Many people have asked about the Koinos Group tokens and what will happen to them. There are about 10 million KOIN/VHP that is not committed to anything. But due to the nature of our investment agreements, those tokens belong to our investors when Koinos Group is dissolved. It would be illegal for us to give them away to other entities. However, without getting into specifics, Koinos Group did incur taxable gains during our market making. In order to minimize our bill to the IRS, we may need to sell KOIN cheaply to offset those gains with losses. In that event, we will sell KOIN to prominent developers and community members at an extreme discount (a true going out of business sale). We will only sell this KOIN to prominent developers and community members who have demonstrated their resolve and promise to use these t",
+      "text": "Koinos community,\n\nIt has sadly come time for Koinos Group to begin winding down our operations. We have been working with the community to make this transition as smooth as possible. The launch of the Vortex bridge is a massive step forward for Koinos and demonstrates the resolve of the community to take their destiny in to their own hands. Parts of the transition are already underway with some more to come. Our market making agreement came to an end on the 13th. As such, we expect KOIN may be delisted on CEXs. This is the exact reason why Vortex is necessary. We are transferring domains and github ownership to the community to maintain the code base and websites. We are planning to bring down our nodes by the end of the month. If you are participating in the Koinos Group Fogata pool, please withdraw your VHP and move it to a new pool. We will keep our block producer running until the end of the month at which point the pool will stop receiving any returns.\n\nMany people have asked about the Koinos Group tokens and what will happen to them. There are about 10 million KOIN/VHP that is not committed to anything. But due to the nature of our investment agreements, those tokens belong to our investors when Koinos Group is dissolved. It would be illegal for us to give them away to other entities. However, without getting into specifics, Koinos Group did incur taxable gains during our market making. In order to minimize our bill to the IRS, we may need to sell KOIN cheaply to offset those gains with losses. In that event, we will sell KOIN to prominent developers and community members at an extreme discount (a true going out of business sale). We will only sell this KOIN to prominent developers and community members who have demonstrated their resolve and promise to use these tokens for the growth and development of the Koinos ecosystem.\nAs many of you know, Michael and I are moving on to a new endeavor, but we still want to see Koinos succeed. We are rooting for you and are committed to doing everything we can to support the community during this time of transition.\n\n- Steve and Michael",
       "urls": []
     },
     {
@@ -22720,6 +22728,237 @@
       "urls": [
         "://medium.com/koinosnetwork/koinos-chain-v1-5-2-making-fast-node-sync-trustworthy-again-24376f834da4"
       ]
+    },
+    {
+      "date": "2025-09-09T13:29:25+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 643,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "Also my second concern is the large amount of tokens that KG has because even if we get things working and the price recovers they are a big holder",
+      "sender": "ederaleng",
+      "urls": []
+    },
+    {
+      "date": "2025-09-09T14:03:42+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 659,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "We ask Koinos Group to pinky swear to not sell until price hits X",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-09T14:03:49+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 660,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "or we ask them to volunteer a lockup",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:28:12+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 898,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "I think the main thing is to define what the base price is that they ask for their tokens.",
+      "sender": "ederaleng",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:29:07+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 901,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "they dont have a lot of buyers.",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:29:14+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 902,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "Any interested buyer is in this room",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:29:39+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 903,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "if they do not sell, they do not incurr a loss",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:29:48+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 904,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "so they must sell",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:30:01+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 905,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "the tokens are also part of the investors in the company",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:30:08+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 906,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "so theres competing interest",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:30:26+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 907,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "the investors want maximize to get their money back",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:30:32+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 908,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "KG wants to minize to get a tax loss harvest",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:30:43+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 909,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "my idea is that we offer 1 price to buy all of them",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:30:57+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 910,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "and if we cant have all of it, we want none of it",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:31:29+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 912,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "my price is $0.001 per token",
+      "sender": "motoengineer",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T15:34:25+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 914,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "they could get 10k by dumping on mexc also so we should attach to the deal that it will go to KF and benefit only Koinos and Koinos ecosystem ?",
+      "sender": "Atb 3tb",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T17:26:45+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 1012,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "Way forward: we need to wait until KG makes an offer for the 10Mio tokens / they know already that the fundation could act as community representative and buy this tokens / we should not make an offer but most probably this would be even very very cheap (symbolic).",
+      "sender": "pgarcgo",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T17:28:43+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 1013,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "But we need to wait because they are still doing their numbers regarding taxes / expenses / costs",
+      "sender": "pgarcgo",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T17:30:32+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 1014,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "we should make a communication to the community to get a list a pseudo-consensual agreement on what the fundation is going to do with this 10 M tokens.",
+      "sender": "pgarcgo",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T17:31:25+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 1015,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "(pseudo-consensual because we can only do some kind of telegram polling which give only a sentiment, can be faked with multiaccounts etc)",
+      "sender": "pgarcgo",
+      "urls": []
+    },
+    {
+      "date": "2025-09-16T17:41:39+00:00",
+      "chat": "Koinos community working group (local Telegram cache)",
+      "username": null,
+      "message_id": 1024,
+      "query": "Koinos Group tokens taxable gains IRS community buyout",
+      "link": null,
+      "text": "because maybe to increase the creadibitly to actors out of this group we should have this funds in a multisig account where at least x numbers of our 8 signatures are needed to validate the transsaction no?",
+      "sender": "pgarcgo",
+      "urls": []
     }
   ]
 }
