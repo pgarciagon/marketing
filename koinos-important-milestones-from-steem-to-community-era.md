@@ -615,6 +615,8 @@ Julian's role also appears here in operational form. In February 2026, after a p
 
 On May 29, 2026, `@koinos_community` and `@thekoinosarmy` shared an ecosystem update: the public testnet was available again, and the "official" API was wired through a Cloudflare load balancer across multiple node operators.
 
+That public update followed several days of working-group setup. On May 24, `pgarcgo` asked whether anyone had a running testnet, and Atb 3tb replied that the existing node had no faucet yet but could be made public under a Foundation domain. On May 25, `pgarcgo` announced that the testnet was up and running with a README at `github.com/pgarciagon/koinos_testnet`, then added that the faucet bot was also live as `@KoinosTestnetFaucetBot`. The practical endpoint was later confirmed as `https://testnet.koinosfoundation.org/jsonrpc`.
+
 This matters more than it may appear. If `api.koinos.io` depends on a single server or operator, developers and users still face a single point of failure. By putting the API behind a load balancer with multiple operators, Koinos moved closer to its own narrative: not only decentralized consensus, but public infrastructure less dependent on one entity.
 
 The same message invited more volunteers to join and told them to contact `@joticajulian` if they wanted to connect nodes to the load-balanced API setup. Infrastructure decentralization is not a final state. It is a process: the more independent operators support API nodes, seed nodes, and producers, the less fragile the ecosystem becomes.
@@ -746,11 +748,13 @@ The central question is no longer only whether Koinos has interesting technology
 - Julian Gonzalez: [Kondor v1.0.0 is live](https://hive.blog/koinos/@jga/kondor-v1-is-live)
 - Julian Gonzalez: [Manuscript: Koinos wallet that supports hardware wallets](https://hive.blog/koinos/@jga/manuscript)
 - Julian Gonzalez: [The Koinos Fund System is Live!](https://hive.blog/koinos/@jga/the-koinos-fund-system-is-live)
+- GitHub: [pgarciagon/koinos_testnet](https://github.com/pgarciagon/koinos_testnet)
 - GitHub: [interfecto/koinos-evm-engine](https://github.com/interfecto/koinos-evm-engine)
 - GitHub: [koinos/koinos releases](https://github.com/koinos/koinos/releases)
 - GitHub: [koinos/koinos-chain](https://github.com/koinos/koinos-chain)
 - X: [Koinos Network](https://x.com/KoinosNetwork)
 - Local Telegram evidence archive: `koinos-telegram-evidence.json`
 - Telegram authenticated search: Koinos Community Working Group announcement, message 144 and revised message 182, September 4, 2025
+- Telegram authenticated search: Koinos Community Working Group testnet and faucet bot messages, May 24-25, 2026
 - Telegram authenticated search: `@koinos_community` EVM compatibility and `interfecto/koinos-evm-engine` messages, May 29 and June 13, 2026
 - Telegram channels: [`@koinos_community`](https://t.me/koinos_community), [`@thekoinosarmy`](https://t.me/thekoinosarmy), [`@koinoshispano`](https://t.me/koinoshispano), [`@KoinosTCB`](https://t.me/KoinosTCB), [`@Koincity`](https://t.me/Koincity), [`@koindx`](https://t.me/koindx), [`@koinsocials`](https://t.me/koinsocials)
