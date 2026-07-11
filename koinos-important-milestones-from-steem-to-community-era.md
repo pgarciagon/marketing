@@ -72,8 +72,8 @@ Those roles changed over time, especially after Koinos Group stopped being the o
 
 Known public profiles for recurring community contributors include:
 
-- **Luke Willis**: X [`@lukemwillis`](https://x.com/lukemwillis), GitHub [`lukemwillis`](https://github.com/lukemwillis).
-- **Kui He**: X [`@kuixihe`](https://x.com/kuixihe), LinkedIn [`kuixihe`](https://www.linkedin.com/in/kuixihe).
+- **Luke Willis**: X [`@lukemwillis`](https://x.com/lukemwillis), GitHub [`lukemwillis`](https://github.com/lukemwillis), host / writer of [The Koin Press](https://podcast.thekoinpress.com/).
+- **Kui He**: X [`@kuixihe`](https://x.com/kuixihe), YouTube [`@kuixihe` / motoengineer](https://www.youtube.com/@kuixihe), LinkedIn [`kuixihe`](https://www.linkedin.com/in/kuixihe).
 - **Julián González**: Telegram [`@joticajulian`](https://t.me/joticajulian), X [`@joticajulian`](https://x.com/joticajulian), GitHub [`joticajulian`](https://github.com/joticajulian).
 - **Justin Welch / Justin W.**: X [`@ogjustinw`](https://x.com/ogjustinw), GitHub [`jredbeard`](https://github.com/jredbeard), LinkedIn [`justin-welch-5520a9112`](https://www.linkedin.com/in/justin-welch-5520a9112/).
 - **Adriano Foschi**: X [`@adrihoke`](https://x.com/adrihoke), GitHub [`adrianofoschi`](https://github.com/adrianofoschi), LinkedIn [`adrianofoschi`](https://www.linkedin.com/in/adrianofoschi).
@@ -81,7 +81,7 @@ Known public profiles for recurring community contributors include:
 - **Ederaleng**: X [`@ederaleng`](https://x.com/ederaleng), Telegram [`@ederaleng`](https://t.me/ederaleng).
 - **Roamin**: GitHub [`roaminro`](https://github.com/roaminro).
 - **Jon Rice**: X [`@jonricecrypto`](https://x.com/jonricecrypto), LinkedIn [`jonricecrypto`](https://www.linkedin.com/in/jonricecrypto/). Earlier Federation-era X posts also referenced [`@jonrice`](https://x.com/jonrice).
-- **Pablo Garcia / pgarcgo**: Telegram [`@pgarcgo`](https://t.me/pgarcgo), X [`@pgarcgo`](https://x.com/pgarcgo), GitHub [`pgarciagon`](https://github.com/pgarciagon).
+- **Pablo Garcia / pgarcgo**: Telegram [`@pgarcgo`](https://t.me/pgarcgo), X [`@pgarcgo`](https://x.com/pgarcgo), GitHub [`pgarciagon`](https://github.com/pgarciagon), creator of the discontinued Spanish podcast **Koincast**.
 - **`@interfecto`**: X [`@interf3cto`](https://x.com/interf3cto), GitHub [`interfecto`](https://github.com/interfecto).
 - **Alberto / Transeunte**: Telegram [`@transeunte`](https://t.me/transeunte).
 - **Nomad100x**: Telegram [`@nomad100x`](https://t.me/nomad100x).
@@ -133,6 +133,8 @@ By December 20, 2020, the Spanish channel was already sharing a broader communic
 This makes `@koinoshispano` historically important beyond language. It was one of the first examples of Koinos becoming international through community work rather than through a formal corporate regional program. The channel was created and maintained in that early period by Spanish-speaking community members including `@pgarcgo` and Carlos Welele / `@Weleleliano`, and it became a place for translation, technical explanation, onboarding, mining help, testnet discussion, and later community coordination.
 
 There is one nuance. Later Telegram lists described several language groups, including Spanish, as "Non-Official International Groups." That later wording should not erase the early history: in 2020 and 2021, Koinos en español was being treated publicly as the Spanish-language community route, while later community governance became more careful about what counted as official.
+
+That Spanish track later also produced more formal media experiments. Pablo Garcia / `@pgarcgo` launched **Koincast**, a Spanish-language podcast connected with `koincast.io` and the X profile `@koincast`. The podcast is now discontinued, but it belongs to the same early international-community history: Koinos was not only translated into Spanish through Telegram posts, but also explained through longer-form Spanish audio content.
 
 ## 13.04.2021 - Mining Period Effectively Ends
 
@@ -273,6 +275,16 @@ This belongs early in the post-mainnet chronology because it links directly to K
 On January 9, 2023, Kui He published [Announcing KAP Whitepaper: Free Blockchain Access For All](https://medium.com/@kuixihe/announcing-kap-whitepaper-free-blockchain-access-for-all-8adaa0a3db1f). KAP, or Koinos Account Protocol, was presented as an all-in-one account management layer with three pillars: an NFT name service, account abstraction, and free mana.
 
 This deserves a place immediately after the early mining-pool milestones because it shows how quickly community builders moved from block-production infrastructure to user-facing account infrastructure. The same post identified KAP as created by community developers Luke M. Willis and Kui Xi He, the same team behind BurnKoin. In other words, the BurnKoin team was not only helping users participate in KPoB; it was also trying to make Koinos accounts easier for normal users and dApps.
+
+## 2021-2024 - The Koin Press and motoengineer Become Community Education Channels
+
+Alongside software, Koinos needed people who could explain what was being built. Luke Willis filled part of that gap through **The Koin Press**, a newsletter and podcast that discussed Koinos and crypto concepts in plain English. The podcast archive lists 57 episodes, running through June 2024, and includes Koinos-specific interviews and explainers around mainnet, BurnKoin, taxes, Fogata, Kollection, KoinDX, KAP, KoinosPro, Koinos Play, Koinos Federation, KoinCity, and later ecosystem updates.
+
+This matters because The Koin Press became a community memory layer. Many of the projects that later appear as milestones in this chronology also appeared there as interviews while they were still new: Kui He discussing the Koinos Burn Pool, Andrew Levine announcing the mainnet launch date, Julián González discussing Kondor and Fogata, Justin Welch discussing Kollection, VonLooten discussing KoinDX, Kui He returning for KAP, Jon Rice explaining the Koinos Federation, and MiXiBo discussing KoinCity.
+
+Kui He, known in the community as **motoengineer**, also maintained a YouTube channel under `@kuixihe`. That channel carried practical Koinos material: Koinos concept explainers, KOIN mining and claiming tutorials, mana explanations, gas-fee reduction examples, and KAP / BurnKoin-related videos. This belongs in the chronology because video walkthroughs and plain-English explanations were part of the infrastructure that made Koinos usable. A chain with fee-less smart contracts still needs people who can show users where to click, how to claim, how mana works, and why the architecture matters.
+
+The Spanish-language equivalent was smaller but still historically relevant. **Koincast**, launched by `@pgarcgo`, described itself on Spotify as a podcast about blockchains, decentralized economics, dApps, Web3, liberal thought, and artificial intelligence. By April 2023, it had published Koinos ecosystem content such as an interview with Ederaleng, CTO of KoinDX. Although Koincast was later discontinued, it is part of the same communication layer as The Koin Press and motoengineer videos: community members were trying to make Koinos understandable outside official announcements and outside English-only channels.
 
 ## 06.02.2023 - Running Multiple Producers on the Microservice Architecture
 
@@ -755,10 +767,10 @@ The Koinos story has several distinct phases:
 7. **Testnet era:** microservices, Kondor and claim UX, Roamin's AssemblyScript/TypeScript smart contract path, governance, KPoB, mana, tax concerns, and modular architecture take shape.
 8. **Mainnet:** Koinos launches on November 5, 2022, amid claim, wallet, exchange, and liquidity questions, then completes initial decentralization on December 5, 2022.
 9. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-10. **First mainnet year:** BurnKoin, Fogata, KAP, Koinos Army, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+10. **First mainnet year:** BurnKoin, Fogata, KAP, The Koin Press, motoengineer videos, Koinos Army, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 11. **Governance proof:** Koinos demonstrates in-band upgradeability in 2023, and Julian Gonzalez's system-call proposal becomes the first community-driven forkless governance upgrade in 2024.
 12. **Developer and user tooling:** KCS-2/Kollection, Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, and ecosystem dApps make the chain more usable.
-13. **Community communication:** Spanish-speaking community members such as Carlos Welele, Transeunte, and `@nomad100x` help with social guardrails, bilingual updates, proposal discussion, and informal coordination.
+13. **Community communication:** Spanish-speaking community members and projects such as Koinos en español, Koincast, Carlos Welele, Transeunte, and `@nomad100x` help with social guardrails, bilingual updates, proposal discussion, and informal coordination.
 14. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
 15. **Koinos Group transition:** after Koinos Group deploys resources such as the 1 million KOIN free-usage pool and ships Koinos.fun as a strong reference app for AI-generated NFTs over X, the company steps back and the community must maintain the chain.
 16. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
@@ -787,6 +799,12 @@ The central question is no longer only whether Koinos has interesting technology
 - Kui He: [BurnKoin Operator Fee Update](https://medium.com/@kuixihe/burnkoin-operator-fee-update-d27388499940)
 - Kui He: [Announcing KAP Whitepaper: Free Blockchain Access For All](https://medium.com/@kuixihe/announcing-kap-whitepaper-free-blockchain-access-for-all-8adaa0a3db1f)
 - Kui He: [Everything You Need to Know About KAP's April 19th Launch + Roadmap](https://medium.com/@kuixihe/everything-you-need-to-know-about-kaps-april-19th-launch-roadmap-1dcf8fa4ef77)
+- The Koin Press: [Podcast archive](https://podcast.thekoinpress.com/)
+- The Koin Press: [All episodes](https://podcast.thekoinpress.com/episodes)
+- YouTube: [motoengineer / `@kuixihe`](https://www.youtube.com/@kuixihe)
+- Spotify: [Koincast](https://open.spotify.com/show/4iINZLo8nDtC1YUHBdhR8o)
+- Spotify: [Koincast interview with Ederaleng, CTO of KoinDX](https://open.spotify.com/episode/6omwPLm22w7V8UkSs7JRaZ)
+- X indexed search result from [BabyCervantes / `@cervanteshive`](https://x.com/cervanteshive) mentioning `@pgarcgo` launching Koincast at `koincast.io`
 - DevNTell: [Koinos Account Protocol](https://www.devntell.com/podcast/koinos-account-protocol)
 - Developer DAO: [DevNTell - Koinos Account Protocol](https://blog.developerdao.com/devntell-koinos-account-protocol)
 - Andrew Levine on X: [KAP/Kondor fee-less UX demo](https://x.com/andrarchy/status/1681005550128046080)
