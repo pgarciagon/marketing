@@ -12,7 +12,7 @@ For this revision, I used a local Telegram session and generated an evidence rep
 
 I also reviewed public X posts from `@TheKoinosGroup` and Andrew Levine's `@andrarchy` account through authenticated X search in Chrome, covering the indexed posts that X returned from 2020 through July 2026. The X review was most useful for company-side narrative signals: KoinosPro marketing, the first in-band upgrade, Wachsman/HackerEarth growth efforts, KoinDX positioning, Koinos Federation support, the 1 million KOIN free-usage pool, and Andrew's public comments after leaving Koinos Group.
 
-Telegram and Discord are not used here as the sole source of official dates. They are used as community records: they show how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local Telegram evidence file is archived next to this article as `koinos-telegram-evidence.json`; Discord evidence was checked through authenticated searches in the Koinos server, especially for `Konio`, `Sovrano`, `Veive`, and `Adriano`.
+Telegram and Discord are not used here as the sole source of official dates. They are used as community records: they show how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local Telegram evidence file is archived next to this article as `koinos-telegram-evidence.json`; Discord evidence was checked through authenticated searches in the Koinos server, including early `#general` searches for `OpenOrchard`, `KOIN mining`, `mining begins`, `microservices`, `testnet launch`, `easy fork`, `AssemblyScript`, `Roamin`, `snapshot completed`, `mainnet tomorrow`, and later searches for `Konio`, `Sovrano`, `Veive`, and `Adriano`.
 
 When this article mentions contributors outside Koinos Group, it identifies them as community members, community developers, or community operators unless the source explicitly describes a company role. That distinction matters because Koinos' later history is partly the story of work moving from the founding company to independent community contributors.
 
@@ -34,6 +34,8 @@ On April 16, 2020, after leaving Steemit Inc., a large part of the former Steem 
 
 This is the organizational starting point of Koinos. The team did not begin by saying "we are launching another token." The initial framing was broader: build tools and technology that would let developers create applications with the usability of Steem, but without inheriting Steem's governance weaknesses.
 
+The Koinos Discord `#general` channel preserves the public reception of that starting point. On April 16, 2020, Andrew Levine shared the OpenOrchard announcement there. Within days, community members were already comparing Steem, Hive, OpenOrchard, governance weaknesses, and the possibility of building on a more sustainable base layer. That matters because the Discord record shows Koinos beginning as a post-Steem developer conversation before it became a mining, exchange, or price story.
+
 ## 16.06.2020 - Koinos Is Announced as a New Blockchain
 
 On June 16, 2020, OpenOrchard announced that it was building a new blockchain from scratch: Koinos.
@@ -41,6 +43,8 @@ On June 16, 2020, OpenOrchard announced that it was building a new blockchain fr
 That decision matters. The team could have built on Ethereum, Hive, EOSIO, or another existing chain. Instead, the conclusion was that none of the available platforms combined the properties they wanted: true fee-less usage, free accounts, free smart contract execution, resource delegation, modularity, fair launch, and governance that could evolve without hard forks.
 
 Koinos was therefore not only a new chain. It was an attempt to generalize what Steem had proven at the application layer and rebuild it as a programmable smart contract platform.
+
+Discord also clarifies how early the microservice idea entered the conversation. In `#general` on June 16, 2020, Andrew shared the OpenOrchard update on Koinos and ODESI, and the preview described the Koinos blockchain alongside ODESI microservices. A July 2020 discussion picked up the same architecture, with a community member noting that the project was being described as a suite of microservices. That is an early signal that Koinos' later modular-node architecture was not a late branding layer; it was already part of the technical identity in the first public months.
 
 ## 23.09.2020 - Koinos Group LLC Is Registered
 
@@ -81,6 +85,8 @@ On October 6, 2020, Andrew Levine announced the Koinos whitepaper and the upcomi
 
 The goal was explicit: maximize decentralization by giving ordinary users a fair path to acquire the token before mainnet.
 
+Discord `#general` shows the announcement functioning as an immediate onboarding event. Andrew posted the whitepaper and mining announcement on October 6, 2020, and the same discussion quickly turned into practical questions about proof frequency, ETH costs, laptops, and how the miner worked. Steve Gerbino explained that proof frequency affected ETH spending and mining variance rather than damaging hardware, which shows how quickly the channel shifted from narrative to support.
+
 To support this, the team published mining software in two forms:
 
 - a desktop GUI miner for Mac and Windows;
@@ -95,6 +101,8 @@ On October 13, 2020, after a seven-day countdown, KOIN ERC-20 mining officially 
 That same day, the first KOIN/ETH Uniswap v2 pair was created anonymously. Early trades happened at roughly one cent per KOIN in the exchange rate of the time.
 
 This period is important because it shaped Koinos' later legitimacy. KOIN was not sold through an ICO. It was mined in the open before the native chain existed, and the future mainnet would later use a snapshot of those ERC-20 balances.
+
+The Discord record captures the messy reality of that fair launch. On launch day, `#general` included users asking why ETH sent to the miner address had not appeared, whether the miner app had to remain open, and how to begin mining. Within the next days, discussions moved into Infura endpoints, Ropsten defaults, gas prices, hardware-wallet concerns, claiming mechanics, and the future mainnet handoff. That does not change the official launch date, but it makes the milestone more concrete: KOIN mining began as an open technical process that required real community troubleshooting, not as a polished centralized sale.
 
 ## 18.11.2020 - OpenOrchard Becomes Koinos Group
 
@@ -126,6 +134,8 @@ The testnet introduced one of Koinos' most important architectural decisions: a 
 
 This was the first public technical proof that Koinos was not simply a token waiting for a chain. The chain framework itself was taking shape.
 
+The `#general` history adds two useful details. First, by February 2021, community members were already treating the testnet as the next execution milestone after mining, with Pablo Garcia / `pgarcgo` urging patience until testnet arrived. Second, on July 19, 2021, Andrew shared the "EASY FORK" testnet update in `#general`; the preview stated that the testnet had gone live on time and that the team had already executed an easy fork. That makes the first testnet important not only because it existed, but because it immediately tested Koinos' promise of upgradeability without conventional hard-fork drama.
+
 ## 02.11.2021 - Testnet v0.2 Goes Live
 
 On November 2, 2021, testnet v0.2 was released. This continued the incremental march toward a production network.
@@ -155,6 +165,8 @@ On March 8, 2022, Koinos launched testnet v0.3. This was another step toward mai
 On April 27, 2022, Koinos Network published an update saying that AssemblyScript had become first-party software on Koinos. The post credited community developer `@Roamin` for the AssemblyScript SDK, which made Koinos smart contracts accessible to developers familiar with TypeScript and JavaScript.
 
 This was more than a tooling footnote. Before this shift, the original smart contract path was centered on C++. Roamin's SDK made Koinos development feel closer to the web-development world, where many more developers already know TypeScript-style syntax. Koinos Group then integrated that work into the main development path: the governance contract was rewritten in AssemblyScript, and the team described the AssemblyScript SDK as the intended premier smart contract development toolkit for Koinos.
+
+Discord shows the beginning of that path before the official April update. On January 20, 2022, Roamin introduced himself in `#general` as a developer who had worked on a blockchain explorer and was exploring whether AssemblyScript could be used to create a TypeScript-like contract development toolkit for Koinos. Andrew immediately pointed to NEAR's AssemblyScript-WASM contracts as validation of the direction, and Steve then discussed the low-level WASM interface questions with Roamin in the developer channels. By January 21, Roamin was already reporting that AssemblyScript code was running on Koinos and linking early CDT/example repositories.
 
 Chronologically, this belongs before the governance milestone because it helped shape how the core system itself was built. The language/tooling decision was not only for third-party dApps; it quickly became part of Koinos' own system-contract implementation and developer-experience identity.
 
@@ -190,6 +202,8 @@ On October 31, 2022, the ERC-20 KOIN snapshot was completed successfully. This s
 
 The snapshot connected the 2020 fair mining phase to the future native chain. Without it, the fair launch would have remained only an Ethereum-era distribution event.
 
+Discord confirms how public and operational this moment was. In the official announcements channel, Michael Vandeberg posted on October 31, 2022 that the snapshot was complete and linked the Etherscan transaction. The Twitter relay then repeated that the KOIN snapshot had been successfully generated and that mainnet was next. In `#general`, users had already been asking how the snapshot would work and whether ERC-20 trading still mattered afterward.
+
 KoinosScan's later [claims analysis](https://koinosscan.com/claims) gives a useful way to read this moment. It lists the snapshot at Ethereum block 15,868,963 and reconstructs 3,754 snapshot addresses holding about 99.74 million KOIN. By the time of that dataset, 1,974 addresses had claimed about 79.03 million KOIN, while 1,780 addresses still had about 20.71 million KOIN unclaimed.
 
 The same dataset also gives a more careful way to discuss mining concentration. Its Cafe spotlight identifies a coordinated `0x1337cafe...` cluster of seven known wallets that mined about 67.56 million KOIN, sent about 52.09 million to Uniswap, sent about 16.39 million elsewhere, and retained only about 506,365 KOIN directly in the snapshot. The page also uses weighted F1-F7 heuristics to group broader Sybil-style clusters, but those heuristics should be treated as analytical signals, not as proof of a real-world identity.
@@ -203,6 +217,8 @@ On November 5, 2022, Koinos mainnet launched successfully.
 The launch did not immediately represent the final governance state. The team kept a temporary administrative path open to handle unexpected problems without forcing the network into governance before it was ready.
 
 Still, November 5, 2022, is the technical birth of the Koinos blockchain: KOIN became native, the fee-less smart contract platform went live, and the project moved from promise to production.
+
+The final pre-launch Discord traffic shows how expectations had narrowed from theory to practical access. On November 4, 2022, `#general` users were discussing the website's statement that mainnet would launch the next day, asking whether claiming would also be available, and whether buying the ERC-20 token after the snapshot still made sense. On November 5, archived testnet discussion referred to the day's focus as the mainnet launch. That evidence helps place the launch as a community handoff moment: users were no longer only mining or following updates; they were preparing to claim, use wallets, and interact with the live chain.
 
 ## 05.12.2022 - Koinos Completes Its Initial Decentralization
 
@@ -753,7 +769,7 @@ The central question is no longer only whether Koinos has interesting technology
 - GitHub: [konio-io/konio-mobile](https://github.com/konio-io/konio-mobile)
 - Konio: [Welcome in our Medium space!](https://medium.com/@konio_io/welcome-9b49af842775)
 - GitHub: [Adriano Foschi](https://github.com/adrianofoschi)
-- Koinos Discord authenticated searches: `Konio`, `Sovrano`, `Veive`, `Adriano` in the Koinos server, including `#general` and historical search results accessed on July 11, 2026
+- Koinos Discord authenticated searches in the Koinos server, accessed on July 11, 2026: early `#general` searches for `OpenOrchard`, `KOIN mining`, `mining begins`, `microservices`, `testnet launch`, `easy fork`, `AssemblyScript`, `Roamin`, `snapshot completed`, `mainnet tomorrow`; later ecosystem searches for `Konio`, `Sovrano`, `Veive`, and `Adriano`
 - MiXiBo: [The Koincity Project: Launchpad for the Koinos Blockchain](https://mixibo.medium.com/the-koincity-project-launchpad-for-the-koinos-blockchain-b7ed343e0229)
 - Andrew Levine on X: [Koinos Federation and Jon Rice](https://x.com/andrarchy/status/1715443278202429875)
 - Koinos Network: [Chainge integrates Koinos](https://medium.com/koinosnetwork/koinos-goes-cross-chain-57d6e311fa86)
