@@ -14,6 +14,8 @@ I also reviewed public X posts from `@TheKoinosGroup` and Andrew Levine's `@andr
 
 Telegram and Discord are not used here as the sole source of official dates. They are used as community records: they show how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local Telegram evidence file is archived next to this article as `koinos-telegram-evidence.json`; Discord evidence was checked through authenticated searches in the Koinos server, especially for `Konio`, `Sovrano`, `Veive`, and `Adriano`.
 
+When this article mentions contributors outside Koinos Group, it identifies them as community members, community developers, or community operators unless the source explicitly describes a company role. That distinction matters because Koinos' later history is partly the story of work moving from the founding company to independent community contributors.
+
 ## 2016-2020 - The Steem Lesson
 
 Before Koinos, several of the people who later built it were core developers of Steem, one of the first large fee-less social blockchains. Steem and Steemit proved something important: ordinary users could interact with a blockchain every day if the product felt like a normal web application and did not ask them to pay fees for every action.
@@ -45,6 +47,16 @@ Koinos was therefore not only a new chain. It was an attempt to generalize what 
 On September 23, 2020, Koinos Group LLC was registered in Delaware. This formalized the team behind the project and set the stage for a more public launch.
 
 The company would later become the center of Koinos development through the ERC-20 mining phase, testnets, mainnet launch, KoinosPro, Vortex development, and the early ecosystem. That role would change dramatically years later, when the community had to take over operational responsibility.
+
+The core Koinos Group names referenced in this chronology are:
+
+- **Andrew Levine**: CEO of Koinos Group and the main public communicator for the project.
+- **Steve Gerbino**: Koinos co-founder and blockchain architect; announced as CTO of Koinos Group in April 2022.
+- **Michael Vandeberg**: Koinos founder and blockchain architect; one of the main protocol architects referenced in technical roadmap and governance discussions.
+- **Ron Hamenahem**: Koinos founder, project manager and developer on the current Koinos team page; also described in company profiles as COO / design and operations lead.
+- **Nathaniel Caldwell**: Koinos co-founder / blockchain architect referenced in early Koinos technical material, including the "easy fork" testnet discussion.
+
+Those roles changed over time, especially after Koinos Group stopped being the operating center of the chain. Later names in this article, such as Luke Willis, Kui He, Julián González, Justin Welch, Adriano Foschi, MiXiBo, Ederaleng, Roamin, Jon Rice, and `@interfecto`, are treated as community contributors unless a cited source explicitly says otherwise.
 
 ## 06.10.2020 - Whitepaper and KOIN Mining Are Announced
 
@@ -139,9 +151,9 @@ This was the last full rehearsal before the ERC-20 snapshot and native chain lau
 
 ## 11.10.2022 - BurnKoin Launches the First Proof-of-Burn Pool on Testnet
 
-On October 11, 2022, motoengineer published [Burn KOIN, Earn KOIN. The first and simplest Proof of Burn mining pool](https://hive.blog/koinos/@motoengineer/burn-koin-earn-koin-the-first-and-simplest-proof-of-burn-mining-pool). The post announced that BurnKoin.com was live on Koinos testnet and described it as the first Proof-of-Burn mining pool.
+On October 11, 2022, community member motoengineer published [Burn KOIN, Earn KOIN. The first and simplest Proof of Burn mining pool](https://hive.blog/koinos/@motoengineer/burn-koin-earn-koin-the-first-and-simplest-proof-of-burn-mining-pool). The post announced that BurnKoin.com was live on Koinos testnet and described it as the first Proof-of-Burn mining pool.
 
-This was an important pre-mainnet ecosystem event. BurnKoin allowed KOIN holders to participate in block production, network security, and governance without operating their own node. The post described pooled VHP, a 5% operator fee on rewards, no hidden deposit or withdrawal fees, and Kondor-based interaction. It also identified BurnKoin as created by Luke M. Willis and Kui X. He; later sources also identify motoengineer as a BurnKoin co-founder.
+This was an important pre-mainnet ecosystem event. BurnKoin allowed KOIN holders to participate in block production, network security, and governance without operating their own node. The post described pooled VHP, a 5% operator fee on rewards, no hidden deposit or withdrawal fees, and Kondor-based interaction. It also identified BurnKoin as created by community developers Luke M. Willis and Kui X. He; later sources also identify motoengineer as a BurnKoin co-founder.
 
 The public GitHub repository reinforces the same point: `lukemwillis/koinos-burn-pool` describes itself as the first burn-pool contracts created for Koinos and says the pool would be operated by Kui He and Luke Willis.
 
@@ -181,7 +193,7 @@ That is why BurnKoin should appear before Fogata in the chronology. Fogata was n
 
 ## 02.01.2023 - Fogata and Block-Production Decentralization
 
-On January 2, 2023, Julian Gonzalez published [Fogata - mining pools for koinos](https://hive.blog/koinos/@jga/fogata). Less than two months after mainnet, the post framed additional mining pools as a way to reduce block-production concentration and make KPoB participation more accessible. The post explicitly recognized that BurnKoin already existed, which makes Fogata historically important as the next step in pool competition rather than the first pool.
+On January 2, 2023, community developer Julián González published [Fogata - mining pools for koinos](https://hive.blog/koinos/@jga/fogata). Less than two months after mainnet, the post framed additional mining pools as a way to reduce block-production concentration and make KPoB participation more accessible. The post explicitly recognized that BurnKoin already existed, which makes Fogata historically important as the next step in pool competition rather than the first pool.
 
 This belongs early in the post-mainnet chronology because it links directly to Koinos' first decentralization test. Removing Koinos Group's temporary control path did not automatically mean block production was broadly distributed. Tools such as Fogata mattered because decentralization had to become operational, not only constitutional.
 
@@ -189,11 +201,11 @@ This belongs early in the post-mainnet chronology because it links directly to K
 
 On January 9, 2023, Kui He published [Announcing KAP Whitepaper: Free Blockchain Access For All](https://medium.com/@kuixihe/announcing-kap-whitepaper-free-blockchain-access-for-all-8adaa0a3db1f). KAP, or Koinos Account Protocol, was presented as an all-in-one account management layer with three pillars: an NFT name service, account abstraction, and free mana.
 
-This deserves a place immediately after the early mining-pool milestones because it shows how quickly community builders moved from block-production infrastructure to user-facing account infrastructure. The same post identified KAP as created by Luke M. Willis and Kui Xi He, the same team behind BurnKoin. In other words, the BurnKoin team was not only helping users participate in KPoB; it was also trying to make Koinos accounts easier for normal users and dApps.
+This deserves a place immediately after the early mining-pool milestones because it shows how quickly community builders moved from block-production infrastructure to user-facing account infrastructure. The same post identified KAP as created by community developers Luke M. Willis and Kui Xi He, the same team behind BurnKoin. In other words, the BurnKoin team was not only helping users participate in KPoB; it was also trying to make Koinos accounts easier for normal users and dApps.
 
 ## 06.02.2023 - Running Multiple Producers on the Microservice Architecture
 
-On February 6, 2023, Julian followed with [How to setup a second producer in Koinos Blockchain](https://hive.blog/koinos/@jga/koinos-2-producers). The post explained how Koinos' microservice architecture allowed more than one producer to be run from a single node setup.
+On February 6, 2023, community developer Julián González followed with [How to setup a second producer in Koinos Blockchain](https://hive.blog/koinos/@jga/koinos-2-producers). The post explained how Koinos' microservice architecture allowed more than one producer to be run from a single node setup.
 
 This was a practical operator milestone. It showed that Koinos' modular architecture was not only an internal engineering choice, but something community operators could use to improve producer participation and experiment with pool infrastructure.
 
@@ -203,7 +215,7 @@ On April 18, 2023, Kui He published [Everything You Need to Know About KAP's Apr
 
 The launch matters because it turned the January whitepaper into a live user-facing product. KAP was trying to make a Koinos account feel less like a raw blockchain address and more like a normal internet identity: a readable name, a path to free or subsidized access, and eventually customizable smart-wallet behavior.
 
-By August 2023, Luke and Kui presented KAP publicly on DevNTell. That presentation described KAP as a way to give users free or premium usernames, smart-wallet style account abstraction, and tokenless access through Koinos mana. Chronologically, KAP belongs before later identity and wallet milestones such as Koinos Nicknames, Kondor upgrades, and Manuscript because it was one of the earliest public attempts to turn Koinos' fee-less architecture into a complete onboarding experience.
+By August 2023, community developers Luke and Kui presented KAP publicly on DevNTell. That presentation described KAP as a way to give users free or premium usernames, smart-wallet style account abstraction, and tokenless access through Koinos mana. Chronologically, KAP belongs before later identity and wallet milestones such as Koinos Nicknames, Kondor upgrades, and Manuscript because it was one of the earliest public attempts to turn Koinos' fee-less architecture into a complete onboarding experience.
 
 Andrew Levine's July 2023 X demo also shows why KAP mattered in practice: he demonstrated a fast, fee-less token transfer to an NFT-based account name using Kondor and KAP, framing it as the future of Web3 UX. The important point is not the demo itself, but the combination of pieces: readable names, a usable wallet, and no visible gas fee.
 
@@ -217,9 +229,9 @@ The same article mentioned Koinos Play and gaming-oriented collaborations, inclu
 
 Koinos Group's X account later turned KoinosPro into a more explicit developer-infrastructure message. In July 2023 it described KoinosPro as a ready-to-use platform where developers could focus on coding while Koinos Group handled node operation, security, scalability, support, documentation, and access to the latest chain version. That public messaging matters because it shows the company moving from chain launch toward a SaaS-style infrastructure business before KoinosPro V1 went live in 2024.
 
-## 27.04.2023 - Justin Welch Launches Kollection, Koinos' First NFT Marketplace
+## 27.04.2023 - Community Developer Justin Welch Launches Kollection, Koinos' First NFT Marketplace
 
-On April 27, 2023, Kollection announced its launch on Koinos mainnet. The announcement described Kollection as the first NFT marketplace using the free-to-use Koinos blockchain and said that, for the first time, users could trade NFTs without gas fees. The launch team was listed as Justin Welch, Dokterkraakbeen, Ederaleng, and VonLooten.
+On April 27, 2023, Kollection announced its launch on Koinos mainnet. The announcement described Kollection as the first NFT marketplace using the free-to-use Koinos blockchain and said that, for the first time, users could trade NFTs without gas fees. The community launch team was listed as Justin Welch, Dokterkraakbeen, Ederaleng, and VonLooten.
 
 Kollection mattered because it gave Koinos an NFT surface very early in the post-mainnet ecosystem. Until then, Koinos had smart contracts, mana, wallets, and early infrastructure, but it still needed visible user applications. An NFT marketplace is not only about collectibles; it tests wallet signing, token standards, indexing, royalties, listings, metadata, and user-facing marketplace flows.
 
@@ -243,15 +255,15 @@ This is distinct from the February 2024 community governance milestone. The 2024
 
 ## 15.06.2023 - Koinos Polls and Early Governance Coordination
 
-On June 15, 2023, Julian published [Koinos Polls](https://hive.blog/koinos/@jga/polls), a free dApp for measuring consensus before code was ready for an on-chain governance proposal. The timing matters: Koinos had governance, but the community still needed lower-friction ways to discuss whether a proposal was worth building.
+On June 15, 2023, community developer Julián González published [Koinos Polls](https://hive.blog/koinos/@jga/polls), a free dApp for measuring consensus before code was ready for an on-chain governance proposal. The timing matters: Koinos had governance, but the community still needed lower-friction ways to discuss whether a proposal was worth building.
 
 That same period also included his post on updating the claiming contract and his June 26 post, [Is Koinos a decentralized blockchain?](https://hive.blog/koinos/@jga/is-koinos-a-decentralized-blockchain), which directly criticized the concentration of block production. In chronological terms, this is where the post-mainnet conversation shifted from "the chain launched" to "how decentralized is the chain in practice?"
 
 By July 2023, Julian's work also reached block-producer governance participation. Andrew Levine amplified Julian's announcement that the JGA Mining Pool let participants take part in Koinos governance decisions, calling it a major innovation because it made block production and governance participation more accessible. That detail matters because it ties Julian's software milestones to the same decentralization problem raised in his June post.
 
-## 25.07.2023 - Adriano Launches Konio, the First Native Mobile Wallet
+## 25.07.2023 - Community Developer Adriano Launches Konio, the First Native Mobile Wallet
 
-On July 25, 2023, Koinos community channels shared the release of Konio v1.5.2 with a simple message: "FAST SIMPLE FREE." Konio was Adriano Foschi's native mobile wallet for Koinos, and its GitHub repository describes it as the first Koinos blockchain native mobile wallet, built for Android and iOS.
+On July 25, 2023, Koinos community channels shared the release of Konio v1.5.2 with a simple message: "FAST SIMPLE FREE." Konio was community developer Adriano Foschi's native mobile wallet for Koinos, and its GitHub repository describes it as the first Koinos blockchain native mobile wallet, built for Android and iOS.
 
 Discord adds an earlier community snapshot of the same wallet landscape. On June 28 and June 30, 2023, messages in the Koinos Discord copied a wallet list that described "Konio Wallet (iOS & android)" as a mobile wallet, "Created by Adriano", open sourced at `adrianofoschi/konio-mobile`, and labeled "First Mobile Koinos Wallet". That is useful because it shows how the community understood Konio at the time, before the later Sovrano transition.
 
@@ -267,11 +279,11 @@ This was a major ecosystem milestone. Until KoinDX, Koinos had launched as a tec
 
 KoinDX also became important later when Koinos' CEX situation weakened. As listings, liquidity, and market-making became recurring problems, the existence of a native DEX made the ecosystem less dependent on centralized venues. That does not mean liquidity was solved; it means Koinos had a local place where liquidity could be built, incentivized, and governed.
 
-The maintenance story also changed over time. By late 2025, KoinDX community messages said active KoinDX development had been paused while contributors focused on stabilizing the broader Koinos network: bridge work, nodes, and related infrastructure. By 2026, `@ederaleng` was one of the visible community operators tied to the DeFi/liquidity side, including KFS-funded liquidity deployment and later Base expansion work. That makes KoinDX part of the broader transition from a standalone launch milestone into community-maintained market infrastructure.
+The maintenance story also changed over time. By late 2025, KoinDX community messages said active KoinDX development had been paused while contributors focused on stabilizing the broader Koinos network: bridge work, nodes, and related infrastructure. By 2026, community developer and operator `@ederaleng` was one of the visible community operators tied to the DeFi/liquidity side, including KFS-funded liquidity deployment and later Base expansion work. That makes KoinDX part of the broader transition from a standalone launch milestone into community-maintained market infrastructure.
 
-## 05.08.2023 - Julian Proposes a Security-Oriented System Call
+## 05.08.2023 - Community Developer Julián González Proposes a Security-Oriented System Call
 
-On August 5, 2023, Julian published [[koinos proposals] Improve security in koinos](https://hive.blog/koinos/@jga/improve-security-koinos). The proposal argued for a new system call to help classify addresses and improve token and NFT security, especially around smart wallets and authorization.
+On August 5, 2023, community developer Julián González published [[koinos proposals] Improve security in koinos](https://hive.blog/koinos/@jga/improve-security-koinos). The proposal argued for a new system call to help classify addresses and improve token and NFT security, especially around smart wallets and authorization.
 
 This was the start of the work that would later become Koinos' first forkless mainnet governance upgrade. It is important to place it here, before the February 2024 milestone, because the applied upgrade was not a sudden company release. It came from months of public community discussion, testing, and iteration.
 
@@ -279,7 +291,7 @@ This was the start of the work that would later become Koinos' first forkless ma
 
 On August 21, 2023, a long message circulated in the community introducing the **Koinos Federation**. The stated goal was to create a 100% community-led, voluntary, unpaid organization that could coordinate the kinds of activities Koinos Group could not easily lead: marketing, CEX listings, outreach, project support, and a clear point of contact for ecosystem builders.
 
-The person presenting the idea was Jon Rice, who introduced himself as a long-time Koinos supporter with experience at Blockworks, Cointelegraph, Crypto Briefing, and advertising agencies. The core argument was practical: Koinos Group had deliberately avoided taking a large token allocation, which helped decentralization and regulatory positioning, but it also meant the project lacked the usual war chest used by other layer-ones for listings, market making, marketing, and grants.
+The person presenting the idea was community advocate Jon Rice, who introduced himself as a long-time Koinos supporter with experience at Blockworks, Cointelegraph, Crypto Briefing, and advertising agencies. The core argument was practical: Koinos Group had deliberately avoided taking a large token allocation, which helped decentralization and regulatory positioning, but it also meant the project lacked the usual war chest used by other layer-ones for listings, market making, marketing, and grants.
 
 The Federation idea tried to fill that gap. But it also became controversial. Critics worried that any treasury, inflation event, appointed committee, OTC sale, or listing fund could recreate the same centralization and insider-deal dynamics Koinos had tried to avoid. Supporters argued that without some coordinated structure, Koinos would remain under-marketed, under-listed, and too dependent on volunteers.
 
@@ -289,19 +301,19 @@ The idea later received more public amplification. On October 20, 2023, Andrew L
 
 ## 17.09.2023 - The New System Call Reaches Testnet
 
-On September 17, 2023, Julian wrote that the new Koinos system call was live on testnet. On October 24, he published a second update describing a revised approach after discussion with Michael Vandeberg and Steve Gerbino.
+On September 17, 2023, community developer Julián González wrote that the new Koinos system call was live on testnet. On October 24, he published a second update describing a revised approach after discussion with Michael Vandeberg and Steve Gerbino.
 
 This is a good example of how Koinos governance was supposed to work in practice: not only voting, but public technical debate, testnet deployment, adjustment, and eventual mainnet proposal.
 
 ## 30.09.2023 - Koinos Nicknames
 
-On September 30, 2023, Julian published [Koinos Nicknames](https://hive.blog/koinos/@jga/nicknames), a human-readable naming service designed for safer transfers. The October updates improved similarity detection so users would be less likely to send funds to confusingly similar names.
+On September 30, 2023, community developer Julián González published [Koinos Nicknames](https://hive.blog/koinos/@jga/nicknames), a human-readable naming service designed for safer transfers. The October updates improved similarity detection so users would be less likely to send funds to confusingly similar names.
 
 Nicknames were not a core protocol milestone, but they were important for usability. They addressed a real user failure mode: even experienced users can lose funds by mistyping or misreading an address-like identifier.
 
 ## Late September 2023 - MiXiBo Launches KoinCity
 
-In late September 2023, MiXiBo launched KoinCity, described in his later article as the first launchpad for the Koinos blockchain. Development had started in October 2022, and the platform went public roughly a year later with launchpad creation, token locks, integrated chat, KAP profiles, and integrations with KoinDX, Kondor, Konio, WalletConnect, Nicknames, and Koinos Garden.
+In late September 2023, community developer MiXiBo launched KoinCity, described in his later article as the first launchpad for the Koinos blockchain. Development had started in October 2022, and the platform went public roughly a year later with launchpad creation, token locks, integrated chat, KAP profiles, and integrations with KoinDX, Kondor, Konio, WalletConnect, Nicknames, and Koinos Garden.
 
 KoinCity deserves its own milestone because it filled a different ecosystem gap from KoinDX or Kollection. KoinDX gave Koinos a DEX, Kollection gave it NFTs, and KoinCity tried to give entrepreneurs a no-code route to launch tokens and presales on Koinos. That mattered because a layer-one needs more than base infrastructure: it needs repeatable paths for community projects to appear without every founder writing custom contracts from scratch.
 
@@ -327,7 +339,7 @@ Later speculation became much more personal and much less certain. Some analysis
 
 ## 06.12.2023 - Governance Proposal Submitted on Mainnet
 
-On December 6, 2023, Julian published [The gov proposal has been submitted in Koinos mainnet](https://hive.blog/koinos/@jga/gov-proposal-get-contract-metadata). The proposal added `get_contract_metadata`, a system call used to classify addresses as normal wallets or smart contract wallets.
+On December 6, 2023, community developer Julián González published [The gov proposal has been submitted in Koinos mainnet](https://hive.blog/koinos/@jga/gov-proposal-get-contract-metadata). The proposal added `get_contract_metadata`, a system call used to classify addresses as normal wallets or smart contract wallets.
 
 This was the concrete bridge between the August security proposal and the February 2024 governance milestone. The proposal had been discussed publicly and reviewed by several developers, including Michael Vandeberg from Koinos Group.
 
@@ -349,7 +361,7 @@ This marked a change in the question. It was no longer only whether Koinos could
 
 ## 14.01.2024 - Governance Proposal Resubmitted
 
-On January 14, 2024, Julian published [Governance proposal in Koinos Mainnet (second try)](https://hive.blog/koinos/@jga/gov-proposal-in-koinos-mainnet-second-try). The first attempt had passed the voting threshold but failed during application because the proposal operations were not constructed correctly.
+On January 14, 2024, community developer Julián González published [Governance proposal in Koinos Mainnet (second try)](https://hive.blog/koinos/@jga/gov-proposal-in-koinos-mainnet-second-try). The first attempt had passed the voting threshold but failed during application because the proposal operations were not constructed correctly.
 
 This failed-and-resubmitted sequence is worth keeping in the chronology. It shows that forkless governance was powerful but unforgiving: community developers could upgrade the chain, but they also had to learn the exact mechanics of proposal construction, operation ordering, and application.
 
@@ -381,7 +393,7 @@ The donation effort was controversial but important. Supporters saw it as proof 
 
 ## 16.04.2024 - Arkinos Makes Contract Development Faster
 
-On April 16, 2024, Julian introduced [Arkinos](https://hive.blog/koinos/@jga/arkinos), a tool for creating and deploying Koinos smart contracts quickly. It provided templates for tokens, NFTs, and generic contracts, and was designed to let a developer create a contract and a basic website to interact with it in minutes.
+On April 16, 2024, community developer Julián González introduced [Arkinos](https://hive.blog/koinos/@jga/arkinos), a tool for creating and deploying Koinos smart contracts quickly. It provided templates for tokens, NFTs, and generic contracts, and was designed to let a developer create a contract and a basic website to interact with it in minutes.
 
 Arkinos connects directly to the January 2024 developer-experience theme. Koinos had a fee-less architecture, but developers still needed tools that made contract creation approachable. Telegram later shows developers asking Julian how Arkinos handled authorization and reporting projects built with Cursor and Arkinos, which suggests it was used as practical tooling rather than only announced as a demo.
 
@@ -401,7 +413,7 @@ Andrew Levine had made a related point at the end of 2023: the first-year Koinos
 
 ## 29.06.2024 - Nicknames Become More Flexible
 
-On June 29, 2024, Julian published a Nicknames update that allowed the linked address to differ from the nickname owner. This made Nicknames more useful for profiles, token identities, and project addresses, not only for simple personal account naming.
+On June 29, 2024, community developer Julián González published a Nicknames update that allowed the linked address to differ from the nickname owner. This made Nicknames more useful for profiles, token identities, and project addresses, not only for simple personal account naming.
 
 This sits naturally after the broader ecosystem section: as dApps and tokens appeared, identity and addressing became more important. Nicknames were part of making the ecosystem legible.
 
@@ -439,7 +451,7 @@ On September 27, 2024, Julian Gonzalez explained in `@koinoshispano` that KOIN a
 
 ## 13.10.2024 - Kondor v1.0.0 Is Released
 
-On October 13, 2024, Julian published [Kondor v1.0.0 is live](https://hive.blog/koinos/@jga/kondor-v1-is-live). The release added a more mature wallet experience, including NFT display through the Kollection API and account history for token transfers.
+On October 13, 2024, community developer Julián González published [Kondor v1.0.0 is live](https://hive.blog/koinos/@jga/kondor-v1-is-live). The release added a more mature wallet experience, including NFT display through the Kollection API and account history for token transfers.
 
 Kondor had been important since testnet because Koinos needed a wallet that made fee-less interaction usable. The v1.0.0 release signaled that community wallet infrastructure was maturing alongside DEXs, NFT tools, token launchers, and bridge experiments.
 
@@ -491,7 +503,7 @@ This changes the tone of the chronology. Until then, many milestones could be re
 
 ## 06.02.2025 - Manuscript Extends Wallet Usability
 
-On February 6, 2025, Julian published [Manuscript: Koinos wallet that supports hardware wallets](https://hive.blog/koinos/@jga/manuscript). Manuscript was presented as a wallet approach supporting Ledger and Trezor, Ethereum-compatible wallet management through tools such as MetaMask, natural-language transactions, and Koinos Nicknames.
+On February 6, 2025, community developer Julián González published [Manuscript: Koinos wallet that supports hardware wallets](https://hive.blog/koinos/@jga/manuscript). Manuscript was presented as a wallet approach supporting Ledger and Trezor, Ethereum-compatible wallet management through tools such as MetaMask, natural-language transactions, and Koinos Nicknames.
 
 Chronologically, Manuscript belongs before the foundation crisis because it shows that community software work was still moving forward while the institutional center was weakening. Together with Kondor, Nicknames, and Arkinos, it pushed Koinos toward a more usable platform rather than a raw protocol.
 
@@ -505,7 +517,11 @@ The initial answer was imperfect but real. Maintenance groups formed, roles were
 
 On September 4, 2025, a Koinos Community Foundation announcement circulated in the community. It framed the foundation as stewardship, not a takeover, and described the goal as guiding Koinos from a company-led blockchain toward a community-governed project with visible execution.
 
-The announcement listed several community contributors, including Julián González. This is important for the chronological treatment of Julian's work: by this point, his role had moved beyond individual tools such as Fogata, Nicknames, Arkinos, Kondor, and Manuscript into the broader maintenance and coordination layer.
+The first version of the announcement, posted in the Koinos Community Working Group at 18:40 UTC, said the Foundation was a volunteer-led initiative and listed current members: **brklyn8900**, **Ederaleng**, **Julián González**, **Justin W**, **motoengineer**, **pgarcgo**, and **Atb 3tb**. A revised version later that evening kept the same core list, with the members signing as the Koinos Community Foundation.
+
+The announcement did not assign rigid individual job titles. It defined the Foundation's functions instead: network operations, interoperability through Vortex, community funding through KPS/KFS, and custodianship of domains, repositories, and social channels where possible. In practical terms, the named people represented different community capabilities: coordination and communication, liquidity and bridge work, core tooling and governance software, NFT and standards experience, mining-pool and account infrastructure, public testnet / infrastructure work, and operational support.
+
+This is important for the chronological treatment of community developers such as Julián González, Ederaleng, Justin W, motoengineer, and pgarcgo: by this point their roles had moved beyond individual tools into the broader maintenance and coordination layer.
 
 ## 14.09.2025 - Vortex Bridge Goes Live
 
@@ -533,7 +549,7 @@ This episode is important because it compressed several Koinos tensions into one
 
 ## 14.10.2025 - Koinos Fund System Goes Live
 
-On October 14, 2025, Julian published [The Koinos Fund System is Live!](https://hive.blog/koinos/@jga/the-koinos-fund-system-is-live). The post described KFS as a decentralized and transparent funding mechanism approved through governance. It changed inflation from a 2% flow to block producers into a 4% split: 2% for block producers and 2% for the Koinos Fund.
+On October 14, 2025, community developer Julián González published [The Koinos Fund System is Live!](https://hive.blog/koinos/@jga/the-koinos-fund-system-is-live). The post described KFS as a decentralized and transparent funding mechanism approved through governance. It changed inflation from a 2% flow to block producers into a 4% split: 2% for block producers and 2% for the Koinos Fund.
 
 This was one of the clearest examples of Koinos moving from company-led funding hopes toward on-chain community funding. Telegram cross-checks show community members thanking `@joticajulian` for the KFS work, asking him KFS questions, and later asking him to review proposals after earlier proposal problems.
 
@@ -547,7 +563,7 @@ The transferred funds were reported as 14,230 USD in stablecoins and 127,610.22 
 
 On November 4, 2025, the community shared that vKOIN was live on Solana via Wormhole as part of an approved KFS proposal. This sits after the KFS launch because it shows the fund starting to support practical liquidity and multichain expansion.
 
-The Koinos website also showed routes to acquire KOIN or wrapped representations through DeFiLlama DEX routes on Ethereum and Base, Jupiter on Solana, and KoinDX as the native DEX. It warned that long-term holders should bridge back to native KOIN on Koinos to avoid bridge and wrapped-token risk. In the same period, `@ederaleng` became a key visible maintainer of the liquidity layer, including KFS liquidity work and multichain expansion proposals.
+The Koinos website also showed routes to acquire KOIN or wrapped representations through DeFiLlama DEX routes on Ethereum and Base, Jupiter on Solana, and KoinDX as the native DEX. It warned that long-term holders should bridge back to native KOIN on Koinos to avoid bridge and wrapped-token risk. In the same period, community developer and operator `@ederaleng` became a key visible maintainer of the liquidity layer, including KFS liquidity work and multichain expansion proposals.
 
 ## 15.12.2025 - Koinos Group Shutdown Is Summarized Publicly
 
@@ -589,6 +605,18 @@ This matters more than it may appear. If `api.koinos.io` depends on a single ser
 
 The same message invited more volunteers to join and told them to contact `@joticajulian` if they wanted to connect nodes to the load-balanced API setup. Infrastructure decentralization is not a final state. It is a process: the more independent operators support API nodes, seed nodes, and producers, the less fragile the ecosystem becomes.
 
+The same May 29 update also mentioned EVM compatibility progress: a Uniswap V2 fork was already running on the Koinos testnet and could be used with MetaMask by adding the network. That connected the infrastructure work to a broader strategic question: should Koinos remain a distinct VM-only ecosystem, or should it also offer an EVM-compatible path for existing Solidity and Ethereum tooling?
+
+## 03-13.06.2026 - Community Consultant `@interfecto` Publishes a Koinos EVM Engine Proof of Concept
+
+On June 3, 2026, community consultant and developer `@interfecto` created the public GitHub repository [`interfecto/koinos-evm-engine`](https://github.com/interfecto/koinos-evm-engine). The repository describes the project as a proof-of-concept EVM execution layer for Koinos: `revm` compiled to WASM and deployed as a single Koinos contract, with a JSON-RPC relay that lets MetaMask, Foundry, `cast`, and Ethereum-style transactions drive tested paths.
+
+The headline result was ambitious: unmodified Uniswap V2 and V3 contracts running on Koinos and producing byte-exact results against a reference EVM for the exercised paths. The project also included a local relay, UI experiments, guided quests, an EVM explorer, and documentation explaining that the system was a research artifact, not a production network.
+
+On June 13, `@interfecto` shared the repo in `@koinos_community` and linked small testnet quests at `koinosscan.com/evm/quest.html`. The message explicitly warned that the work was partially reviewed, experimental, and not production-ready, but it showed that MetaMask-based interaction with Koinos testnet was possible.
+
+This milestone matters because it broadens the post-Koinos Group roadmap. The community was not only keeping old infrastructure alive; it was also exploring whether Koinos could become a fee-less execution layer for familiar EVM applications. Even if the proof of concept never becomes mainnet software, it belongs in the chronology as one of the first concrete attempts to make Koinos interoperable at the developer-tooling layer, not only through token bridges.
+
 ## 26.06.2026 - Kondor 2.0 Returns
 
 On June 26, 2026, `@koinos_community` announced Kondor v2 for beta testing. Kondor had been one of the most important wallets in the Koinos ecosystem since testnet, and its return carried both practical and symbolic weight.
@@ -625,7 +653,7 @@ The Koinos story has several distinct phases:
 12. **Koinos Group transition:** after Koinos Group deploys resources such as the 1 million KOIN free-usage pool, the company steps back and the community must maintain the chain.
 13. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
 14. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
-15. **Infrastructure decentralization:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators.
+15. **Infrastructure decentralization and experimentation:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators, while `@interfecto` explores EVM compatibility on testnet.
 16. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
 
 Koinos remains small compared with major layer-ones, but its history is unusually rich. It carries lessons from Steem, the Hive split, fair launch experiments, fee-less UX, modular blockchain architecture, company-led development, community-led maintenance, market failure, and infrastructure rebuilding.
@@ -638,7 +666,9 @@ The central question is no longer only whether Koinos has interesting technology
 - Koinos whitepaper: [Koinos whitepaper](https://koinos.io/whitepaper)
 - KoinosScan: [KOIN claims and distribution analysis](https://koinosscan.com/claims)
 - OpenOrchard / Koinos origin posts linked from the original Hive chronology
+- Koinos official team page: [Who We Are](https://koinos.io/team)
 - Koinos Network: [Koinos Update: Governance, Randomness, New CTO!](https://medium.com/koinosnetwork/koinos-update-governance-randomness-new-cto-58ee359f8ac7)
+- Koinos Network: [Introducing the EASY FORK](https://medium.com/koinosnetwork/introducing-the-easy-fork-testnet-update-81e7d09a1016)
 - Koinos Developer Hub: [AssemblyScript SDK](https://docs.koinos.io/developers/as-sdk/)
 - GitHub: [koinos/koinos-sdk-as](https://github.com/koinos/koinos-sdk-as)
 - BurnKoin: [Burn Koin](https://burnkoin.com/)
@@ -702,8 +732,11 @@ The central question is no longer only whether Koinos has interesting technology
 - Julian Gonzalez: [Kondor v1.0.0 is live](https://hive.blog/koinos/@jga/kondor-v1-is-live)
 - Julian Gonzalez: [Manuscript: Koinos wallet that supports hardware wallets](https://hive.blog/koinos/@jga/manuscript)
 - Julian Gonzalez: [The Koinos Fund System is Live!](https://hive.blog/koinos/@jga/the-koinos-fund-system-is-live)
+- GitHub: [interfecto/koinos-evm-engine](https://github.com/interfecto/koinos-evm-engine)
 - GitHub: [koinos/koinos releases](https://github.com/koinos/koinos/releases)
 - GitHub: [koinos/koinos-chain](https://github.com/koinos/koinos-chain)
 - X: [Koinos Network](https://x.com/KoinosNetwork)
 - Local Telegram evidence archive: `koinos-telegram-evidence.json`
+- Telegram authenticated search: Koinos Community Working Group announcement, message 144 and revised message 182, September 4, 2025
+- Telegram authenticated search: `@koinos_community` EVM compatibility and `interfecto/koinos-evm-engine` messages, May 29 and June 13, 2026
 - Telegram channels: [`@koinos_community`](https://t.me/koinos_community), [`@thekoinosarmy`](https://t.me/thekoinosarmy), [`@koinoshispano`](https://t.me/koinoshispano), [`@KoinosTCB`](https://t.me/KoinosTCB), [`@Koincity`](https://t.me/Koincity), [`@koindx`](https://t.me/koindx), [`@koinsocials`](https://t.me/koinsocials)
