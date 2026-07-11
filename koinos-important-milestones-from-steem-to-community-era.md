@@ -8,7 +8,7 @@ The sources used here include the original Hive chronology, Koinos whitepaper, K
 
 ## Methodology: Telegram and Discord as Community Evidence
 
-For this revision, I used a local Telegram session and generated an evidence report containing 2,172 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `Konio`, `Sovrano`, `Veive`, `Adriano Foschi`, `cafe`, `Cafe identity`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, `v1.5.2`, `Julian Gonzalez`, `Julián González`, `joticajulian`, `Jga`, `Arkinos`, `Koinos Nicknames`, `Manuscript`, and `Fogata`.
+For this revision, I used a local Telegram session and generated an evidence report containing 2,172 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `Konio`, `Sovrano`, `Veive`, `Adriano Foschi`, `cafe`, `Cafe identity`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, `v1.5.2`, `Julian Gonzalez`, `Julián González`, `joticajulian`, `Jga`, `Arkinos`, `Koinos Nicknames`, `Manuscript`, `Fogata`, `DeGemsCrew`, and `Koinos Army`.
 
 I also reviewed public X posts from `@TheKoinosGroup` and Andrew Levine's `@andrarchy` account through authenticated X search in Chrome, covering the indexed posts that X returned from 2020 through July 2026. The X review was most useful for company-side narrative signals: KoinosPro marketing, the first in-band upgrade, Wachsman/HackerEarth growth efforts, KoinDX positioning, Koinos Federation support, the 1 million KOIN free-usage pool, and Andrew's public comments after leaving Koinos Group.
 
@@ -225,6 +225,16 @@ This deserves a place immediately after the early mining-pool milestones because
 On February 6, 2023, community developer Julián González followed with [How to setup a second producer in Koinos Blockchain](https://hive.blog/koinos/@jga/koinos-2-producers). The post explained how Koinos' microservice architecture allowed more than one producer to be run from a single node setup.
 
 This was a practical operator milestone. It showed that Koinos' modular architecture was not only an internal engineering choice, but something community operators could use to improve producer participation and experiment with pool infrastructure.
+
+## 04.04.2023 - Koinos Army Becomes a Visible Community Hub
+
+Telegram evidence shows that `@thekoinosarmy` was already active before mainnet as a price, speculation, and community chat. By late 2021 it had a working KOIN price bot, and by late 2022 it was already discussing mainnet, claims, circulating supply, and peer-to-peer buying. The formal public shape became clearer in April 2023.
+
+On April 4 and 5, 2023, messages from the `@DeGemsCrew` account in `@thekoinosarmy` described a plan to use Koinos Army as more than a price room: a center hub for the Koinos blockchain, a place to connect developers with users through AMAs, a channel for updates about existing dApps, and a social layer around Koinos Army NFT collectibles. The same messages also referred to Koinos Army's previous two years of support, which places its community history back into the ERC-20 / pre-mainnet period.
+
+This belongs in the chronology because Telegram groups were part of Koinos' actual infrastructure of coordination. The official Koinos community group often tried to keep technical and project discussion separate from price talk; over time, `@thekoinosarmy` became the place where price, speculation, market frustration, DeFi liquidity, wallet movement, and later community announcements could happen without overwhelming the main group.
+
+The boundary with DeGems also matters. In October 2023, a message in Koinos Army explicitly distinguished the Koinos Army chat from the "degems" chat, saying the former was for Koinos Army rather than unrelated speculative tokens. That separation helps explain why Koinos Army later became useful as a Koinos-specific outlet even though it retained a more market-oriented tone than the main developer and community channels.
 
 ## 19.04.2023 - KAP Launches Its Premium Name Service
 
@@ -556,7 +566,7 @@ This is important for the chronological treatment of community developers such a
 
 ## 14.09.2025 - Vortex Bridge Goes Live
 
-The official Koinos website placed Vortex launch in Q3 2025, and Telegram confirms the practical launch window. On September 14, 2025, `@KoinosTCB` and `@thekoinosarmy` announced that Vortex Bridge was live for Ethereum and Koinos.
+The official Koinos website placed Vortex launch in Q3 2025, and Telegram confirms the practical launch window. On September 14, 2025, `@KoinosTCB` and `@thekoinosarmy` announced that Vortex Bridge was live for Ethereum and Koinos. In Koinos Army, the launch message was practical rather than ceremonial: it linked the bridge, warned users not to grant infinite token approvals, and explained the thin-liquidity reality on KoinDX and Ethereum-side routes.
 
 Vortex has to be understood as the successor to the Chainge disappointment. The earlier Chainge integration had been celebrated as cross-chain access, but by 2026 community discussions described it as a major loss event and strategic mistake. Vortex represented a more controlled route for bridging native KOIN and wrapped assets.
 
@@ -679,7 +689,7 @@ The Koinos story has several distinct phases:
 5. **Testnet era:** microservices, Roamin's AssemblyScript/TypeScript smart contract path, governance, KPoB, mana, and modular architecture take shape.
 6. **Mainnet:** Koinos launches on November 5, 2022, and completes initial decentralization on December 5, 2022.
 7. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-8. **First mainnet year:** BurnKoin, Fogata, KAP, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+8. **First mainnet year:** BurnKoin, Fogata, KAP, Koinos Army, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 9. **Governance proof:** Koinos demonstrates in-band upgradeability in 2023, and Julian Gonzalez's system-call proposal becomes the first community-driven forkless governance upgrade in 2024.
 10. **Developer and user tooling:** KCS-2/Kollection, Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, and ecosystem dApps make the chain more usable.
 11. **Community communication:** Spanish-speaking community members such as Carlos Welele, Transeunte, and `@nomad100x` help with social guardrails, bilingual updates, proposal discussion, and informal coordination.
@@ -778,4 +788,7 @@ The central question is no longer only whether Koinos has interesting technology
 - Telegram authenticated search: Carlos Welele / `@Weleleliano` anti-scam group warning and KoinSocials sharing, July 1 and November 24, 2024
 - Telegram authenticated search: Alberto / `@transeunte` bilingual blog, X updates, NFTs, and Koinos video message, February 10, 2025
 - Telegram authenticated search: `@nomad100x` Koinos Garden, foundation, and funding-mechanism discussion messages, December 30, 2024 and June 26, 2025
-- Telegram channels: [`@koinos_community`](https://t.me/koinos_community), [`@thekoinosarmy`](https://t.me/thekoinosarmy), [`@koinoshispano`](https://t.me/koinoshispano), [`@KoinosTCB`](https://t.me/KoinosTCB), [`@Koincity`](https://t.me/Koincity), [`@koindx`](https://t.me/koindx), [`@koinsocials`](https://t.me/koinsocials)
+- Telegram authenticated search: `@DeGemsCrew` / Koinos Army hub and NFT collectible messages, April 4-5, 2023
+- Telegram authenticated search: Koinos Army / DeGems boundary message, October 6, 2023
+- Telegram authenticated search: `@thekoinosarmy` Vortex Bridge launch message, September 14, 2025
+- Telegram channels: [`@koinos_community`](https://t.me/koinos_community), [`@thekoinosarmy`](https://t.me/thekoinosarmy), [`@DeGemsCrew`](https://t.me/DeGemsCrew), [`@koinoshispano`](https://t.me/koinoshispano), [`@KoinosTCB`](https://t.me/KoinosTCB), [`@Koincity`](https://t.me/Koincity), [`@koindx`](https://t.me/koindx), [`@koinsocials`](https://t.me/koinsocials)
