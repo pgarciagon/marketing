@@ -10,9 +10,7 @@ In the age of AI-generated software, this distinction becomes more important. Yo
 
 This article is therefore not only a list of milestones. It is an attempt to preserve the memory of a blockchain as a social, technical, and historical object.
 
-It is an English continuation and expansion of the Hive post [Algunos hechos importantes narrados en orden cronologico](https://hive.blog/koinos/@koinosenespanol/algunas-hechos-importantes-narrados-en-orden-cronologico). The original chronology ended on December 5, 2022, when Koinos completed its first phase of decentralization after mainnet launch.
-
-This version starts earlier, because the Koinos story does not begin with KOIN mining or mainnet. It begins in the Steem era: a practical demonstration that fee-less blockchain applications could reach normal users, followed by a governance crisis that shaped many of Koinos' design goals.
+The Koinos story does not begin with KOIN mining or mainnet. It begins in the Steem era: a practical demonstration that fee-less blockchain applications could reach normal users, followed by a governance crisis that shaped many of Koinos' design goals.
 
 The sources used here include the original Hive chronology, Koinos whitepaper, Koinos Group and Koinos Network posts, GitHub releases, koinos.io, public X posts, a local Telegram evidence archive generated from the Koinos community channels, and authenticated Koinos Discord searches.
 
