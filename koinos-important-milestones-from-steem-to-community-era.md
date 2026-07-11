@@ -109,6 +109,14 @@ The aim was to preserve user-facing feelessness while still creating a security 
 
 On March 8, 2022, Koinos launched testnet v0.3. This was another step toward mainnet readiness, adding more of the system contracts and chain logic needed for production.
 
+## 27.04.2022 - Roamin's AssemblyScript SDK Becomes First-Party Koinos Software
+
+On April 27, 2022, Koinos Network published an update saying that AssemblyScript had become first-party software on Koinos. The post credited community developer `@Roamin` for the AssemblyScript SDK, which made Koinos smart contracts accessible to developers familiar with TypeScript and JavaScript.
+
+This was more than a tooling footnote. Before this shift, the original smart contract path was centered on C++. Roamin's SDK made Koinos development feel closer to the web-development world, where many more developers already know TypeScript-style syntax. Koinos Group then integrated that work into the main development path: the governance contract was rewritten in AssemblyScript, and the team described the AssemblyScript SDK as the intended premier smart contract development toolkit for Koinos.
+
+Chronologically, this belongs before the governance milestone because it helped shape how the core system itself was built. The language/tooling decision was not only for third-party dApps; it quickly became part of Koinos' own system-contract implementation and developer-experience identity.
+
 ## 01.06.2022 - Governance Contract Completed
 
 On June 1, 2022, Koinos announced the completion of the governance contract, described as the world's simplest DAO.
@@ -533,7 +541,7 @@ The Koinos story has several distinct phases:
 2. **Steem governance crisis:** exchange-backed governance capture and the Hive fork shape Koinos' decentralization goals.
 3. **OpenOrchard and Koinos Group:** the former Steem developers organize to build a new chain from scratch.
 4. **Fair launch:** KOIN is mined as an ERC-20 without ICO or pre-mine.
-5. **Testnet era:** microservices, governance, KPoB, mana, and modular architecture take shape.
+5. **Testnet era:** microservices, Roamin's AssemblyScript/TypeScript smart contract path, governance, KPoB, mana, and modular architecture take shape.
 6. **Mainnet:** Koinos launches on November 5, 2022, and completes initial decentralization on December 5, 2022.
 7. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
 8. **First mainnet year:** BurnKoin, Fogata, KAP, KoinDX, KoinosPro, Koinos Polls, Nicknames, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
@@ -556,6 +564,9 @@ The central question is no longer only whether Koinos has interesting technology
 - Koinos whitepaper: [Koinos whitepaper](https://koinos.io/whitepaper)
 - KoinosScan: [KOIN claims and distribution analysis](https://koinosscan.com/claims)
 - OpenOrchard / Koinos origin posts linked from the original Hive chronology
+- Koinos Network: [Koinos Update: Governance, Randomness, New CTO!](https://medium.com/koinosnetwork/koinos-update-governance-randomness-new-cto-58ee359f8ac7)
+- Koinos Developer Hub: [AssemblyScript SDK](https://docs.koinos.io/developers/as-sdk/)
+- GitHub: [koinos/koinos-sdk-as](https://github.com/koinos/koinos-sdk-as)
 - BurnKoin: [Burn Koin](https://burnkoin.com/)
 - GitHub: [lukemwillis/koinos-burn-pool](https://github.com/lukemwillis/koinos-burn-pool)
 - motoengineer: [Burn KOIN, Earn KOIN. The first and simplest Proof of Burn mining pool](https://hive.blog/koinos/@motoengineer/burn-koin-earn-koin-the-first-and-simplest-proof-of-burn-mining-pool)
