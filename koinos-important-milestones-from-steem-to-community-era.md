@@ -4,13 +4,13 @@ This article is an English continuation and expansion of the Hive post [Algunos 
 
 This version starts earlier, because the Koinos story does not begin with KOIN mining or mainnet. It begins in the Steem era: a practical demonstration that fee-less blockchain applications could reach normal users, followed by a governance crisis that shaped many of Koinos' design goals.
 
-The sources used here include the original Hive chronology, Koinos whitepaper, Koinos Group and Koinos Network posts, GitHub releases, koinos.io, public X posts, and a local Telegram evidence archive generated from the Koinos community channels.
+The sources used here include the original Hive chronology, Koinos whitepaper, Koinos Group and Koinos Network posts, GitHub releases, koinos.io, public X posts, a local Telegram evidence archive generated from the Koinos community channels, and authenticated Koinos Discord searches.
 
-## Methodology: Telegram as Community Evidence
+## Methodology: Telegram and Discord as Community Evidence
 
 For this revision, I used a local Telegram session and generated an evidence report containing 2,172 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `Konio`, `Sovrano`, `Veive`, `Adriano Foschi`, `cafe`, `Cafe identity`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, `v1.5.2`, `Julian Gonzalez`, `Julián González`, `joticajulian`, `Jga`, `Arkinos`, `Koinos Nicknames`, `Manuscript`, and `Fogata`.
 
-Telegram is not used here as the sole source of official dates. It is used as a community record: it shows how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local evidence file is archived next to this article as `koinos-telegram-evidence.json`.
+Telegram and Discord are not used here as the sole source of official dates. They are used as community records: they show how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local Telegram evidence file is archived next to this article as `koinos-telegram-evidence.json`; Discord evidence was checked through authenticated searches in the Koinos server, especially for `Konio`, `Sovrano`, `Veive`, and `Adriano`.
 
 ## 2016-2020 - The Steem Lesson
 
@@ -221,9 +221,11 @@ That same period also included his post on updating the claiming contract and hi
 
 On July 25, 2023, Koinos community channels shared the release of Konio v1.5.2 with a simple message: "FAST SIMPLE FREE." Konio was Adriano Foschi's native mobile wallet for Koinos, and its GitHub repository describes it as the first Koinos blockchain native mobile wallet, built for Android and iOS.
 
+Discord adds an earlier community snapshot of the same wallet landscape. On June 28 and June 30, 2023, messages in the Koinos Discord copied a wallet list that described "Konio Wallet (iOS & android)" as a mobile wallet, "Created by Adriano", open sourced at `adrianofoschi/konio-mobile`, and labeled "First Mobile Koinos Wallet". That is useful because it shows how the community understood Konio at the time, before the later Sovrano transition.
+
 Konio matters because Koinos' promise was not only technical. A fee-less blockchain still needs wallets that ordinary users can install, understand, and use away from a browser extension. Adriano later explained that he had discovered Koinos at the beginning of 2023 and created Konio because there was no mobile wallet for the chain. That made Konio one of the first serious attempts to turn Koinos' fee-less design into a mobile-first user experience.
 
-The later history was mixed. By 2025, community messages described Konio as inactive and not updated for the KCS-4 transition. But that does not reduce its historical role. Konio was the first native mobile-wallet step, and it also foreshadowed Adriano's later direction: moving from a conventional mobile wallet toward smart accounts, modular authorization, and Sovrano.
+The later history was mixed. By 2025, community messages described Konio as inactive and not updated for the KCS-4 transition. Discord shows the practical side of that transition as well: users reported that the old Konio wallet no longer opened, asked how to recover access, and were told to restore with their seed phrase or import the private key into another wallet such as Kondor. But that does not reduce Konio's historical role. Konio was the first native mobile-wallet step, and it also foreshadowed Adriano's later direction: moving from a conventional mobile wallet toward smart accounts, modular authorization, and Sovrano.
 
 ## August 2023 - KoinDX Launches the First DEX on Koinos
 
@@ -419,9 +421,11 @@ The most important items included:
 
 On November 13, 2024, Koinos community channels shared the Sovrano Auth testnet announcement. The first public focus was not simply another wallet screen. It was passwordless account creation, authentication, authorization, and an SDK that developers could begin integrating into dApps.
 
+The same date appears in Discord with more developer detail. A post by `adrihoke` announced that the Sovrano SDK was available for Koinos dApp integration, including account signup, user login, and transaction authorization through redirects. The message said the SDK was still on Harbinger testnet and added that Konio would be phased out in the coming months.
+
 This was the next step in Adriano Foschi's wallet work after Konio. His public GitHub profile identifies him as creator of Konio, Veive, and Sovrano. Konio had solved the earlier mobile-wallet gap. Veive and Sovrano moved the problem up a layer: instead of only giving users a mobile wallet, they tried to make smart accounts feel closer to familiar payment and login systems.
 
-That distinction matters. Koinos had always argued for fee-less, familiar user experience, but account abstraction is where that promise becomes practical: recovery, permissions, spending limits, delegated actions, and dApp authorization can be handled through account logic rather than raw key management. As Konio became less maintained after KCS-4, Sovrano became the forward-looking continuation of Adriano's accessibility track.
+That distinction matters. Koinos had always argued for fee-less, familiar user experience, but account abstraction is where that promise becomes practical: recovery, permissions, spending limits, delegated actions, and dApp authorization can be handled through account logic rather than raw key management. As Konio became less maintained after KCS-4, Sovrano became the forward-looking continuation of Adriano's accessibility track. Discord evidence from July 2025 later described Sovrano as being in public beta, with social login support for Google, Twitter, Discord, and Telegram, fully fee-less asset management and identity, and a link to the upcoming Veive Protocol.
 
 ## 20.12.2024 - Roadmap Update and 2025 Plans
 
@@ -606,6 +610,7 @@ The central question is no longer only whether Koinos has interesting technology
 - GitHub: [konio-io/konio-mobile](https://github.com/konio-io/konio-mobile)
 - Konio: [Welcome in our Medium space!](https://medium.com/@konio_io/welcome-9b49af842775)
 - GitHub: [Adriano Foschi](https://github.com/adrianofoschi)
+- Koinos Discord authenticated searches: `Konio`, `Sovrano`, `Veive`, `Adriano` in the Koinos server, including `#general` and historical search results accessed on July 11, 2026
 - MiXiBo: [The Koincity Project: Launchpad for the Koinos Blockchain](https://mixibo.medium.com/the-koincity-project-launchpad-for-the-koinos-blockchain-b7ed343e0229)
 - Koinos Network: [Chainge integrates Koinos](https://medium.com/koinosnetwork/koinos-goes-cross-chain-57d6e311fa86)
 - Koinos Network: [The Koinos Community is partnering with Rhubarb Media](https://medium.com/koinosnetwork/the-koinos-community-is-partnering-with-rhubarb-media-a146ddeff309)
