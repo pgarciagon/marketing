@@ -10,6 +10,8 @@ The sources used here include the original Hive chronology, Koinos whitepaper, K
 
 For this revision, I used a local Telegram session and generated an evidence report containing 2,172 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `Konio`, `Sovrano`, `Veive`, `Adriano Foschi`, `cafe`, `Cafe identity`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, `v1.5.2`, `Julian Gonzalez`, `Julián González`, `joticajulian`, `Jga`, `Arkinos`, `Koinos Nicknames`, `Manuscript`, and `Fogata`.
 
+I also reviewed public X posts from `@TheKoinosGroup` and Andrew Levine's `@andrarchy` account through authenticated X search in Chrome, covering the indexed posts that X returned from 2020 through July 2026. The X review was most useful for company-side narrative signals: KoinosPro marketing, the first in-band upgrade, Wachsman/HackerEarth growth efforts, KoinDX positioning, Koinos Federation support, the 1 million KOIN free-usage pool, and Andrew's public comments after leaving Koinos Group.
+
 Telegram and Discord are not used here as the sole source of official dates. They are used as community records: they show how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local Telegram evidence file is archived next to this article as `koinos-telegram-evidence.json`; Discord evidence was checked through authenticated searches in the Koinos server, especially for `Konio`, `Sovrano`, `Veive`, and `Adriano`.
 
 ## 2016-2020 - The Steem Lesson
@@ -203,6 +205,8 @@ The launch matters because it turned the January whitepaper into a live user-fac
 
 By August 2023, Luke and Kui presented KAP publicly on DevNTell. That presentation described KAP as a way to give users free or premium usernames, smart-wallet style account abstraction, and tokenless access through Koinos mana. Chronologically, KAP belongs before later identity and wallet milestones such as Koinos Nicknames, Kondor upgrades, and Manuscript because it was one of the earliest public attempts to turn Koinos' fee-less architecture into a complete onboarding experience.
 
+Andrew Levine's July 2023 X demo also shows why KAP mattered in practice: he demonstrated a fast, fee-less token transfer to an NFT-based account name using Kondor and KAP, framing it as the future of Web3 UX. The important point is not the demo itself, but the combination of pieces: readable names, a usable wallet, and no visible gas fee.
+
 ## 20.04.2023 - Koinos Group Focuses on Infrastructure and Applications
 
 On April 20, 2023, Andrew Levine published [Koinos Group in 2023](https://medium.com/koinos-group/koinos-group-in-2023-f1b597839c79). The post explained that, after launching mainnet on November 5, 2022, Koinos Group had shifted focus toward Koinos Pro, a SaaS product intended to make integration with the blockchain easier.
@@ -210,6 +214,8 @@ On April 20, 2023, Andrew Levine published [Koinos Group in 2023](https://medium
 The message was straightforward: Koinos had a fee-less network, but developers and businesses still needed reliable infrastructure. Koinos Pro was presented as the bridge between the chain and applications: APIs, scaling, and a future Mana Fountain so developers could access resources without operating every layer themselves.
 
 The same article mentioned Koinos Play and gaming-oriented collaborations, including GameStack, Royal Reptile Studios, and Splinterlands. Not all of those efforts later had the same public visibility, but they show the early post-mainnet exploration phase: Koinos was looking for use cases where fee-less interaction could matter to normal users.
+
+Koinos Group's X account later turned KoinosPro into a more explicit developer-infrastructure message. In July 2023 it described KoinosPro as a ready-to-use platform where developers could focus on coding while Koinos Group handled node operation, security, scalability, support, documentation, and access to the latest chain version. That public messaging matters because it shows the company moving from chain launch toward a SaaS-style infrastructure business before KoinosPro V1 went live in 2024.
 
 ## 27.04.2023 - Justin Welch Launches Kollection, Koinos' First NFT Marketplace
 
@@ -221,11 +227,27 @@ Justin's role connects Kollection to Koinos Contract Standards. The Kollection l
 
 Steve Gerbino later summarized Justin's role clearly in a Koinos Network update, crediting him with leading the KCS effort and developing Kollection, one of the important on-chain dApps in the ecosystem. Chronologically, Kollection therefore belongs before later ecosystem summaries: it was one of the first signs that Koinos could support real consumer-facing applications, not only base-layer architecture.
 
+## May-July 2023 - Wachsman, HackerEarth, and the 20 dApps / 100,000 Users Campaign
+
+In May 2023, Koinos Group's X account began describing a marketing campaign aimed at onboarding 20 dApps and 100,000 users to Koinos in six months. In June, Andrew Levine and Koinos Group said that Wachsman had been brought in to spearhead that campaign. In July, they connected the same strategy to a HackerEarth hackathon that was scheduled to start on July 10 and run for four weeks.
+
+This belongs in the chronology because it shows the gap between technical launch and adoption. Koinos had mainnet, mana, wallets, and early applications, but the team was still looking for a repeatable path to attract outside developers. The campaign also helps explain the later focus on KoinosPro, documentation, examples, and developer experience: the project needed more than community belief; it needed builders who could discover the chain, ship a dApp, and stay.
+
+The campaign should be read as an important strategic effort, not as proof that the adoption target was achieved. Its historical value is that it captures Koinos Group's 2023 growth thesis: use professional communications, developer competitions, and infrastructure tooling to turn the first fee-less blockchain into a developer platform.
+
+## 14.06.2023 - First In-Band Upgrade Demonstrates Forkless Evolution
+
+On June 14, 2023, Steve Gerbino described a successful in-band upgrade on Koinos, and Koinos Group said it was happy to vote on the upgrade through the on-chain DeGov system. Andrew Levine summarized the moment as a major milestone: a critical piece of the blockchain had been updated seamlessly through a transparent, decentralized process, without a hard fork.
+
+This is distinct from the February 2024 community governance milestone. The 2024 event was the first community-driven governance proposal applied on mainnet. The June 2023 event was earlier proof that Koinos' forkless upgrade architecture could actually update live network components through the governance path. Together, they show a progression: first the mechanism works, then independent community developers learn to use it.
+
 ## 15.06.2023 - Koinos Polls and Early Governance Coordination
 
 On June 15, 2023, Julian published [Koinos Polls](https://hive.blog/koinos/@jga/polls), a free dApp for measuring consensus before code was ready for an on-chain governance proposal. The timing matters: Koinos had governance, but the community still needed lower-friction ways to discuss whether a proposal was worth building.
 
 That same period also included his post on updating the claiming contract and his June 26 post, [Is Koinos a decentralized blockchain?](https://hive.blog/koinos/@jga/is-koinos-a-decentralized-blockchain), which directly criticized the concentration of block production. In chronological terms, this is where the post-mainnet conversation shifted from "the chain launched" to "how decentralized is the chain in practice?"
+
+By July 2023, Julian's work also reached block-producer governance participation. Andrew Levine amplified Julian's announcement that the JGA Mining Pool let participants take part in Koinos governance decisions, calling it a major innovation because it made block production and governance participation more accessible. That detail matters because it ties Julian's software milestones to the same decentralization problem raised in his June post.
 
 ## 25.07.2023 - Adriano Launches Konio, the First Native Mobile Wallet
 
@@ -262,6 +284,8 @@ The person presenting the idea was Jon Rice, who introduced himself as a long-ti
 The Federation idea tried to fill that gap. But it also became controversial. Critics worried that any treasury, inflation event, appointed committee, OTC sale, or listing fund could recreate the same centralization and insider-deal dynamics Koinos had tried to avoid. Supporters argued that without some coordinated structure, Koinos would remain under-marketed, under-listed, and too dependent on volunteers.
 
 The debate around Jon was part of that broader tension. Some community members saw him as bringing professional marketing and crypto media experience. Others criticized the proposal as too centralized, too close to a quasi-foundation before the community had clear governance norms, or too willing to dilute supply in exchange for listings and market-making support.
+
+The idea later received more public amplification. On October 20, 2023, Andrew Levine said he was thrilled that Jon was spearheading the Koinos Federation, arguing that Jon's experience and network could help accelerate decentralization through accessibility. That matters because the Federation debate was not only a Telegram-side proposal: it became part of the public Koinos narrative, backed by the former CEO even while some community members remained skeptical.
 
 ## 17.09.2023 - The New System Call Reaches Testnet
 
@@ -373,6 +397,8 @@ During 2024, the official Koinos website began showing a more recognizable ecosy
 
 This mattered because a layer-one without an ecosystem remains abstract infrastructure. Wallets, DEXs, marketplaces, explorers, and launchpads made Koinos usable.
 
+Andrew Levine had made a related point at the end of 2023: the first-year Koinos dApps were built by community developers with no grants, weak tooling, and poor documentation. That public criticism is important context. It was not simply a promotional claim that Koinos had an ecosystem; it was also an admission that early builders were operating without the support structure that most developer platforms need.
+
 ## 29.06.2024 - Nicknames Become More Flexible
 
 On June 29, 2024, Julian published a Nicknames update that allowed the linked address to differ from the nickname owner. This made Nicknames more useful for profiles, token identities, and project addresses, not only for simple personal account naming.
@@ -388,6 +414,14 @@ Vortex was presented as a native bridge between Koinos and Ethereum, inspired by
 The design used independent guardian nodes: five of seven guardians had to validate deposits before assets could be bridged to the destination chain. The post also mentioned future improvements such as WalletConnect on Koinos, automatic claiming, an admin portal, and expansion to other chains.
 
 On Telegram, Vortex appeared even before the official post as one of the most anticipated catalysts. On May 25, 2024, `@koinoshispano` summarized that Koinos Group had announced a bridge called Vortex. In July 2024, KoinCity groups were already discussing how Chainge and Vortex would coexist.
+
+## 29.07.2024 - Koinos Group Deploys 1 Million KOIN to Make Usage Free
+
+On July 29, 2024, Andrew Levine amplified a Koinos Network announcement that Koinos Group had deployed 1 million KOIN to make Koinos easier to use. The idea was to share the mana associated with that KOIN so users and dApps could interact with the chain without first buying tokens or managing resource constraints.
+
+This milestone belongs beside Vortex and KoinosPro because it addresses the same adoption problem from another angle. Koinos could already be fee-less in protocol terms, but users still needed access to mana. A shared resource pool made the "free-to-use" claim more concrete for onboarding, especially for retail users and dApps trying to reduce first-use friction.
+
+It also foreshadows the later institutional problem. Koinos Group was still using its remaining resources to support ecosystem access in mid-2024, but by late 2024 and 2025 the company was stepping back. That made the question of who funds shared infrastructure, liquidity, and user onboarding much more urgent.
 
 ## July 2024 - Federation Debate Resurfaces
 
@@ -450,6 +484,8 @@ That post also connected KOIN/VHP improvements to the trust needed by Kollection
 ## Late 2024-Early 2025 - Koinos Group Starts Stepping Back
 
 One essential part of the post-mainnet story is that Koinos stopped being, in practice, a project led by Koinos Group. In December 2024, Andrew Levine announced in `@koinos_community` that he was leaving the company after discussions with his co-founders. During 2025, community conversations became more explicit: Koinos Group was no longer the center of the project, and some of its core architects moved toward a new project, Respublica.
+
+Andrew's public X posts sharpen the chronology. On December 19, 2024, he wrote that he was no longer the CEO of Koinos Group and was taking a step back to evaluate Koinos from outside the company. He also asked whether leaving Koinos Group meant leaving Koinos, implying that the answer was no. On January 9, 2025, he added that he was no longer working at Koinos Group but remained bullish on Koinos and still a large shareholder in the company he had run for four years.
 
 This changes the tone of the chronology. Until then, many milestones could be read as company execution on top of a decentralized network. After this transition, the harder question became: if the company that launched the chain no longer leads it, can the community maintain the chain, infrastructure, and narrative by itself?
 
@@ -582,11 +618,11 @@ The Koinos story has several distinct phases:
 5. **Testnet era:** microservices, Roamin's AssemblyScript/TypeScript smart contract path, governance, KPoB, mana, and modular architecture take shape.
 6. **Mainnet:** Koinos launches on November 5, 2022, and completes initial decentralization on December 5, 2022.
 7. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-8. **First mainnet year:** BurnKoin, Fogata, KAP, Kollection, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
-9. **Governance proof:** Julian Gonzalez's system-call proposal becomes the first forkless governance upgrade in 2024.
+8. **First mainnet year:** BurnKoin, Fogata, KAP, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+9. **Governance proof:** Koinos demonstrates in-band upgradeability in 2023, and Julian Gonzalez's system-call proposal becomes the first community-driven forkless governance upgrade in 2024.
 10. **Developer and user tooling:** KCS-2/Kollection, Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, and ecosystem dApps make the chain more usable.
 11. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
-12. **Koinos Group transition:** the company steps back, and the community must maintain the chain.
+12. **Koinos Group transition:** after Koinos Group deploys resources such as the 1 million KOIN free-usage pool, the company steps back and the community must maintain the chain.
 13. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
 14. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
 15. **Infrastructure decentralization:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators.
@@ -613,11 +649,19 @@ The central question is no longer only whether Koinos has interesting technology
 - Kui He: [Everything You Need to Know About KAP's April 19th Launch + Roadmap](https://medium.com/@kuixihe/everything-you-need-to-know-about-kaps-april-19th-launch-roadmap-1dcf8fa4ef77)
 - DevNTell: [Koinos Account Protocol](https://www.devntell.com/podcast/koinos-account-protocol)
 - Developer DAO: [DevNTell - Koinos Account Protocol](https://blog.developerdao.com/devntell-koinos-account-protocol)
+- Andrew Levine on X: [KAP/Kondor fee-less UX demo](https://x.com/andrarchy/status/1681005550128046080)
 - Koinos Group: [Koinos Group in 2023](https://medium.com/koinos-group/koinos-group-in-2023-f1b597839c79)
+- Koinos Group on X: [KoinosPro developer-infrastructure post](https://x.com/TheKoinosGroup/status/1678865248164478976)
 - Kollection: [Kollection Launch Announcement](https://kollection.medium.com/kollection-launch-announcement-8ca9e67273f9)
 - GitHub: [kollection-nft/marketplace](https://github.com/kollection-nft/marketplace)
 - GitHub: [KCS-2 NFT Collection Standard](https://github.com/koinos/koinos-contract-standards/blob/master/KCSs/kcs-2.md)
 - Koinos Network: [A message from Steve](https://medium.com/koinosnetwork/a-message-from-steve-33ad9f685b8b)
+- Koinos Group on X: [20 dApps and 100,000 users campaign](https://x.com/TheKoinosGroup/status/1663975840151896066)
+- Andrew Levine on X: [Wachsman marketing campaign](https://x.com/andrarchy/status/1672255967159779328)
+- Andrew Levine on X: [HackerEarth hackathon strategy](https://x.com/andrarchy/status/1677338793404235776)
+- Andrew Levine on X: [first successful forkless upgrade](https://x.com/andrarchy/status/1668803627237134337)
+- Koinos Group on X: [DeGov in-band upgrade vote](https://x.com/TheKoinosGroup/status/1668804432052785153)
+- Andrew Levine on X: [JGA Mining Pool governance participation](https://x.com/andrarchy/status/1681786592795541504)
 - Koinos Group: [ANN: KoinDX & Koinos Group Partnership](https://medium.com/koinos-group/ann-koindx-koinos-group-partnership-3916ebe57405)
 - KoinDX: [KoinDX Docs](https://docs.koindx.com/)
 - KoinDX: [KoinDX Mana Fountain](https://medium.com/@koindx/koindx-mana-fountain-98253a10dc2c)
@@ -626,15 +670,21 @@ The central question is no longer only whether Koinos has interesting technology
 - GitHub: [Adriano Foschi](https://github.com/adrianofoschi)
 - Koinos Discord authenticated searches: `Konio`, `Sovrano`, `Veive`, `Adriano` in the Koinos server, including `#general` and historical search results accessed on July 11, 2026
 - MiXiBo: [The Koincity Project: Launchpad for the Koinos Blockchain](https://mixibo.medium.com/the-koincity-project-launchpad-for-the-koinos-blockchain-b7ed343e0229)
+- Andrew Levine on X: [Koinos Federation and Jon Rice](https://x.com/andrarchy/status/1715443278202429875)
 - Koinos Network: [Chainge integrates Koinos](https://medium.com/koinosnetwork/koinos-goes-cross-chain-57d6e311fa86)
+- Andrew Levine on X: [first-year community dApps without grants](https://x.com/andrarchy/status/1735300843086217605)
 - Koinos Network: [The Koinos Community is partnering with Rhubarb Media](https://medium.com/koinosnetwork/the-koinos-community-is-partnering-with-rhubarb-media-a146ddeff309)
 - Koinos Network: [Welcome to 2024 Koinos Community!](https://medium.com/koinosnetwork/welcome-to-2024-koinos-community-cb45f1d59cde)
 - Koinos Network: [First Koinos Governance Proposal Applied!](https://medium.com/koinosnetwork/first-koinos-governance-proposal-applied-a531dfb2a74e)
 - Andrew Levine: [KoinosPro is LIVE](https://andrewlevine.medium.com/koinospro-is-live-a9619f8e93ab)
 - Koinos Network: [Vortex Bridge Public Testing Now Live!](https://medium.com/koinosnetwork/vortex-bridge-public-testing-now-live-f7d2166d415a)
+- Andrew Levine on X: [1 million KOIN free-usage pool](https://x.com/andrarchy/status/1817937409620783289)
 - Koinos Network: [Koinos Technical Roadmap](https://medium.com/koinosnetwork/koinos-technical-roadmap-3be811a3dc0e)
 - Koinos Network: [Roadmap Update Q4 2024](https://medium.com/koinosnetwork/roadmap-update-q4-2024-e16ba1b3c3ce)
 - Koinos Network: [Koinos Group Update: 2025 is Our Year](https://medium.com/koinosnetwork/koinos-group-update-2025-is-our-year-46c4942e9390)
+- Andrew Levine on X: [no longer CEO of Koinos Group](https://x.com/andrarchy/status/1869805708222562568)
+- Andrew Levine on X: [leaving Koinos Group and future plans](https://x.com/andrarchy/status/1869831897565597735)
+- Andrew Levine on X: [no longer working at Koinos Group but still bullish](https://x.com/andrarchy/status/1877464315462361175)
 - Koinos official site: [koinos.io](https://koinos.io/)
 - Koinos Developer Hub: [docs.koinos.io](https://docs.koinos.io/)
 - Julian Gonzalez / @jga: [Hive posts](https://hive.blog/@jga/posts)
