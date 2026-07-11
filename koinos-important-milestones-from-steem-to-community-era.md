@@ -211,6 +211,16 @@ The message was straightforward: Koinos had a fee-less network, but developers a
 
 The same article mentioned Koinos Play and gaming-oriented collaborations, including GameStack, Royal Reptile Studios, and Splinterlands. Not all of those efforts later had the same public visibility, but they show the early post-mainnet exploration phase: Koinos was looking for use cases where fee-less interaction could matter to normal users.
 
+## 27.04.2023 - Justin Welch Launches Kollection, Koinos' First NFT Marketplace
+
+On April 27, 2023, Kollection announced its launch on Koinos mainnet. The announcement described Kollection as the first NFT marketplace using the free-to-use Koinos blockchain and said that, for the first time, users could trade NFTs without gas fees. The launch team was listed as Justin Welch, Dokterkraakbeen, Ederaleng, and VonLooten.
+
+Kollection mattered because it gave Koinos an NFT surface very early in the post-mainnet ecosystem. Until then, Koinos had smart contracts, mana, wallets, and early infrastructure, but it still needed visible user applications. An NFT marketplace is not only about collectibles; it tests wallet signing, token standards, indexing, royalties, listings, metadata, and user-facing marketplace flows.
+
+Justin's role connects Kollection to Koinos Contract Standards. The Kollection launch announcement said the team helped kickstart the KCS repository so Koinos developers could create NFT and token contracts compatible with marketplaces and exchanges. KCS-2, the NFT collection standard, later listed Justin W among its authors and explicitly mentioned that NFT marketplaces such as Kollection would be able to aggregate and display compliant collections.
+
+Steve Gerbino later summarized Justin's role clearly in a Koinos Network update, crediting him with leading the KCS effort and developing Kollection, one of the important on-chain dApps in the ecosystem. Chronologically, Kollection therefore belongs before later ecosystem summaries: it was one of the first signs that Koinos could support real consumer-facing applications, not only base-layer architecture.
+
 ## 15.06.2023 - Koinos Polls and Early Governance Coordination
 
 On June 15, 2023, Julian published [Koinos Polls](https://hive.blog/koinos/@jga/polls), a free dApp for measuring consensus before code was ready for an on-chain governance proposal. The timing matters: Koinos had governance, but the community still needed lower-friction ways to discuss whether a proposal was worth building.
@@ -572,9 +582,9 @@ The Koinos story has several distinct phases:
 5. **Testnet era:** microservices, Roamin's AssemblyScript/TypeScript smart contract path, governance, KPoB, mana, and modular architecture take shape.
 6. **Mainnet:** Koinos launches on November 5, 2022, and completes initial decentralization on December 5, 2022.
 7. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-8. **First mainnet year:** BurnKoin, Fogata, KAP, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+8. **First mainnet year:** BurnKoin, Fogata, KAP, Kollection, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 9. **Governance proof:** Julian Gonzalez's system-call proposal becomes the first forkless governance upgrade in 2024.
-10. **Developer and user tooling:** Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, and ecosystem dApps make the chain more usable.
+10. **Developer and user tooling:** KCS-2/Kollection, Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, and ecosystem dApps make the chain more usable.
 11. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
 12. **Koinos Group transition:** the company steps back, and the community must maintain the chain.
 13. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
@@ -604,6 +614,10 @@ The central question is no longer only whether Koinos has interesting technology
 - DevNTell: [Koinos Account Protocol](https://www.devntell.com/podcast/koinos-account-protocol)
 - Developer DAO: [DevNTell - Koinos Account Protocol](https://blog.developerdao.com/devntell-koinos-account-protocol)
 - Koinos Group: [Koinos Group in 2023](https://medium.com/koinos-group/koinos-group-in-2023-f1b597839c79)
+- Kollection: [Kollection Launch Announcement](https://kollection.medium.com/kollection-launch-announcement-8ca9e67273f9)
+- GitHub: [kollection-nft/marketplace](https://github.com/kollection-nft/marketplace)
+- GitHub: [KCS-2 NFT Collection Standard](https://github.com/koinos/koinos-contract-standards/blob/master/KCSs/kcs-2.md)
+- Koinos Network: [A message from Steve](https://medium.com/koinosnetwork/a-message-from-steve-33ad9f685b8b)
 - Koinos Group: [ANN: KoinDX & Koinos Group Partnership](https://medium.com/koinos-group/ann-koindx-koinos-group-partnership-3916ebe57405)
 - KoinDX: [KoinDX Docs](https://docs.koindx.com/)
 - KoinDX: [KoinDX Mana Fountain](https://medium.com/@koindx/koindx-mana-fountain-98253a10dc2c)
