@@ -209,6 +209,14 @@ On June 15, 2023, Julian published [Koinos Polls](https://hive.blog/koinos/@jga/
 
 That same period also included his post on updating the claiming contract and his June 26 post, [Is Koinos a decentralized blockchain?](https://hive.blog/koinos/@jga/is-koinos-a-decentralized-blockchain), which directly criticized the concentration of block production. In chronological terms, this is where the post-mainnet conversation shifted from "the chain launched" to "how decentralized is the chain in practice?"
 
+## August 2023 - KoinDX Launches the First DEX on Koinos
+
+On July 31, 2023, Koinos Group announced its partnership with KoinDX, describing it as the first decentralized exchange on Koinos. Public KoinDX launch posts followed in early August, making KoinDX the first major DeFi trading venue native to the chain.
+
+This was a major ecosystem milestone. Until KoinDX, Koinos had launched as a technically novel fee-less smart contract platform, but it still lacked a native market layer where users could trade assets, provide liquidity, and build DeFi activity without relying only on centralized exchanges or Ethereum-side liquidity. KoinDX gave Koinos its first AMM-style DEX and made the mana model visible in a financial application: trading could happen without conventional gas fees, directly from user wallets.
+
+KoinDX also became important later when Koinos' CEX situation weakened. As listings, liquidity, and market-making became recurring problems, the existence of a native DEX made the ecosystem less dependent on centralized venues. That does not mean liquidity was solved; it means Koinos had a local place where liquidity could be built, incentivized, and governed.
+
 ## 05.08.2023 - Julian Proposes a Security-Oriented System Call
 
 On August 5, 2023, Julian published [[koinos proposals] Improve security in koinos](https://hive.blog/koinos/@jga/improve-security-koinos). The proposal argued for a new system call to help classify addresses and improve token and NFT security, especially around smart wallets and authorization.
@@ -526,7 +534,7 @@ The Koinos story has several distinct phases:
 5. **Testnet era:** microservices, governance, KPoB, mana, and modular architecture take shape.
 6. **Mainnet:** Koinos launches on November 5, 2022, and completes initial decentralization on December 5, 2022.
 7. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-8. **First mainnet year:** BurnKoin, Fogata, KAP, KoinosPro, Koinos Polls, Nicknames, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+8. **First mainnet year:** BurnKoin, Fogata, KAP, KoinDX, KoinosPro, Koinos Polls, Nicknames, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 9. **Governance proof:** Julian Gonzalez's system-call proposal becomes the first forkless governance upgrade in 2024.
 10. **Developer and user tooling:** Arkinos, KCS-4 work, Kondor, Manuscript, and ecosystem dApps make the chain more usable.
 11. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
@@ -555,6 +563,9 @@ The central question is no longer only whether Koinos has interesting technology
 - DevNTell: [Koinos Account Protocol](https://www.devntell.com/podcast/koinos-account-protocol)
 - Developer DAO: [DevNTell - Koinos Account Protocol](https://blog.developerdao.com/devntell-koinos-account-protocol)
 - Koinos Group: [Koinos Group in 2023](https://medium.com/koinos-group/koinos-group-in-2023-f1b597839c79)
+- Koinos Group: [ANN: KoinDX & Koinos Group Partnership](https://medium.com/koinos-group/ann-koindx-koinos-group-partnership-3916ebe57405)
+- KoinDX: [KoinDX Docs](https://docs.koindx.com/)
+- KoinDX: [KoinDX Mana Fountain](https://medium.com/@koindx/koindx-mana-fountain-98253a10dc2c)
 - Koinos Network: [Chainge integrates Koinos](https://medium.com/koinosnetwork/koinos-goes-cross-chain-57d6e311fa86)
 - Koinos Network: [The Koinos Community is partnering with Rhubarb Media](https://medium.com/koinosnetwork/the-koinos-community-is-partnering-with-rhubarb-media-a146ddeff309)
 - Koinos Network: [Welcome to 2024 Koinos Community!](https://medium.com/koinosnetwork/welcome-to-2024-koinos-community-cb45f1d59cde)
