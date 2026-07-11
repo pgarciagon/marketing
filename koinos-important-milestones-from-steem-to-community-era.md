@@ -71,6 +71,9 @@ Known public profiles for recurring community contributors include:
 - **Jon Rice**: X [`@jonricecrypto`](https://x.com/jonricecrypto), LinkedIn [`jonricecrypto`](https://www.linkedin.com/in/jonricecrypto/). Earlier Federation-era X posts also referenced [`@jonrice`](https://x.com/jonrice).
 - **Pablo Garcia / pgarcgo**: Telegram [`@pgarcgo`](https://t.me/pgarcgo), X [`@pgarcgo`](https://x.com/pgarcgo), GitHub [`pgarciagon`](https://github.com/pgarciagon).
 - **`@interfecto`**: X [`@interf3cto`](https://x.com/interf3cto), GitHub [`interfecto`](https://github.com/interfecto).
+- **Alberto / Transeunte**: Telegram [`@transeunte`](https://t.me/transeunte).
+- **Nomad100x**: Telegram [`@nomad100x`](https://t.me/nomad100x).
+- **Carlos Welele**: Telegram [`@Weleleliano`](https://t.me/Weleleliano).
 
 ## 06.10.2020 - Whitepaper and KOIN Mining Are Announced
 
@@ -441,6 +444,12 @@ The design used independent guardian nodes: five of seven guardians had to valid
 
 On Telegram, Vortex appeared even before the official post as one of the most anticipated catalysts. On May 25, 2024, `@koinoshispano` summarized that Koinos Group had announced a bridge called Vortex. In July 2024, KoinCity groups were already discussing how Chainge and Vortex would coexist.
 
+## July-November 2024 - Community Communication Also Means Guardrails
+
+Communication work was not only marketing. It also meant helping users distinguish real community channels from scams and keeping public material circulating after official communication became thinner.
+
+On July 1, 2024, community member Carlos Welele, Telegram `@Weleleliano`, posted a list of fake or scam Koinos Telegram groups and told users to report them, explicitly pointing people back to the official `@koinos_community` group. On November 24, 2024, he also shared KoinSocials material back into the main community channel. These are small actions compared with protocol releases, but they belong in the chronology because a small chain needs social hygiene as much as it needs software: users need to know where the real community is, what links are safe, and where announcements are being amplified.
+
 ## 29.07.2024 - Koinos Group Deploys 1 Million KOIN to Make Usage Free
 
 On July 29, 2024, Andrew Levine amplified a Koinos Network announcement that Koinos Group had deployed 1 million KOIN to make Koinos easier to use. The idea was to share the mana associated with that KOIN so users and dApps could interact with the chain without first buying tokens or managing resource constraints.
@@ -520,6 +529,14 @@ This changes the tone of the chronology. Until then, many milestones could be re
 On February 6, 2025, community developer Julián González published [Manuscript: Koinos wallet that supports hardware wallets](https://hive.blog/koinos/@jga/manuscript). Manuscript was presented as a wallet approach supporting Ledger and Trezor, Ethereum-compatible wallet management through tools such as MetaMask, natural-language transactions, and Koinos Nicknames.
 
 Chronologically, Manuscript belongs before the foundation crisis because it shows that community software work was still moving forward while the institutional center was weakening. Together with Kondor, Nicknames, and Arkinos, it pushed Koinos toward a more usable platform rather than a raw protocol.
+
+## 10.02.2025 - Community Communication Continues Outside Core Development
+
+On February 10, 2025, community member Alberto, Telegram `@transeunte`, described his non-technical contribution to Koinos in the main community channel. He wrote that he maintained a blog in English and Spanish covering ecosystem news, ran an X account that tried to keep up with Koinos updates every day, had created Koinos-themed NFTs on koinos.fun and other KOIN-related collections, and had made a video about Koinos.
+
+That message matters because it captures a form of work that is easy to miss in a technical chronology. After Koinos Group's visibility weakened, the project needed people who could keep the story understandable across languages, social networks, videos, and non-developer audiences. Transeunte's work was not protocol engineering, but it was part of the community's attempt to keep Koinos visible and legible.
+
+Telegram also shows other Spanish-speaking community members participating in this broader communication layer. `@nomad100x` discussed Koinos Garden activity in December 2024 and later, in June 2025, discussed the need for a foundation and a funding mechanism that could help developers ask for resources. This should not be overstated as a formal role, but it shows that community communication was not a single account or campaign. It was a distributed conversation across people who translated, questioned, shared proposals, warned about risks, and tried to keep the project understandable while the operating center was shifting.
 
 ## May-June 2025 - The Community Foundation Takes Shape
 
@@ -665,12 +682,13 @@ The Koinos story has several distinct phases:
 8. **First mainnet year:** BurnKoin, Fogata, KAP, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 9. **Governance proof:** Koinos demonstrates in-band upgradeability in 2023, and Julian Gonzalez's system-call proposal becomes the first community-driven forkless governance upgrade in 2024.
 10. **Developer and user tooling:** KCS-2/Kollection, Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, and ecosystem dApps make the chain more usable.
-11. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
-12. **Koinos Group transition:** after Koinos Group deploys resources such as the 1 million KOIN free-usage pool, the company steps back and the community must maintain the chain.
-13. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
-14. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
-15. **Infrastructure decentralization and experimentation:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators, while `@interfecto` explores EVM compatibility on testnet.
-16. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
+11. **Community communication:** Spanish-speaking community members such as Carlos Welele, Transeunte, and `@nomad100x` help with social guardrails, bilingual updates, proposal discussion, and informal coordination.
+12. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
+13. **Koinos Group transition:** after Koinos Group deploys resources such as the 1 million KOIN free-usage pool, the company steps back and the community must maintain the chain.
+14. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
+15. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
+16. **Infrastructure decentralization and experimentation:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators, while `@interfecto` explores EVM compatibility on testnet.
+17. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
 
 Koinos remains small compared with major layer-ones, but its history is unusually rich. It carries lessons from Steem, the Hive split, fair launch experiments, fee-less UX, modular blockchain architecture, company-led development, community-led maintenance, market failure, and infrastructure rebuilding.
 
@@ -757,4 +775,7 @@ The central question is no longer only whether Koinos has interesting technology
 - Telegram authenticated search: Koinos Community Working Group announcement, message 144 and revised message 182, September 4, 2025
 - Telegram authenticated search: Koinos Community Working Group testnet and faucet bot messages, May 24-25, 2026
 - Telegram authenticated search: `@koinos_community` EVM compatibility and `interfecto/koinos-evm-engine` messages, May 29 and June 13, 2026
+- Telegram authenticated search: Carlos Welele / `@Weleleliano` anti-scam group warning and KoinSocials sharing, July 1 and November 24, 2024
+- Telegram authenticated search: Alberto / `@transeunte` bilingual blog, X updates, NFTs, and Koinos video message, February 10, 2025
+- Telegram authenticated search: `@nomad100x` Koinos Garden, foundation, and funding-mechanism discussion messages, December 30, 2024 and June 26, 2025
 - Telegram channels: [`@koinos_community`](https://t.me/koinos_community), [`@thekoinosarmy`](https://t.me/thekoinosarmy), [`@koinoshispano`](https://t.me/koinoshispano), [`@KoinosTCB`](https://t.me/KoinosTCB), [`@Koincity`](https://t.me/Koincity), [`@koindx`](https://t.me/koindx), [`@koinsocials`](https://t.me/koinsocials)
