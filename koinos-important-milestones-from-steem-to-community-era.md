@@ -8,7 +8,7 @@ The sources used here include the original Hive chronology, Koinos whitepaper, K
 
 ## Methodology: Telegram as Community Evidence
 
-For this revision, I used a local Telegram session and generated an evidence report containing 2,157 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `cafe`, `Cafe identity`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, and `v1.5.2`.
+For this revision, I used a local Telegram session and generated an evidence report containing 2,172 relevant messages from Koinos-related groups and channels. The search terms included `Vortex`, `vKOIN`, `KoinosPro`, `Koinos Community Foundation`, `KFS Proposal`, `KCS-4`, `Rhubarb`, `MEXC`, `KoinDX`, `KoinCity`, `Kollection`, `koinos-chain`, `api.koinos.io`, `load balancer`, `Kondor v2`, `cafe`, `Cafe identity`, `Koinos Federation`, `Jon`, `Donation Addresses`, `Chainge robbery`, `Koinos Group tokens`, `taxable gains`, `IRS`, `v1.5.2`, `Julian Gonzalez`, `Julián González`, `joticajulian`, `Jga`, `Arkinos`, `Koinos Nicknames`, `Manuscript`, and `Fogata`.
 
 Telegram is not used here as the sole source of official dates. It is used as a community record: it shows how public milestones were discussed, translated, challenged, supported, and turned into operational work by different groups. The local evidence file is archived next to this article as `koinos-telegram-evidence.json`.
 
@@ -253,6 +253,28 @@ During 2024, the official Koinos website began showing a more recognizable ecosy
 
 This mattered because a layer-one without an ecosystem remains abstract infrastructure. Wallets, DEXs, marketplaces, explorers, and launchpads made Koinos usable.
 
+## 2023-2025 - Julian Gonzalez and the Community Software Layer
+
+Reviewing Julian Gonzalez's Hive posts shows a useful pattern: his work sits between the core protocol and everyday users. Koinos Group built much of the original chain, but Julian repeatedly worked on the connective layer that made the chain usable by operators, developers, and wallet users.
+
+That started immediately after mainnet. On January 2, 2023, he published **Fogata - mining pools for koinos**, framing mining pools as a way to reduce block-production concentration after the first months of mainnet. On February 6, 2023, he followed with a guide for running a second producer on the microservice architecture. These were not glamorous product launches, but they linked directly to Koinos' Proof-of-Burn reality: decentralization depended on more people being able to operate producers and participate in block production.
+
+By mid-2023, his attention had moved to governance tooling. **Koinos Polls** proposed a free dApp for measuring consensus before code was ready for an on-chain governance proposal. Around the same time, his posts on the claiming contract and Koinos decentralization argued that the system was still vulnerable to concentration and that community coordination mattered as much as protocol design.
+
+His most important protocol-adjacent contribution was the work that led to the first forkless mainnet governance upgrade. In August 2023, he proposed improving Koinos security with a new system call. In September and October 2023, he documented the testnet iterations. In December 2023 and January 2024, he submitted and resubmitted the mainnet governance proposal for `get_contract_metadata`. That proposal became the February 2024 milestone where Koinos proved that system logic could be upgraded through governance rather than a traditional hard fork.
+
+The same period also produced **Koinos Nicknames**, a human-readable naming system designed for safer transfers. The October 2023 updates around similarity detection and the June 2024 update allowing a nickname to point to a different address show a recurring theme: Julian was not only building isolated apps, but trying to reduce common failure modes in user experience.
+
+In April 2024, he introduced **Arkinos**, a tool for creating and deploying Koinos contracts quickly. This connects directly to the 2024 developer-experience push. Telegram later shows the tool being used in practice: in September 2025, Jga proposed documentation sections around Koilib, Kondor, Veive, Arkinos, node operators, architecture, system contracts, and governance proposals. In October and November 2025, other developers were asking him how Arkinos handled authorization and were reporting projects built with Cursor and Arkinos. That is important because a chain's tooling only matters historically when other builders can actually use it.
+
+Wallet work followed the same path. Kondor reached v1.0.0 in October 2024 with NFT display and account history improvements, and Manuscript was announced in February 2025 as a wallet approach supporting hardware wallets, Ethereum-compatible wallet management, natural-language transactions, and Koinos Nicknames. Together, Kondor, Manuscript, Nicknames, and Arkinos show a consistent direction: make Koinos feel less like a raw protocol and more like a usable platform.
+
+This was also recognized inside the ecosystem. In August 2024, a message shared in `@koinoshispano` from Koinos Group's ecosystem update thanked community builders and singled out Julian for delivering critical components including Kondor, Fogata, and Arkinos. That is useful context because it links the posts and repositories to how the wider ecosystem understood their importance at the time.
+
+Finally, Julian's work became part of the institutional transition. The September 2025 Koinos Community Foundation announcement listed Julián González among the community contributors. In October 2025, his Hive post announced that the Koinos Fund System was live, describing it as an on-chain, transparent, DHF-like funding mechanism after governance approval. Telegram cross-checks show community members asking him KFS questions, asking him to review proposals after earlier proposal problems, and later referencing a `merkle-fallback` patch he provided during operational recovery.
+
+The important conclusion is not that one person replaced Koinos Group. He did not. The more accurate reading is that Julian Gonzalez became one of the clearest examples of the post-mainnet community software layer: block-production tooling, governance experiments, safer authorization, naming, contract templates, wallets, funding infrastructure, documentation, and emergency support.
+
 ## 09.07.2024 - Vortex Enters Public Testing
 
 On July 9, 2024, Koinos Network published [Vortex Bridge Public Testing Now Live!](https://medium.com/koinosnetwork/vortex-bridge-public-testing-now-live-f7d2166d415a). Vortex opened public testing on Koinos Harbinger and Ethereum Sepolia.
@@ -417,13 +439,14 @@ The Koinos story has several distinct phases:
 7. **Distribution debate:** the Cafe miner becomes a long-running concern around mining concentration and snapshot independence.
 8. **First mainnet year:** KoinosPro, Chainge, Rhubarb, the Koinos Federation debate, donation funds, and early ecosystem building.
 9. **Governance proof:** the first forkless governance proposal is applied in 2024.
-10. **Ecosystem tools:** KoinDX, KoinCity, Kollection, Koinos Blocks, wallets, and standards mature.
-11. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
-12. **Koinos Group transition:** the company steps back, and the community must maintain the chain.
-13. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
-14. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
-15. **Infrastructure decentralization:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators.
-16. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
+10. **Community software layer:** Julian Gonzalez's work around Fogata, governance, Nicknames, Arkinos, Kondor, Manuscript, and KFS shows how community tooling filled gaps between the core chain and users.
+11. **Ecosystem tools:** KoinDX, KoinCity, Kollection, Koinos Blocks, wallets, and standards mature.
+12. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
+13. **Koinos Group transition:** the company steps back, and the community must maintain the chain.
+14. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
+15. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
+16. **Infrastructure decentralization:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators.
+17. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
 
 Koinos remains small compared with major layer-ones, but its history is unusually rich. It carries lessons from Steem, the Hive split, fair launch experiments, fee-less UX, modular blockchain architecture, company-led development, community-led maintenance, market failure, and infrastructure rebuilding.
 
@@ -446,6 +469,18 @@ The central question is no longer only whether Koinos has interesting technology
 - Koinos Network: [Koinos Group Update: 2025 is Our Year](https://medium.com/koinosnetwork/koinos-group-update-2025-is-our-year-46c4942e9390)
 - Koinos official site: [koinos.io](https://koinos.io/)
 - Koinos Developer Hub: [docs.koinos.io](https://docs.koinos.io/)
+- Julian Gonzalez / @jga: [Hive posts](https://hive.blog/@jga/posts)
+- Julian Gonzalez: [Fogata - mining pools for koinos](https://hive.blog/koinos/@jga/fogata)
+- Julian Gonzalez: [How to setup a second producer in Koinos Blockchain](https://hive.blog/koinos/@jga/koinos-2-producers)
+- Julian Gonzalez: [Is Koinos a decentralized blockchain?](https://hive.blog/koinos/@jga/is-koinos-a-decentralized-blockchain)
+- Julian Gonzalez: [Koinos Polls](https://hive.blog/koinos/@jga/polls)
+- Julian Gonzalez: [[koinos proposals] Improve security in koinos](https://hive.blog/koinos/@jga/improve-security-koinos)
+- Julian Gonzalez: [Koinos Nicknames](https://hive.blog/koinos/@jga/nicknames)
+- Julian Gonzalez: [The gov proposal has been submitted in Koinos mainnet](https://hive.blog/koinos/@jga/gov-proposal-get-contract-metadata)
+- Julian Gonzalez: [New Tool "Arkinos": Create and deploy Koinos contracts FAST](https://hive.blog/koinos/@jga/arkinos)
+- Julian Gonzalez: [Kondor v1.0.0 is live](https://hive.blog/koinos/@jga/kondor-v1-is-live)
+- Julian Gonzalez: [Manuscript: Koinos wallet that supports hardware wallets](https://hive.blog/koinos/@jga/manuscript)
+- Julian Gonzalez: [The Koinos Fund System is Live!](https://hive.blog/koinos/@jga/the-koinos-fund-system-is-live)
 - GitHub: [koinos/koinos releases](https://github.com/koinos/koinos/releases)
 - GitHub: [koinos/koinos-chain](https://github.com/koinos/koinos-chain)
 - X: [Koinos Network](https://x.com/KoinosNetwork)
