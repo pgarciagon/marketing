@@ -68,7 +68,7 @@ The core Koinos Group names referenced in this chronology are:
 - **Ron Hamenahem**: Koinos founder, project manager and developer on the current Koinos team page; also described in company profiles as COO / design and operations lead. Public profile: GitHub [`brklyn8900`](https://github.com/brklyn8900).
 - **Nathaniel Caldwell**: Koinos co-founder / blockchain architect referenced in early Koinos technical material, including the "easy fork" testnet discussion.
 
-Those roles changed over time, especially after Koinos Group stopped being the operating center of the chain. Later names in this article, such as Luke Willis, Kui He, Julián González, Justin Welch, Adriano Foschi, MiXiBo, Ederaleng, Roamin, Jon Rice, and `@interfecto`, are treated as community contributors unless a cited source explicitly says otherwise.
+Those roles changed over time, especially after Koinos Group stopped being the operating center of the chain. Later names in this article, such as Luke Willis, Kui He, Julián González, Justin Welch, Adriano Foschi, Frank (`@ElImbatido`), VonLooten, fbslo, MiXiBo, Ederaleng, Roamin, Jon Rice, and `@interfecto`, are treated as community contributors unless a cited source explicitly says otherwise.
 
 Known public profiles for recurring community contributors include:
 
@@ -77,6 +77,9 @@ Known public profiles for recurring community contributors include:
 - **Julián González**: Telegram [`@joticajulian`](https://t.me/joticajulian), X [`@joticajulian`](https://x.com/joticajulian), GitHub [`joticajulian`](https://github.com/joticajulian).
 - **Justin Welch / Justin W.**: X [`@ogjustinw`](https://x.com/ogjustinw), GitHub [`jredbeard`](https://github.com/jredbeard), LinkedIn [`justin-welch-5520a9112`](https://www.linkedin.com/in/justin-welch-5520a9112/).
 - **Adriano Foschi**: X [`@adrihoke`](https://x.com/adrihoke), GitHub [`adrianofoschi`](https://github.com/adrianofoschi), LinkedIn [`adrianofoschi`](https://www.linkedin.com/in/adrianofoschi).
+- **Frank / `@ElImbatido`**: Telegram [`@ElImbatido`](https://t.me/ElImbatido), creator and principal developer of **Koiner.App**, its explorer interface, indexing backend, and GraphQL data API. The historical V1 repository was `koiner-dao/koiner-backend`; its [original GitHub URL](https://github.com/koiner-dao/koiner-backend) is no longer available.
+- **VonLooten / `@vonlooten`**: X [`@vonlooten`](https://x.com/vonlooten), GitHub [`vonlooten`](https://github.com/vonlooten), and Medium [`@vonlooten`](https://medium.com/@vonlooten). Co-founder and original CEO of KoinDX; he led business strategy, contributed to development, and was one of the project's most visible early communicators.
+- **fbslo / `@fbsloXBT`**: X [`@fbsloXBT`](https://x.com/fbsloXBT), GitHub [`fbslo`](https://github.com/fbslo). Slovenia-based DeFi developer who created the earlier KoinoSwap project, joined forces with the KoinDX team in May 2022, and later built Koinos atomic-swap and bridge-related contracts.
 - **MiXiBo**: GitHub [`MiXiBo`](https://github.com/MiXiBo).
 - **Ederaleng**: X [`@ederaleng`](https://x.com/ederaleng), Telegram [`@ederaleng`](https://t.me/ederaleng).
 - **Roamin**: GitHub [`roaminro`](https://github.com/roaminro).
@@ -196,6 +199,14 @@ Discord shows the beginning of that path before the official April update. On Ja
 
 Chronologically, this belongs before the governance milestone because it helped shape how the core system itself was built. The language/tooling decision was not only for third-party dApps; it quickly became part of Koinos' own system-contract implementation and developer-experience identity.
 
+## 16-17.05.2022 - KoinoSwap Developer fbslo Joins Forces with KoinDX
+
+KoinDX's lineage began before its public mainnet launch and before its October 2022 team announcement. On December 14, 2021, developer **fbslo** [publicly introduced KoinoSwap as a project in development](https://web.archive.org/web/20211214004941/https://twitter.com/fbsloXBT/status/1470555266307567620). On January 7, 2022, Luke Willis described it in Telegram as being built by a community member, with no certainty that it would be ready for mainnet.
+
+That developer was **fbslo**, X [`@fbsloXBT`](https://x.com/fbsloXBT), a Slovenia-based DeFi developer. On May 10, KoinoSwap reported that its core contract was finished and that only the website and extensive testing remained ([Telegram record](https://t.me/koinos_community/81583)). On May 16, the project then [announced that fbslo was joining the KoinDX team](https://web.archive.org/web/20220516214735/https://twitter.com/KoinoSwap/status/1526318305098797056). One day later, Koinos Network formally recorded the event under the heading [“Koinos DEXs Join Forces”](https://medium.com/koinosnetwork/verifiable-randomness-dexs-and-tutorials-9a8c7bcfbc35), saying that the KoinoSwap developer had joined the KoinDX team to build a single stronger DEX.
+
+This is distinct from the later KoinDX founder record. The available evidence establishes fbslo as the developer of an earlier DEX that merged its effort into KoinDX, but the October 2022 KoinDX announcement identifies **VonLooten and Ederaleng** as the project's co-founders. fbslo should therefore be remembered as part of KoinDX's technical prehistory and consolidation, not silently substituted for either of its documented co-founders.
+
 ## 01.06.2022 - Governance Contract Completed
 
 On June 1, 2022, Koinos announced the completion of the governance contract, described as the world's simplest DAO.
@@ -224,6 +235,14 @@ The public GitHub repository reinforces the same point: `lukemwillis/koinos-burn
 
 Discord adds two details that make BurnKoin more than a launch announcement. First, motoengineer was already discussing BurnKoin testnet operation in early October 2022, including turning a large share of VHP on and off to observe the effect on production. Second, Luke Willis discussed a metadata-related security risk for dApps such as BurnKoin: if users trusted mutable metadata too naively, a malicious pool operator could redirect the system-contract address. That discussion shows that the first pool was also a live test of Koinos' dApp security assumptions.
 
+## 28.10.2022 - VonLooten and Ederaleng Introduce the Early KoinDX Team
+
+On October 28, 2022, before the KOIN snapshot and mainnet launch, KoinDX published its first detailed [team and product announcement](https://medium.com/@koindx/koindx-announcement-574aff8f3541). It identified **VonLooten** and **Ederaleng** as KoinDX's two co-founders. The team had already spent months building and testing a native decentralized exchange for Koinos.
+
+The announcement also added three community members: **Dokterkraakbeen** for design, and **Glen Koin Master** and **Adem** as community moderators. It introduced the KNDX token, staking and governance plans, trading discounts, an updated brand, and a planned launchpad. This places KoinDX firmly in the pre-mainnet developer history rather than treating it as a project that appeared only when the DEX launched in August 2023.
+
+The founders' later descriptions clarify their different roles. VonLooten identified himself as KoinDX's **CEO and co-founder**, responsible for business strategy while also contributing to development. He described Ederaleng as his co-founder and **CTO**, with a stronger focus on technical development. In March 2023, VonLooten also named himself, Ederaleng, and Dokterkraakbeen as the founding members of the planned KoinDX DAO. The historical record therefore supports shared authorship: VonLooten was the original public and strategic lead, while Ederaleng was present from the beginning as co-founder and technical lead.
+
 ## 31.10.2022 - ERC-20 KOIN Snapshot
 
 On October 31, 2022, the ERC-20 KOIN snapshot was completed successfully. This snapshot determined the initial balances for native KOIN on the Koinos mainnet.
@@ -250,6 +269,21 @@ The final pre-launch Discord traffic shows how expectations had narrowed from th
 
 The days immediately after launch also show early exchange confusion. Discord users discussed whether a MEXC listing was real, why some exchange links failed, and how to interpret ERC-20 trading after the snapshot. This is an early version of a much larger later theme: Koinos could ship novel chain technology, but liquidity, exchange communication, and user-facing market access remained weak and confusing.
 
+## 30.11.2022 - Community Developer Frank Launches Koiner.App
+
+On November 30, 2022, only 25 days after Koinos mainnet, community developer **Frank**, known on Telegram as [`@ElImbatido`](https://t.me/ElImbatido), formally launched **Koiner.App**. The [official launch article](https://medium.com/@koiner/koiner-app-accelerating-decentralization-by-making-koinos-blockchain-data-accessible-45e6df75551a) called it the next live dApp in the ecosystem and described a dashboard designed to make Koinos blockchain data understandable without requiring users to query a node or interpret raw operations. A Koiner link was already circulating in the Spanish community on [November 29](https://t.me/koinoshispano/15217), and the main group reaction on launch day was immediate: [“Koiner.app is so good!”](https://t.me/koinos_community/122481).
+
+The first public version already went beyond a minimal block list. It included:
+
+- portfolio tracking for multiple addresses stored locally in the browser;
+- transaction history, token operations, and event search;
+- block-producer rewards and blocks produced;
+- a ranking of leading block producers;
+- token operations, events, and holder balances;
+- a network dashboard intended to make chain activity legible to users and operators.
+
+The launch roadmap also anticipated a mobile version, KoinDX trade tracking, real-time updates, and a Koiner burn pool intended to help finance hosting. This milestone matters because Koiner arrived almost simultaneously with the network it observed. Frank was not documenting an already mature ecosystem; he was building one of the first public windows into a chain whose data tooling, standards, and applications were still being created.
+
 ## 05.12.2022 - Koinos Completes Its Initial Decentralization
 
 On December 5, 2022, the team removed the temporary control path and Koinos entered its first fully decentralized operating phase. From that point forward, system-level changes had to pass through governance.
@@ -275,6 +309,25 @@ This belongs early in the post-mainnet chronology because it links directly to K
 On January 9, 2023, Kui He published [Announcing KAP Whitepaper: Free Blockchain Access For All](https://medium.com/@kuixihe/announcing-kap-whitepaper-free-blockchain-access-for-all-8adaa0a3db1f). KAP, or Koinos Account Protocol, was presented as an all-in-one account management layer with three pillars: an NFT name service, account abstraction, and free mana.
 
 This deserves a place immediately after the early mining-pool milestones because it shows how quickly community builders moved from block-production infrastructure to user-facing account infrastructure. The same post identified KAP as created by community developers Luke M. Willis and Kui Xi He, the same team behind BurnKoin. In other words, the BurnKoin team was not only helping users participate in KPoB; it was also trying to make Koinos accounts easier for normal users and dApps.
+
+## 2023-2024 - Koiner Evolves from Explorer into Shared Data Infrastructure
+
+Koiner's visible explorer was only the front end of Frank's contribution. During 2023 and 2024, he progressively turned it into an indexed data service that other developers and external market-data providers could use.
+
+The public milestones preserved in Telegram include:
+
+- **12.01.2023:** Frank added a mobile mana bar for addresses saved in a user's portfolio ([message 134406](https://t.me/koinos_community/134406)).
+- **16.02.2023:** Koiner gained a dedicated token-holders view ([message 142402](https://t.me/koinos_community/142402)).
+- **03-04.03.2023:** Frank exposed live KOIN total supply, virtual supply, and VHP supply data, turning values that previously required chain analysis into [queryable endpoints](https://t.me/koinos_community/145540).
+- **10.04.2023:** he [explained](https://t.me/koinos_community/158166) that Koiner synchronized the MEXC price into its backend and combined it with indexed supply data through GraphQL to calculate market capitalization. This avoided hitting an exchange API separately for every user request.
+- **19.04.2023:** the explorer added an [operations-search page](https://t.me/koinos_community/161830) capable of finding contract operations and names.
+- **23.07.2024:** Frank [updated the circulating-supply API](https://t.me/koinos_community/285219) used by CoinMarketCap and CoinGecko and added VHP virtual-supply information.
+
+By late 2024, Frank described Koiner as an ecosystem data provider rather than merely an explorer. Developers could query its custom NestJS GraphQL API instead of maintaining a separate indexer for every contract. Koiner synchronized external price data, indexed chain operations and events, and maintained a large PostgreSQL database behind the public interface. That architecture supported features community members later remembered specifically: market capitalization, APY information, top-holder and distribution views, detailed network statistics, producer information, and data useful for whale monitoring.
+
+The open-source history needs a precise distinction. On October 23, 2024, Frank [stated that Koiner V1 was open source](https://t.me/koinos_community/307533) and pointed developers to the Kubernetes configuration in the then-public `koiner-dao/koiner-backend` repository. That [original repository URL](https://github.com/koiner-dao/koiner-backend) is no longer available. The planned V2 architecture was still under development and was never released as a finished replacement. Later community statements that “Koiner was not open source” appear to refer to the unreleased V2 or to the fact that the complete production service could not be recreated from the V1 repository alone.
+
+Koiner's importance was therefore broader than its role as a block explorer. It became an independently financed, community-built data warehouse and API layer at a time when every Koinos dApp otherwise faced the cost of operating nodes, decoding events, indexing history, and designing its own query service.
 
 ## 2021-2024 - The Koin Press and motoengineer Become Community Education Channels
 
@@ -366,13 +419,15 @@ The later history was mixed. By 2025, community messages described Konio as inac
 
 ## August 2023 - KoinDX Launches the First DEX on Koinos
 
-On July 31, 2023, Koinos Group announced its partnership with KoinDX, describing it as the first decentralized exchange on Koinos. Public KoinDX launch posts followed in early August, making KoinDX the first major DeFi trading venue native to the chain.
+On July 31, 2023, Koinos Group announced its partnership with KoinDX, describing it as the first decentralized exchange on Koinos. Public KoinDX launch posts followed in early August, making KoinDX the first major DeFi trading venue native to the chain. On August 2, Steve Gerbino publicly [congratulated both `@vonlooten` and `@ederaleng`](https://t.me/koinos_community/183430) for the launch.
 
 This was a major ecosystem milestone. Until KoinDX, Koinos had launched as a technically novel fee-less smart contract platform, but it still lacked a native market layer where users could trade assets, provide liquidity, and build DeFi activity without relying only on centralized exchanges or Ethereum-side liquidity. KoinDX gave Koinos its first AMM-style DEX and made the mana model visible in a financial application: trading could happen without conventional gas fees, directly from user wallets.
 
 KoinDX also became important later when Koinos' CEX situation weakened. As listings, liquidity, and market-making became recurring problems, the existence of a native DEX made the ecosystem less dependent on centralized venues. That does not mean liquidity was solved; it means Koinos had a local place where liquidity could be built, incentivized, and governed.
 
-The maintenance story also changed over time. By late 2025, KoinDX community messages said active KoinDX development had been paused while contributors focused on stabilizing the broader Koinos network: bridge work, nodes, and related infrastructure. By 2026, community developer and operator `@ederaleng` was one of the visible community operators tied to the DeFi/liquidity side, including KFS-funded liquidity deployment and later Base expansion work. That makes KoinDX part of the broader transition from a standalone launch milestone into community-maintained market infrastructure.
+The leadership story changed in 2024. In June, community discussion [reported that VonLooten was no longer part of KoinDX](https://t.me/koinos_community/276060), while Ederaleng remained its co-founder, main developer, and the person responsible for most subsequent technical updates. Dokterkraakbeen also remained associated with the team. This reported transition explains why later ecosystem history often identifies Ederaleng with KoinDX even though VonLooten had been its original CEO, public spokesperson, and co-founder.
+
+The maintenance story changed again over time. By late 2025, KoinDX community messages said active KoinDX development had been paused while contributors focused on stabilizing the broader Koinos network: bridge work, nodes, and related infrastructure. By 2026, community developer and operator `@ederaleng` was one of the visible community operators tied to the DeFi/liquidity side, including KFS-funded liquidity deployment and later Base expansion work. That makes KoinDX part of the broader transition from a co-founded community dApp into community-maintained market infrastructure.
 
 ## 05.08.2023 - Community Developer Julián González Proposes a Security-Oriented System Call
 
@@ -492,11 +547,12 @@ Arkinos connects directly to the January 2024 developer-experience theme. Koinos
 
 ## 2024 - Ecosystem Becomes Concrete: dApps, Wallets, and Explorers
 
-During 2024, the official Koinos website began showing a more recognizable ecosystem. Projects such as Kollection, KoinDX, Koinos Blocks, KoinCity, Kondor, and Sovrano represented different parts of the stack:
+During 2024, the official Koinos website began showing a more recognizable ecosystem. Projects such as Kollection, KoinDX, Koinos Blocks, Koiner.App, KoinCity, Kondor, and Sovrano represented different parts of the stack:
 
 - **Kollection** as an NFT marketplace;
 - **KoinDX** as a decentralized exchange on Koinos;
 - **Koinos Blocks** as a block explorer;
+- **Koiner.App** as an explorer, network dashboard, portfolio tracker, and indexed GraphQL data service;
 - **KoinCity** as a token launchpad with staking and social interaction;
 - **Kondor** and **Sovrano** as wallets for users and dApps.
 
@@ -600,6 +656,14 @@ Andrew's public X posts sharpen the chronology. On December 19, 2024, he wrote t
 
 This changes the tone of the chronology. Until then, many milestones could be read as company execution on top of a decentralized network. After this transition, the harder question became: if the company that launched the chain no longer leads it, can the community maintain the chain, infrastructure, and narrative by itself?
 
+## 04-19.01.2025 - Frank Defines Koiner V2 as an Ecosystem Data Provider
+
+At the beginning of 2025, Frank described the unfinished Koiner V2 in unusually concrete terms. On [January 4](https://t.me/koinos_community/324652), he said that V2 would store every operation and event, decode them whenever possible, and allow specialized indexers to process that shared history in batches. A failed or upgraded indexer could restart from a selected block instead of forcing the entire chain to be indexed again. On [January 19](https://t.me/koinos_community/326788), he added another important goal: unlike V1, which indexed only irreversible blocks, V2 was intended to track the newest 60 blocks and roll back its indexed state when necessary. That would make live dApp and market activity visible without sacrificing consistency during short reorganizations.
+
+This was a significant technical plan. It treated Koiner as a reusable data engine for the whole ecosystem: one expensive, reliable ingestion layer, followed by smaller application-specific indexers and APIs. Adriano Foschi noted that Sovrano already relied on Koiner for data that the standard REST API did not provide. Frank also recognized a possible overlap with KoinosPro and considered paid “Koiner Pro” subscriptions, potentially financed initially through an NFT presale.
+
+The same messages exposed the sustainability problem before the shutdown. Frank [said he was personally paying hundreds of dollars per month](https://t.me/koinos_community/324647) and had already disabled testnet indexing and the staging environment to reduce costs. Migrating to V2 would temporarily double infrastructure expenditure, while the work required to make indexing accurate, reliable, scalable, and extensible remained substantial. The product had become shared ecosystem infrastructure, but it still depended financially and operationally on one independent developer.
+
 ## 28.01.2025 - Koinos.fun Shows AI, NFTs, and X-Based Onboarding
 
 On January 28, 2025, Koinos launched [Koinos.fun](https://www.koinos.fun/), a web app that let users create AI-generated NFTs, tag a friend on X, and send the NFT without paying fees or first buying a token. The app connected several Koinos promises in one simple flow: AI-generated content, NFT minting, social sharing, automatic wallet creation, feeless transfer, and later visibility on Kollection.
@@ -623,6 +687,33 @@ On February 10, 2025, community member Alberto, Telegram `@transeunte`, describe
 That message matters because it captures a form of work that is easy to miss in a technical chronology. After Koinos Group's visibility weakened, the project needed people who could keep the story understandable across languages, social networks, videos, and non-developer audiences. Transeunte's work was not protocol engineering, but it was part of the community's attempt to keep Koinos visible and legible.
 
 Telegram also shows other Spanish-speaking community members participating in this broader communication layer. `@nomad100x` discussed Koinos Garden activity in December 2024 and later, in June 2025, discussed the need for a foundation and a funding mechanism that could help developers ask for resources. This should not be overstated as a formal role, but it shows that community communication was not a single account or campaign. It was a distributed conversation across people who translated, questioned, shared proposals, warned about risks, and tried to keep the project understandable while the operating center was shifting.
+
+## 30.04.2025 - Frank Announces the Closure of Koiner
+
+On April 30, 2025, Frank [announced the closure of Koiner](https://t.me/koinos_community/349832) in the main Koinos community group. The announcement drew a strongly emotional response, including twelve sad reactions, six expressions of thanks, and four crying reactions. By early May, community groups were reporting that the service was offline.
+
+Frank's explanation was not that Koiner had failed technically. He had made a significant personal financial investment and expected wider Koinos adoption eventually to support a sustainable paid data service. That adoption timeline did not materialize, while the immediate future of the ecosystem had become uncertain. He still considered a robust data provider essential, but concluded in a follow-up that Koinos first needed applications capable of generating growth: Koiner was important, but it would not itself create that growth. Development of the new version stopped “for now,” with the possibility of revisiting it only if the outlook for Koinos improved.
+
+The closure therefore had several connected causes:
+
+- **Recurring infrastructure costs:** an independently operated node, indexing services, API infrastructure, and a large PostgreSQL database cost hundreds of dollars per month.
+- **Unfunded development and maintenance:** Frank was not only paying servers; he was designing the indexer, maintaining the database and GraphQL service, correcting data, supporting consumers, and building a replacement architecture.
+- **Insufficient adoption:** the expected number of dApps, users, and paying API customers did not arrive quickly enough to support a commercial data product.
+- **An unproven revenue model:** a small number of voluntary subscriptions or donations could not fund both operating costs and the developer's time. Koiner Pro and the NFT-presale idea remained proposals rather than validated businesses.
+- **Strategic uncertainty:** Koinos Group was stepping back, KoinosPro occupied adjacent infrastructure territory, and the ecosystem's short-term direction was unclear.
+- **Human sustainability:** the concentration of a public ecosystem dependency in one person had become personally exhausting.
+
+This distinction is important. Koiner was not discontinued because Frank did not value Koinos or because the product was poor. It was discontinued because a high-quality public data platform had become a privately subsidized public good without the adoption, institutional backing, or revenue required to sustain it.
+
+## 15.05.2025 - Frank Clarifies Why Koiner V1 Will Not Return
+
+On May 15, Frank gave a more personal and definitive [follow-up explanation](https://t.me/koinos_community/353328). He stressed that paying the servers was only part of the problem. The larger issue was the time and effort required, the lack of a clear path to profitability, and uncertainty about the network's future. A handful of subscriptions would not have been sufficient.
+
+He said that **Koiner V1 would not return**. V2 was unfinished, and he did not want to resume such a demanding project at that time. Frank explained that he had finished a period of working **60 to 70 hours per week**, that building Koiner had been draining, and that he was finally enjoying free time again. He also clarified why a cheap restart was unrealistic: the public Koinos API did not have enough performance for Koiner's workload, so the service required its own node, and the large PostgreSQL database was itself a major operating cost.
+
+That clarification also defines what a serious revival would require. Paying one server bill would not be enough. A successor would need funded maintenance, a performant node, a large indexed database, monitoring and recovery processes, a sustainable service model, and a technical handoff that distinguishes the available V1 code from the unfinished V2 design.
+
+The loss became more visible over the following months. Operators missed the network section; users missed APY, supply, market-cap, top-holder, and distribution views; developers remembered the API as particularly valuable; and stale Koiner links eventually had to be removed from ecosystem and market-data listings. In January 2026, community members were still referring to the explorer V2 that “never came.” This aftermath confirms the scale of Frank's contribution: when Koiner disappeared, the ecosystem did not lose only a website. It lost a shared observability and data layer that had quietly supported users, operators, dApps, and external listings.
 
 ## May-June 2025 - The Community Foundation Takes Shape
 
@@ -764,19 +855,20 @@ The Koinos story has several distinct phases:
 4. **OpenOrchard and Koinos Group:** the former Steem developers organize to build a new chain from scratch.
 5. **Early internationalization:** Koinos en español / `@koinoshispano` appears during the ERC-20 era as an early Spanish-speaking community route.
 6. **Fair launch:** KOIN is mined as an ERC-20 without ICO or pre-mine, while Discord debates gas costs, proof frequency, premine risk, and Cafe concentration.
-7. **Testnet era:** microservices, Kondor and claim UX, Roamin's AssemblyScript/TypeScript smart contract path, governance, KPoB, mana, tax concerns, and modular architecture take shape.
+7. **Testnet era:** microservices, Kondor and claim UX, Roamin's AssemblyScript/TypeScript smart contract path, fbslo's KoinoSwap joining forces with KoinDX, governance, KPoB, mana, tax concerns, and modular architecture take shape.
 8. **Mainnet:** Koinos launches on November 5, 2022, amid claim, wallet, exchange, and liquidity questions, then completes initial decentralization on December 5, 2022.
 9. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-10. **First mainnet year:** BurnKoin, Fogata, KAP, The Koin Press, motoengineer videos, Koinos Army, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+10. **First mainnet year:** Koiner.App, BurnKoin, Fogata, KAP, The Koin Press, motoengineer videos, Koinos Army, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, VonLooten and Ederaleng's KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 11. **Governance proof:** Koinos demonstrates in-band upgradeability in 2023, and Julian Gonzalez's system-call proposal becomes the first community-driven forkless governance upgrade in 2024.
 12. **Developer and user tooling:** KCS-2/Kollection, Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, and ecosystem dApps make the chain more usable.
 13. **Community communication:** Spanish-speaking community members and projects such as Koinos en español, Koincast, Carlos Welele, Transeunte, and `@nomad100x` help with social guardrails, bilingual updates, proposal discussion, and informal coordination.
 14. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
 15. **Koinos Group transition:** after Koinos Group deploys resources such as the 1 million KOIN free-usage pool and ships Koinos.fun as a strong reference app for AI-generated NFTs over X, the company steps back and the community must maintain the chain.
-16. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
-17. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
-18. **Infrastructure decentralization and experimentation:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators, while `@interfecto` explores EVM compatibility on testnet.
-19. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
+16. **The Koiner sustainability lesson:** Frank's explorer grows into a shared indexing and GraphQL data layer, but closes after personally funded infrastructure, 60-70-hour workweeks, insufficient adoption, and an unproven paid-service model make it unsustainable.
+17. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
+18. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
+19. **Infrastructure decentralization and experimentation:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators, while `@interfecto` explores EVM compatibility on testnet.
+20. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
 
 Koinos remains small compared with major layer-ones, but its history is unusually rich. It carries lessons from Steem, the Hive split, fair launch experiments, fee-less UX, modular blockchain architecture, company-led development, community-led maintenance, market failure, and infrastructure rebuilding.
 
@@ -799,6 +891,17 @@ If that test succeeds, Koinos will not matter simply because it was another bloc
 - Koinos Network: [Introducing the EASY FORK](https://medium.com/koinosnetwork/introducing-the-easy-fork-testnet-update-81e7d09a1016)
 - Koinos Developer Hub: [AssemblyScript SDK](https://docs.koinos.io/developers/as-sdk/)
 - GitHub: [koinos/koinos-sdk-as](https://github.com/koinos/koinos-sdk-as)
+- Koinos Network: [Verifiable Randomness, DEXs, and tutorials - KoinoSwap joins KoinDX](https://medium.com/koinosnetwork/verifiable-randomness-dexs-and-tutorials-9a8c7bcfbc35)
+- Web Archive: [fbslo introduces KoinoSwap, December 14, 2021](https://web.archive.org/web/20211214004941/https://twitter.com/fbsloXBT/status/1470555266307567620)
+- Telegram: [KoinoSwap reports its core contract finished, May 10, 2022](https://t.me/koinos_community/81583)
+- Web Archive: [KoinoSwap announces fbslo is joining KoinDX, May 16, 2022](https://web.archive.org/web/20220516214735/https://twitter.com/KoinoSwap/status/1526318305098797056)
+- GitHub: [fbslo](https://github.com/fbslo)
+- Koiner: [Koiner.App: Accelerating Decentralization by Making Koinos Blockchain Data Accessible](https://medium.com/@koiner/koiner-app-accelerating-decentralization-by-making-koinos-blockchain-data-accessible-45e6df75551a)
+- GitHub: [`koiner-dao/koiner-backend` historical V1 URL, now unavailable](https://github.com/koiner-dao/koiner-backend)
+- Telegram: [Frank confirms Koiner V1 is open source](https://t.me/koinos_community/307533)
+- Telegram: [Frank describes Koiner V2 indexing architecture](https://t.me/koinos_community/324652)
+- Telegram: [Frank announces the closure of Koiner](https://t.me/koinos_community/349832)
+- Telegram: [Frank explains the costs, workload, and why V1 will not return](https://t.me/koinos_community/353328)
 - BurnKoin: [Burn Koin](https://burnkoin.com/)
 - GitHub: [lukemwillis/koinos-burn-pool](https://github.com/lukemwillis/koinos-burn-pool)
 - motoengineer: [Burn KOIN, Earn KOIN. The first and simplest Proof of Burn mining pool](https://hive.blog/koinos/@motoengineer/burn-koin-earn-koin-the-first-and-simplest-proof-of-burn-mining-pool)
@@ -826,6 +929,11 @@ If that test succeeds, Koinos will not matter simply because it was another bloc
 - Andrew Levine on X: [first successful forkless upgrade](https://x.com/andrarchy/status/1668803627237134337)
 - Koinos Group on X: [DeGov in-band upgrade vote](https://x.com/TheKoinosGroup/status/1668804432052785153)
 - Andrew Levine on X: [JGA Mining Pool governance participation](https://x.com/andrarchy/status/1681786592795541504)
+- KoinDX: [KoinDX Announcement - original team, KNDX, governance, and launchpad](https://medium.com/@koindx/koindx-announcement-574aff8f3541)
+- The Koin Press: [VonLooten - KoinDX](https://music.amazon.ca/podcasts/cd786eb4-bb23-4b5d-9b3e-40d8db6d157b/episodes/e5a104c8-dafe-4ec3-afd9-993839c05929/the-koin-press-vonlooten---koindx)
+- Teing: [Community-developer interview with VonLooten and other Koinos builders](https://medium.com/@teingvvv/%E9%95%BF%E6%96%87%E7%89%88-%E5%92%8C%E7%A4%BE%E5%8C%BA%E5%BC%80%E5%8F%91%E8%80%85%E8%81%8A%E4%B8%80%E8%81%8A-%E4%BB%96%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9-koinos-d6c404d32e20)
+- Telegram: [KoinDX launch congratulations to VonLooten and Ederaleng](https://t.me/koinos_community/183430)
+- Telegram: [June 2024 discussion of VonLooten leaving KoinDX and Ederaleng continuing as main developer](https://t.me/koinos_community/276060)
 - Koinos Group: [ANN: KoinDX & Koinos Group Partnership](https://medium.com/koinos-group/ann-koindx-koinos-group-partnership-3916ebe57405)
 - KoinDX: [KoinDX Docs](https://docs.koindx.com/)
 - KoinDX: [KoinDX Mana Fountain](https://medium.com/@koindx/koindx-mana-fountain-98253a10dc2c)
