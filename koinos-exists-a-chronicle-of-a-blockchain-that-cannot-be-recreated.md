@@ -68,7 +68,7 @@ The core Koinos Group names referenced in this chronology are:
 - **Ron Hamenahem**: Koinos founder, project manager and developer on the current Koinos team page; also described in company profiles as COO / design and operations lead. Public profile: GitHub [`brklyn8900`](https://github.com/brklyn8900).
 - **Nathaniel Caldwell**: Koinos co-founder / blockchain architect referenced in early Koinos technical material, including the "easy fork" testnet discussion.
 
-Those roles changed over time, especially after Koinos Group stopped being the operating center of the chain. Later names in this article, such as Luke Willis, Kui He, Julián González, Justin Welch, Adriano Foschi, Frank (`@ElImbatido`), VonLooten, fbslo, MiXiBo, Ederaleng, Roamin, Jon Rice, and `@interfecto`, are treated as community contributors unless a cited source explicitly says otherwise.
+Those roles changed over time, especially after Koinos Group stopped being the operating center of the chain. Later names in this article, such as Luke Willis, Kui He, Julián González, Justin Welch, Adriano Foschi, Frank (`@ElImbatido`), VonLooten, fbslo, MiXiBo, Ederaleng, Saleh Hawi, Roamin, Jon Rice, and `@interfecto`, are treated as community contributors unless a cited source explicitly says otherwise.
 
 Known public profiles for recurring community contributors include:
 
@@ -82,13 +82,14 @@ Known public profiles for recurring community contributors include:
 - **fbslo / `@fbsloXBT`**: X [`@fbsloXBT`](https://x.com/fbsloXBT), GitHub [`fbslo`](https://github.com/fbslo). Slovenia-based DeFi developer who created the earlier KoinoSwap project, joined forces with the KoinDX team in May 2022, and later built Koinos atomic-swap and bridge-related contracts.
 - **MiXiBo**: GitHub [`MiXiBo`](https://github.com/MiXiBo).
 - **Ederaleng**: X [`@ederaleng`](https://x.com/ederaleng), Telegram [`@ederaleng`](https://t.me/ederaleng).
+- **Saleh Hawi / `@saleh_hawi`**: Telegram [`@saleh_hawi`](https://t.me/saleh_hawi). Community organizer, KoinDX product / business contributor and user-facing operator, exchange-listing campaign coordinator, moderator, and technical explainer. He was not one of KoinDX's original co-founders, but by 2024 he had become one of its publicly recognized contributors and remained a support contact through 2025.
 - **Roamin**: GitHub [`roaminro`](https://github.com/roaminro).
 - **Jon Rice**: X [`@jonricecrypto`](https://x.com/jonricecrypto), LinkedIn [`jonricecrypto`](https://www.linkedin.com/in/jonricecrypto/). Earlier Federation-era X posts also referenced [`@jonrice`](https://x.com/jonrice).
 - **Pablo Garcia / pgarcgo**: Telegram [`@pgarcgo`](https://t.me/pgarcgo), X [`@pgarcgo`](https://x.com/pgarcgo), GitHub [`pgarciagon`](https://github.com/pgarciagon), creator of the discontinued Spanish podcast **Koincast**.
 - **`@interfecto`**: X [`@interf3cto`](https://x.com/interf3cto), GitHub [`interfecto`](https://github.com/interfecto).
 - **Alberto / Transeunte**: Telegram [`@transeunte`](https://t.me/transeunte).
 - **Nomad100x**: Telegram [`@nomad100x`](https://t.me/nomad100x).
-- **Carlos Welele**: Telegram [`@Weleleliano`](https://t.me/Weleleliano).
+- **Carlos Welele / `@Weleleliano`**: Telegram [`@Weleleliano`](https://t.me/Weleleliano). Early Spanish-community participant, bilingual explainer and translator, organizer of Koinos social-media materials and engagement channels, and long-running moderator of the main Koinos Telegram group. His contribution was social infrastructure: helping users understand Koinos, keeping information circulating, and protecting newcomers from spam, impersonators, and fake groups.
 
 ## 06.10.2020 - Whitepaper and KOIN Mining Are Announced
 
@@ -134,6 +135,8 @@ The Spanish-speaking community formed unusually early. Telegram evidence from la
 By December 20, 2020, the Spanish channel was already sharing a broader communication stack: YouTube, Facebook, Twitter / X as `@koinos_espaniol`, Telegram as `@koinoshispano`, and a Spanish-speaking Discord. On January 11, 2021, it shared a subtitled video of Andrew Levine presenting the Spanish community. Later, in November and December 2021, community member Pablo Garcia / `@pgarcgo` referred to those Spanish channels in the main group as official Spanish-speaking communication routes.
 
 This makes `@koinoshispano` historically important beyond language. It was one of the first examples of Koinos becoming international through community work rather than through a formal corporate regional program. The channel was created and maintained in that early period by Spanish-speaking community members including `@pgarcgo` and Carlos Welele / `@Weleleliano`, and it became a place for translation, technical explanation, onboarding, mining help, testnet discussion, and later community coordination.
+
+Welele's role as a bridge into the main English-language community was visible by April 18, 2021, when he reported, [“Gotta tell you, in the Spanish Telegram we are fomoing hard with Koinos”](https://t.me/koinos_community/8520). The phrase was playful, but the underlying role lasted for years: he carried questions from the Spanish group into the main channel, translated answers back, explained mana, Proof of Burn, wallets, supply, claims, and mainnet behavior in Spanish, and pushed for subtitles and more accessible presentation. In April 2022, while volunteering to add Spanish subtitles to a video, he summarized that philosophy in another characteristic line: [“This is the content that make crypto accesible.”](https://t.me/koinos_community/77315)
 
 There is one nuance. Later Telegram lists described several language groups, including Spanish, as "Non-Official International Groups." That later wording should not erase the early history: in 2020 and 2021, Koinos en español was being treated publicly as the Spanish-language community route, while later community governance became more careful about what counted as official.
 
@@ -339,6 +342,8 @@ Kui He, known in the community as **motoengineer**, also maintained a YouTube ch
 
 The Spanish-language equivalent was smaller but still historically relevant. **Koincast**, launched by `@pgarcgo`, described itself on Spotify as a podcast about blockchains, decentralized economics, dApps, Web3, liberal thought, and artificial intelligence. By April 2023, it had published Koinos ecosystem content such as an interview with Ederaleng, CTO of KoinDX. Although Koincast was later discontinued, it is part of the same communication layer as The Koin Press and motoengineer videos: community members were trying to make Koinos understandable outside official announcements and outside English-only channels.
 
+Carlos Welele formed part of that education layer without running a comparable podcast or software product. He repeatedly translated questions from the Spanish group into English, returned technical explanations to Spanish speakers, offered subtitle and translation help, and turned difficult subjects into ordinary-language comparisons. His work is best understood as persistent peer education: not a single publication milestone, but years of answering the questions that appear when a fee-less blockchain, mana, Proof of Burn, token claiming, and forkless upgrades are new to users.
+
 ## 06.02.2023 - Running Multiple Producers on the Microservice Architecture
 
 On February 6, 2023, community developer Julián González followed with [How to setup a second producer in Koinos Blockchain](https://hive.blog/koinos/@jga/koinos-2-producers). The post explained how Koinos' microservice architecture allowed more than one producer to be run from a single node setup.
@@ -385,6 +390,14 @@ Justin's role connects Kollection to Koinos Contract Standards. The Kollection l
 
 Steve Gerbino later summarized Justin's role clearly in a Koinos Network update, crediting him with leading the KCS effort and developing Kollection, one of the important on-chain dApps in the ecosystem. Chronologically, Kollection therefore belongs before later ecosystem summaries: it was one of the first signs that Koinos could support real consumer-facing applications, not only base-layer architecture.
 
+## 13.05-22.11.2023 - Carlos Welele Organizes Community Marketing Workflows
+
+On May 13, 2023, Carlos Welele [published a community-made compilation](https://t.me/koinos_community/168489) of relevant Koinos posts and reusable X / Twitter threads, divided into “Koin Topics” and “Koin Threads.” The practical aim was to reduce the work required for an ordinary holder to explain or promote Koinos: instead of reconstructing the same arguments every time, community members could reuse organized source material.
+
+That effort developed into a broader social-media workflow around `@koinsocials` and `@koinosmarketing`. Welele repeatedly directed users to Koinos Socials to find posts worth liking, replying to, and reposting. On September 18, when the group had only 87 members, he expressed his participatory view of decentralization in a characteristically direct line: [“If you are not a dev, GO INTERACT. Is part of your job to make $KOIN bigger.”](https://t.me/koinos_community/191362)
+
+By November, he was [helping organize the Koinos Marketing channel](https://t.me/koinos_community/204881) with searchable tags and prepared X replies, and [reported that a bot had been added](https://t.me/koinos_community/208073) to Koinos Socials so shared posts would receive useful previews. The available evidence supports saying that Welele helped operate, organize, and promote these community workflows; it does not establish that he was their sole founder. Their importance was modest but practical: they turned vague calls for “more marketing” into a repeatable place where non-developers could find material and contribute attention.
+
 ## May-July 2023 - Wachsman, HackerEarth, and the 20 dApps / 100,000 Users Campaign
 
 In May 2023, Koinos Group's X account began describing a marketing campaign aimed at onboarding 20 dApps and 100,000 users to Koinos in six months. In June, Andrew Levine and Koinos Group said that Wachsman had been brought in to spearhead that campaign. In July, they connected the same strategy to a HackerEarth hackathon that was scheduled to start on July 10 and run for four weeks.
@@ -427,7 +440,9 @@ KoinDX also became important later when Koinos' CEX situation weakened. As listi
 
 The leadership story changed in 2024. In June, community discussion [reported that VonLooten was no longer part of KoinDX](https://t.me/koinos_community/276060), while Ederaleng remained its co-founder, main developer, and the person responsible for most subsequent technical updates. Dokterkraakbeen also remained associated with the team. This reported transition explains why later ecosystem history often identifies Ederaleng with KoinDX even though VonLooten had been its original CEO, public spokesperson, and co-founder.
 
-The maintenance story changed again over time. By late 2025, KoinDX community messages said active KoinDX development had been paused while contributors focused on stabilizing the broader Koinos network: bridge work, nodes, and related infrastructure. By 2026, community developer and operator `@ederaleng` was one of the visible community operators tied to the DeFi/liquidity side, including KFS-funded liquidity deployment and later Base expansion work. That makes KoinDX part of the broader transition from a co-founded community dApp into community-maintained market infrastructure.
+Saleh Hawi belongs to this later KoinDX phase, not to the original founding record. The October 2022 team announcement did not name him, and the August 2023 launch congratulations went to VonLooten and Ederaleng. By June 2024, however, Saleh was speaking publicly from inside the project about investors, tokenomics, integrations, routing behavior, and support issues. On August 29, 2024, Steve Gerbino formally credited **Ederaleng, Dokterkraakbeen, and Saleh** with delivering KoinDX. The evidence supports describing Saleh as a product, business, operations, and community-facing contributor; it does not establish him as the DEX's original founder or principal smart-contract developer.
+
+The maintenance story changed again over time. Saleh continued acting as a user-facing KoinDX operator during 2025: he explained swap routing, [relayed that Ederaleng was working on a Kondor-related fix](https://t.me/koindx/20839), and [answered basic DEX questions as late as September](https://t.me/koindx/20885). By late 2025, KoinDX community messages said active KoinDX development had been paused while contributors focused on stabilizing the broader Koinos network: bridge work, nodes, and related infrastructure. By 2026, community developer and operator `@ederaleng` was one of the visible community operators tied to the DeFi/liquidity side, including KFS-funded liquidity deployment and later Base expansion work. That makes KoinDX part of the broader transition from a co-founded community dApp into community-maintained market infrastructure.
 
 ## 05.08.2023 - Community Developer Julián González Proposes a Security-Oriented System Call
 
@@ -491,6 +506,14 @@ On December 6, 2023, community developer Julián González published [The gov pr
 
 This was the concrete bridge between the August security proposal and the February 2024 governance milestone. The proposal had been discussed publicly and reviewed by several developers, including Michael Vandeberg from Koinos Group.
 
+## 17.12.2023 - Saleh Hawi Coordinates the Community Exchange-Listing Campaign
+
+On December 17, 2023, Saleh Hawi [announced the Koinos Listing Campaign](https://t.me/koinos_community/224158), a community-led effort intended to secure at least two Tier-2 exchange listings and one Tier-1 listing during 2024. The announcement made Saleh the contact for community members who had relationships with exchanges, while Andrew Levine and community member G-20 were named as advisors. Its 29 reactions and subsequent replies show that the initiative was treated as a substantial community campaign rather than an isolated suggestion.
+
+This milestone matters because it turned a recurring complaint about market access into an organized workstream. Saleh had already [identified himself as part of the exchange group](https://t.me/koinos_community/223583) and emphasized that listings required more than an application: exchanges evaluated trading volume, community activity, technical integration, market making, and the ability to pay or negotiate listing costs. During 2024 he [reported completed exchange paperwork and fees](https://t.me/koinos_community/276860), and [submitted or renewed requests involving CoinGecko, GeckoTerminal, Dexscreener, CoinMarketCap, and DEX-data integrations](https://t.me/koinos_community/286110).
+
+The campaign's original numerical target should not be treated as Saleh's personal achievement or as a fully documented final result. Listings were negotiated and funded collectively, with Koinos Group, advisors, donors, technical contributors, and exchange representatives all involved. Saleh's historically verifiable role was the practical coordination layer: collecting contacts, communicating progress, connecting applications with technical projects, and keeping the community engaged with market-access work.
+
 ## 21.12.2023 - Community Marketing with Rhubarb Media
 
 On December 21, 2023, Koinos Network published [The Koinos Community is partnering with Rhubarb Media](https://medium.com/koinosnetwork/the-koinos-community-is-partnering-with-rhubarb-media-a146ddeff309). The announcement came from the community marketing group, not simply from Koinos Group as a company.
@@ -531,13 +554,15 @@ KoinosPro was intended to let developers move from idea to application without o
 
 Telegram adds later nuance. On February 6, 2025, `@koinos_community` reported that the KoinosPro website would be taken down, but that endpoints would continue operating without affecting users. KoinosPro as a brand or public site lost visibility, but some API infrastructure remained relevant.
 
-## 2024 - Community Donations for Listings and Market Access
+## March 2024-April 2025 - Saleh Hawi and the Community Listing Fund
 
 In March 2024, the community began organizing explicit donation addresses for listings and market access. A message shared in `@koinoshispano` on March 21, 2024 stated that Koinos Group had agreed to manage community donation addresses: one native KOIN address and one USDT address on Ethereum or BSC/BNB Chain.
 
 This was another symptom of the same structural problem. Because Koinos had no large pre-mine, no ICO treasury, and no VC-funded market-making budget, exchange listings and liquidity campaigns required either direct community donations or some new treasury mechanism.
 
-The donation effort was controversial but important. Supporters saw it as proof that the community was willing to fund growth directly. Critics worried about accountability, who controlled the funds, whether listings were worth paying for, and whether community money should be spent on CEX access instead of infrastructure, liquidity, or developer grants.
+Saleh became a public liaison and discussion point for how those contributions could be used. On October 25, 2024, after the group received proposals from fiat-on-ramp providers, he [asked the donors directly](https://t.me/koinos_community/308436) whether they wanted listing-fund money used to let users buy KOIN inside wallets and dApps with cards or Apple Pay. His framing was explicit: these were the contributors' funds, so the decision belonged to them. On April 17, 2025, he [reported that the listing funds remained untouched](https://t.me/koinos_community/346553), because Koinos Group had paid listing expenses separately as part of its matching commitment.
+
+The donation effort was controversial but important. Supporters saw it as proof that the community was willing to fund growth directly. Critics worried about accountability, who controlled the funds, whether listings were worth paying for, and whether community money should be spent on CEX access instead of infrastructure, liquidity, fiat ramps, or developer grants. Saleh's consultation and later accounting update did not resolve every governance question, but they created a visible record of donor consultation and public accounting around money that had been raised from community members.
 
 ## 16.04.2024 - Arkinos Makes Contract Development Faster
 
@@ -560,6 +585,14 @@ This mattered because a layer-one without an ecosystem remains abstract infrastr
 
 Andrew Levine had made a related point at the end of 2023: the first-year Koinos dApps were built by community developers with no grants, weak tooling, and poor documentation. That public criticism is important context. It was not simply a promotional claim that Koinos had an ecosystem; it was also an admission that early builders were operating without the support structure that most developer platforms need.
 
+## 20.06-29.08.2024 - Saleh Hawi Becomes a Public KoinDX Contributor
+
+On June 20, 2024, Saleh spoke in the KoinDX community as part of the project, [describing approaches from venture investors](https://t.me/koindx/14218), the redesign of KOINDX tokenomics, private and public sale plans, vesting, and the need to finance development and marketing. In the following weeks, he discussed internal product decisions, integrations, liquidity-pool presentation, API work, and collaboration with other dApps. This provides a practical date by which his role had moved beyond general Koinos advocacy into KoinDX product and business operations.
+
+The wider ecosystem formally acknowledged that role on August 29. In [A message from Steve](https://medium.com/koinosnetwork/a-message-from-steve-33ad9f685b8b), Koinos Group CEO Steve Gerbino named Ederaleng, Dokterkraakbeen, and Saleh as the community members who had delivered KoinDX. The same announcement said Koinos Group would invest directly in KoinDX, assist with liquidity, partnerships, and joint marketing, and collaborate on the KOINDX token launch.
+
+Saleh's importance in this phase was connective rather than purely technical. Ederaleng remained the principal developer, while Saleh translated product decisions for users, coordinated commercial and listing conversations, organized campaigns, gathered feedback, and relayed incidents to the developer. That division of labor helped a small community DEX operate as a user-facing product rather than only as deployed contracts.
+
 ## 29.06.2024 - Nicknames Become More Flexible
 
 On June 29, 2024, community developer Julián González published a Nicknames update that allowed the linked address to differ from the nickname owner. This made Nicknames more useful for profiles, token identities, and project addresses, not only for simple personal account naming.
@@ -580,7 +613,13 @@ On Telegram, Vortex appeared even before the official post as one of the most an
 
 Communication work was not only marketing. It also meant helping users distinguish real community channels from scams and keeping public material circulating after official communication became thinner.
 
-On July 1, 2024, community member Carlos Welele, Telegram `@Weleleliano`, posted a list of fake or scam Koinos Telegram groups and told users to report them, explicitly pointing people back to the official `@koinos_community` group. On November 24, 2024, he also shared KoinSocials material back into the main community channel. These are small actions compared with protocol releases, but they belong in the chronology because a small chain needs social hygiene as much as it needs software: users need to know where the real community is, what links are safe, and where announcements are being amplified.
+Carlos Welele had been performing this work well before the period named in the heading. In April 2023 he was already identifying and reporting imitation Koinos channels. During a wave of impersonation in November, he gave newcomers one of his most repeated security rules: [“NOT A SINGLE ADMIN will EVER DM you.”](https://t.me/koinos_community/206107) This mattered because scammers were copying administrator names and avatars, then opening private conversations with users who had just asked for wallet or claim help.
+
+On July 1, 2024, Welele escalated the campaign by listing five fake Koinos groups and asking users to report each one. His warning was deliberately unambiguous: [“IF YOU GET ADDED TO A GROUP THAT LOOKS LIKE THE OFFICIAL BUT TALKS ABOUT A MIGRATION ITS A FAKE GROUP.”](https://t.me/koinos_community/277230) He also continued routine moderation: deleting context-free promotions, warning repeat spammers, banning obvious spam accounts, and reminding users to initiate conversations with verified administrators themselves. On November 24, he shared KoinSocials material back into the main community channel, connecting moderation with the other half of his contribution—keeping legitimate information circulating.
+
+These are small actions compared with protocol releases, but they belong in the chronology because a small chain needs social hygiene as much as it needs software. Welele's repeated warnings created recognizable rules that newcomers could remember, while his day-to-day moderation helped preserve the main Telegram group as a technical and community channel rather than allowing it to become an unfiltered token-promotion room.
+
+Saleh performed a similar guardrail role around KoinDX. On September 7, 2024, he [warned that unofficial tokens were appearing in users' wallets](https://t.me/koinos_community/293143), stressed that KOINDX had not yet launched, and told users not to interact with unknown tokens or contracts until the official contract address was announced. Later that month, he [acknowledged that he held administrator rights](https://t.me/koinos_community/296331) in the main Koinos group and explained that he was deliberately avoiding using those rights to promote KoinDX until the moderation guidelines were clear. Together, those messages show why his moderation role mattered: he combined product knowledge with caution about scams, conflicts of interest, and the limits of an administrator's authority.
 
 ## 29.07.2024 - Koinos Group Deploys 1 Million KOIN to Make Usage Free
 
@@ -593,6 +632,8 @@ It also foreshadows the later institutional problem. Koinos Group was still usin
 ## July 2024 - Federation Debate Resurfaces
 
 In July 2024, the Koinos Federation argument resurfaced when a community message pushed back against the claim that the Federation had proposed simply giving newly inflated tokens to Koinos Group to sell to VCs. The reply clarified that the proposal involved a treasury overseen by a committee, potential OTC sales, exchange listings, market making, marketing, developer grants, and vesting terms for a major buyer.
+
+Welele participated in the same debate from a practical funding perspective. On July 29, he argued, [“We should be getting money for devs + marketing + listings”](https://t.me/koinos_community/286813), while also asking how to obtain it without simply printing more tokens. His alternatives included a “marketing Fogata pool” whose production could support liquidity and funding, transparent public donation requests with named budgets, and miners voluntarily converting part of their rewards to support developers. He also committed personally to continue donating to developers such as Julián. The proposal was never a formal treasury design, but it captured the recurring problem clearly: community enthusiasm could not substitute indefinitely for budgets and sustained labor.
 
 Whether one considers that responsible ecosystem funding or unacceptable dilution, it belonged to the same chronological problem as the March donation addresses: Koinos had no large treasury, but it still needed listings, liquidity, grants, marketing, and coordination.
 
@@ -718,6 +759,8 @@ The loss became more visible over the following months. Operators missed the net
 ## May-June 2025 - The Community Foundation Takes Shape
 
 In May and June 2025, `@KoinosTCB` discussed the need for a community entity, internal roles, and a GitHub project to organize future direction. This is where the later Koinos Community Foundation begins to appear as an operational answer rather than only a roadmap item.
+
+The funding discussion had already become concrete in March. Welele summarized his view of what a sustainable ecosystem actually required with the line, [“a project has to be devs + sales + marketing + communication + operations”](https://t.me/koinos_community/342252). In feedback on an early funding proposal, he argued that a 25 KOIN submission fee was too low at then-current prices, suggested relating it to market conditions or the requested amount, and proposed limiting how much of the daily budget any one project could receive. His example cap was 20 percent. These were informal suggestions rather than adopted rules, but they show community members already thinking about spam resistance, capture, budget concentration, and accountability before the Foundation and KFS became formal milestones.
 
 The initial answer was imperfect but real. Maintenance groups formed, roles were discussed, basic services were preserved, and the chain remained alive despite less visibility, lower market confidence, and fewer resources.
 
@@ -858,11 +901,11 @@ The Koinos story has several distinct phases:
 7. **Testnet era:** microservices, Kondor and claim UX, Roamin's AssemblyScript/TypeScript smart contract path, fbslo's KoinoSwap joining forces with KoinDX, governance, KPoB, mana, tax concerns, and modular architecture take shape.
 8. **Mainnet:** Koinos launches on November 5, 2022, amid claim, wallet, exchange, and liquidity questions, then completes initial decentralization on December 5, 2022.
 9. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-10. **First mainnet year:** Koiner.App, BurnKoin, Fogata, KAP, The Koin Press, motoengineer videos, Koinos Army, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, VonLooten and Ederaleng's KoinDX, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+10. **First mainnet year:** Koiner.App, BurnKoin, Fogata, KAP, The Koin Press, motoengineer videos, Koinos Army, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, VonLooten and Ederaleng's KoinDX, Saleh Hawi's exchange-listing campaign, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 11. **Governance proof:** Koinos demonstrates in-band upgradeability in 2023, and Julian Gonzalez's system-call proposal becomes the first community-driven forkless governance upgrade in 2024.
 12. **Developer and user tooling:** KCS-2/Kollection, Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, and ecosystem dApps make the chain more usable.
-13. **Community communication:** Spanish-speaking community members and projects such as Koinos en español, Koincast, Carlos Welele, Transeunte, and `@nomad100x` help with social guardrails, bilingual updates, proposal discussion, and informal coordination.
-14. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, and weak CEX presence force a DEX and multichain liquidity strategy.
+13. **Community communication:** Koinos en español, Koincast, Transeunte, `@nomad100x`, Saleh Hawi's onboarding and scam warnings, and Carlos Welele's bilingual explanations, Koinos Socials workflows, moderation, and fake-group reporting show that translation, amplification, and social guardrails became community-maintained infrastructure.
+14. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, weak CEX presence, Saleh's listing coordination, and the community listing fund force a DEX and multichain liquidity strategy.
 15. **Koinos Group transition:** after Koinos Group deploys resources such as the 1 million KOIN free-usage pool and ships Koinos.fun as a strong reference app for AI-generated NFTs over X, the company steps back and the community must maintain the chain.
 16. **The Koiner sustainability lesson:** Frank's explorer grows into a shared indexing and GraphQL data layer, but closes after personally funded infrastructure, 60-70-hour workweeks, insufficient adoption, and an unproven paid-service model make it unsustainable.
 17. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
@@ -914,6 +957,17 @@ If that test succeeds, Koinos will not matter simply because it was another bloc
 - Spotify: [Koincast](https://open.spotify.com/show/4iINZLo8nDtC1YUHBdhR8o)
 - Spotify: [Koincast interview with Ederaleng, CTO of KoinDX](https://open.spotify.com/episode/6omwPLm22w7V8UkSs7JRaZ)
 - X indexed search result from [BabyCervantes / `@cervanteshive`](https://x.com/cervanteshive) mentioning `@pgarcgo` launching Koincast at `koincast.io`
+- Telegram: [Welele reports early enthusiasm in the Spanish Koinos group, April 2021](https://t.me/koinos_community/8520)
+- Telegram: [Welele volunteers Spanish subtitles and argues for accessible content](https://t.me/koinos_community/77315)
+- Telegram: [Welele compiles reusable Koinos topics and X threads](https://t.me/koinos_community/168489)
+- Telegram: [Welele calls non-developers to participate through Koinos Socials](https://t.me/koinos_community/191362)
+- Telegram: [Welele organizes tagged community-marketing materials](https://t.me/koinos_community/204881)
+- Telegram: [Welele reports the Koinos Socials preview bot](https://t.me/koinos_community/208073)
+- Telegram: [Welele warns that legitimate administrators will not initiate private messages](https://t.me/koinos_community/206107)
+- Telegram: [Welele warns users about fake migration groups](https://t.me/koinos_community/277230)
+- Telegram: [Welele proposes community funding routes for developers, marketing, and listings](https://t.me/koinos_community/286813)
+- Telegram: [Welele summarizes the operational components of a sustainable project](https://t.me/koinos_community/342252)
+- Telegram: [Welele proposes safeguards for an early community-funding design](https://t.me/koinos_community/342801)
 - DevNTell: [Koinos Account Protocol](https://www.devntell.com/podcast/koinos-account-protocol)
 - Developer DAO: [DevNTell - Koinos Account Protocol](https://blog.developerdao.com/devntell-koinos-account-protocol)
 - Andrew Levine on X: [KAP/Kondor fee-less UX demo](https://x.com/andrarchy/status/1681005550128046080)
@@ -923,6 +977,17 @@ If that test succeeds, Koinos will not matter simply because it was another bloc
 - GitHub: [kollection-nft/marketplace](https://github.com/kollection-nft/marketplace)
 - GitHub: [KCS-2 NFT Collection Standard](https://github.com/koinos/koinos-contract-standards/blob/master/KCSs/kcs-2.md)
 - Koinos Network: [A message from Steve](https://medium.com/koinosnetwork/a-message-from-steve-33ad9f685b8b)
+- Telegram: [Saleh identifies himself as part of the Koinos exchange group](https://t.me/koinos_community/223583)
+- Telegram: [Saleh Hawi announces the Koinos exchange-listing campaign](https://t.me/koinos_community/224158)
+- Telegram: [Saleh reports completed exchange paperwork and listing fees](https://t.me/koinos_community/276860)
+- Telegram: [Saleh reports chain, DEX, and market-data listing requests](https://t.me/koinos_community/286110)
+- Telegram: [Saleh discusses KoinDX investor interest and token-sale planning](https://t.me/koindx/14218)
+- Telegram: [Saleh warns users about fake KOINDX tokens](https://t.me/koinos_community/293143)
+- Telegram: [Saleh discusses the limits of using his Koinos administrator rights to promote KoinDX](https://t.me/koinos_community/296331)
+- Telegram: [Saleh asks listing-fund donors about funding fiat ramps](https://t.me/koinos_community/308436)
+- Telegram: [Saleh reports that the community listing funds remain untouched](https://t.me/koinos_community/346553)
+- Telegram: [Saleh relays a KoinDX wallet fix from Ederaleng](https://t.me/koindx/20839)
+- Telegram: [Saleh continues answering KoinDX user questions in September 2025](https://t.me/koindx/20885)
 - Koinos Group on X: [20 dApps and 100,000 users campaign](https://x.com/TheKoinosGroup/status/1663975840151896066)
 - Andrew Levine on X: [Wachsman marketing campaign](https://x.com/andrarchy/status/1672255967159779328)
 - Andrew Levine on X: [HackerEarth hackathon strategy](https://x.com/andrarchy/status/1677338793404235776)
@@ -985,7 +1050,6 @@ If that test succeeds, Koinos will not matter simply because it was another bloc
 - Telegram authenticated search: Koinos Community Working Group announcement, message 144 and revised message 182, September 4, 2025
 - Telegram authenticated search: Koinos Community Working Group testnet and faucet bot messages, May 24-25, 2026
 - Telegram authenticated search: `@koinos_community` EVM compatibility and `interfecto/koinos-evm-engine` messages, May 29 and June 13, 2026
-- Telegram authenticated search: Carlos Welele / `@Weleleliano` anti-scam group warning and KoinSocials sharing, July 1 and November 24, 2024
 - Telegram authenticated search: Koinos.fun launch announcement, January 28, 2025
 - Telegram authenticated search: Koinos.fun community reaction and marketing discussion, January 31 and March 10, 2025
 - Telegram authenticated search: Alberto / `@transeunte` bilingual blog, X updates, NFTs, and Koinos video message, February 10, 2025
