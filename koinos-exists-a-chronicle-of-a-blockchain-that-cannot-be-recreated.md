@@ -76,7 +76,7 @@ Known public profiles for recurring community contributors include:
 - **Kui He**: X [`@kuixihe`](https://x.com/kuixihe), YouTube [`@kuixihe` / motoengineer](https://www.youtube.com/@kuixihe), LinkedIn [`kuixihe`](https://www.linkedin.com/in/kuixihe).
 - **Julián González**: Telegram [`@joticajulian`](https://t.me/joticajulian), X [`@joticajulian`](https://x.com/joticajulian), GitHub [`joticajulian`](https://github.com/joticajulian).
 - **Justin Welch / Justin W.**: X [`@ogjustinw`](https://x.com/ogjustinw), GitHub [`jredbeard`](https://github.com/jredbeard), LinkedIn [`justin-welch-5520a9112`](https://www.linkedin.com/in/justin-welch-5520a9112/).
-- **Adriano Foschi**: X [`@adrihoke`](https://x.com/adrihoke), GitHub [`adrianofoschi`](https://github.com/adrianofoschi), LinkedIn [`adrianofoschi`](https://www.linkedin.com/in/adrianofoschi).
+- **Adriano Foschi / `@adrihoke`**: community product developer focused on removing user friction. He created the first native Koinos mobile wallet, **Konio**; the modular smart-account framework **Veive**; the **Sovrano** authentication and payment track; the **Sovry** Telegram wallet; and the original **Kuku Games** price-prediction prototype. He also coordinated a multi-project onboarding campaign, helped other dApp developers, and in 2025 created an early Foundation planning board and volunteered in the preparations for Vortex. Public profiles: X [`@adrihoke`](https://x.com/adrihoke), GitHub [`adrianofoschi`](https://github.com/adrianofoschi), LinkedIn [`adrianofoschi`](https://www.linkedin.com/in/adrianofoschi).
 - **Frank / `@ElImbatido`**: Telegram [`@ElImbatido`](https://t.me/ElImbatido), creator and principal developer of **Koiner.App**, its explorer interface, indexing backend, and GraphQL data API. The historical V1 repository was `koiner-dao/koiner-backend`; its [original GitHub URL](https://github.com/koiner-dao/koiner-backend) is no longer available.
 - **VonLooten / `@vonlooten`**: X [`@vonlooten`](https://x.com/vonlooten), GitHub [`vonlooten`](https://github.com/vonlooten), and Medium [`@vonlooten`](https://medium.com/@vonlooten). Co-founder and original CEO of KoinDX; he led business strategy, contributed to development, and was one of the project's most visible early communicators.
 - **fbslo / `@fbsloXBT`**: X [`@fbsloXBT`](https://x.com/fbsloXBT), GitHub [`fbslo`](https://github.com/fbslo). Slovenia-based DeFi developer who created the earlier KoinoSwap project, joined forces with the KoinDX team in May 2022, and later built Koinos atomic-swap and bridge-related contracts.
@@ -432,15 +432,17 @@ By July 2023, Julian's work also reached block-producer governance participation
 
 Andrew also intervened in the practical problem of participation. In September, he [suggested that technically knowledgeable contributors publish their own recommendation through Koinos Polls](https://t.me/koinos_community/188642), so less technical voters could see a position, disagree with it if necessary, and mobilize. His point was not that experts should control the result; it was that silence makes participation harder because ordinary contributors often lack the time or confidence to evaluate system-level changes without a visible technical argument.
 
-## 25.07.2023 - Community Developer Adriano Launches Konio, the First Native Mobile Wallet
+## 16.06.2023 - Adriano Launches Konio, the First Native Mobile Wallet
 
-On July 25, 2023, Koinos community channels shared the release of Konio v1.5.2 with a simple message: "FAST SIMPLE FREE." Konio was community developer Adriano Foschi's native mobile wallet for Koinos, and its GitHub repository describes it as the first Koinos blockchain native mobile wallet, built for Android and iOS.
+Konio's public milestone began earlier than the July release previously recorded in this chronology. On June 16, 2023, Adriano Foschi [announced the first native iOS and Android wallet for Koinos](https://t.me/koinos_community/174532) and, later the same day, [made its source code public](https://t.me/koinos_community/174613). The public alpha produced no critical issues, so on June 17 he began the TestFlight and Google Play beta process. Mainnet became the default network on June 25.
 
-Discord adds an earlier community snapshot of the same wallet landscape. On June 28 and June 30, 2023, messages in the Koinos Discord copied a wallet list that described "Konio Wallet (iOS & android)" as a mobile wallet, "Created by Adriano", open sourced at `adrianofoschi/konio-mobile`, and labeled "First Mobile Koinos Wallet". That is useful because it shows how the community understood Konio at the time, before the later Sovrano transition.
+The [July 25 release of Konio v1.5.2](https://t.me/koinos_community/182230) supplied the memorable product message: **"FAST, SIMPLE, FREE."** Two days later the Italian software house E-Time [announced its backing](https://t.me/koinos_community/182422), providing distribution and development resources while Adriano remained the sole developer and the project remained open source. Konio reached the [Apple App Store on August 4](https://t.me/koinos_community/183819), added KAP Domains integration in v1.6, and by v1.7 said it could connect to all Koinos dApps.
+
+Konio then earned external recognition. On September 15, Andrew Levine [announced it as a $1,000 HackerEarth hackathon runner-up](https://t.me/koinos_community/190739), alongside MapX, while Kanvas won the main prize. Adriano publicly credited the community, Julián González, and the other Koinos developers rather than treating the result as a solo achievement. On October 9 he released what he called Konio's largest update: real-time asset prices, NFT tracking and transfers, Nicknames integration, an embedded dApp browser, new localizations, and a rewritten architecture covering roughly 90 percent of the code. Andrew's immediate assessment was simple: ["latest update to Konio is fantastic"](https://t.me/koinos_community/193932).
 
 Konio matters because Koinos' promise was not only technical. A fee-less blockchain still needs wallets that ordinary users can install, understand, and use away from a browser extension. Adriano later explained that he had discovered Koinos at the beginning of 2023 and created Konio because there was no mobile wallet for the chain. That made Konio one of the first serious attempts to turn Koinos' fee-less design into a mobile-first user experience.
 
-The later history was mixed. By 2025, community messages described Konio as inactive and not updated for the KCS-4 transition. Discord shows the practical side of that transition as well: users reported that the old Konio wallet no longer opened, asked how to recover access, and were told to restore with their seed phrase or import the private key into another wallet such as Kondor. But that does not reduce Konio's historical role. Konio was the first native mobile-wallet step, and it also foreshadowed Adriano's later direction: moving from a conventional mobile wallet toward smart accounts, modular authorization, and Sovrano.
+The later history was mixed. The repository's last mobile release was v2.5.0 in February 2024, and by 2025 community messages described Konio as inactive and not updated for the KCS-4 transition. Discord shows the practical side of that transition as well: users reported that the old Konio wallet no longer opened, asked how to recover access, and were told to restore with their seed phrase or import the private key into another wallet such as Kondor. But that does not reduce Konio's historical role. Konio was the first native mobile-wallet step, and it also foreshadowed Adriano's later direction: moving from a conventional mobile wallet toward smart accounts, modular authorization, and Sovrano.
 
 ## August 2023 - KoinDX Launches the First DEX on Koinos
 
@@ -511,6 +513,12 @@ What can be said safely is that Chainge moved from being seen as an interoperabi
 By November 2023, Cafe had become not only a distribution concern but also an identity mystery. In `@thekoinosarmy`, community members summarized the basic uncertainty: the account was called "cafe" because of the original address prefix, but nobody knew whether it represented one person, a group, an external miner, or coordinated wallets.
 
 Later speculation became much more personal and much less certain. Some analysis tried to connect Cafe-linked Ethereum and Koinos addresses with claims, OTC explanations, KAP name mints, Kollection-related transactions, and even $MONG memecoin trading activity. Names such as Justin W., Glen, and Kui appeared in discussions, but the Telegram evidence archive does not support treating any of those as proven identifications. The historically safe conclusion is narrower: Cafe became powerful enough that the community spent years debating mining concentration, downstream wallet independence, and the limits of on-chain attribution.
+
+## 21.11.2023 - Konio Coordinates an Ecosystem-Wide Onboarding Giveaway
+
+Konio also became a coordination vehicle rather than only a wallet. On November 13, Adriano [announced an onboarding giveaway beginning November 21](https://t.me/koinos_community/201228), with more than 3,000 USDT in prizes for ten winners. The sponsor list connected much of the live ecosystem: Kanvas, KAP, KoinCrew, KoinCity, Koiner.App, Koinos Garden, Koinos Raffles, KoinDX, Kollection, Koinos Blocks, and Planet Koinos.
+
+This deserves its own milestone because it was one of the earliest ecosystem-wide attempts to turn many small Koinos projects into one coordinated acquisition campaign. It also shows a second side of Adriano's contribution: he did not only write wallet code; he used the product and its relationships to organize onboarding and joint promotion. In 2025 he [remembered the campaign as a major success](https://t.me/KoinosTCB/2234) and noted that KOIN reached an all-time high during the event. The timing is verifiable, but it should not be read as proof that the giveaway alone caused the price movement.
 
 ## 06.12.2023 - Governance Proposal Submitted on Mainnet
 
@@ -586,21 +594,39 @@ On April 16, 2024, community developer Julián González introduced [Arkinos](ht
 
 Arkinos connects directly to the January 2024 developer-experience theme. Koinos had a fee-less architecture, but developers still needed tools that made contract creation approachable. Telegram later shows developers asking Julian how Arkinos handled authorization and reporting projects built with Cursor and Arkinos, which suggests it was used as practical tooling rather than only announced as a demo.
 
+## 17.04.2024 - Veive Turns Adriano's Wallet Work into a Modular Smart-Account Framework
+
+One year after first asking the community whether Koinos had a smartphone wallet, Adriano [introduced Veive](https://t.me/koinos_community/256226). Konio had addressed the missing mobile interface; Veive aimed at the deeper onboarding problem: an authentication and authorization framework based on Koinos smart accounts and WebAuthn, so an application could offer passkeys, programmable permissions, and sponsored execution without asking a new user to understand mana, transaction fees, or seed phrases.
+
+Veive was not simply a renamed wallet. Adriano later described it as the general modular framework and Sovrano as one payment-oriented implementation built on top of it. The [public GitHub organization](https://github.com/veive-io) reflects that architecture: separate modules for execution, hooks, allowances, mnemonic and WebAuthn signing, signature and multisignature validation, and eventually OpenID. This was one of the ecosystem's clearest community-built experiments in account abstraction.
+
+Adriano summarized the intended combination in May: ["koinos: zero fees + veive: smart wallet passkey = New world"](https://t.me/koinos_community/266696). His proposed examples ranged from games and private businesses to public administration and voting. Those examples were a product thesis, not evidence that all of those systems shipped. The concrete contribution was the reusable smart-account design and its open modules; the broader institutional use cases remained ambitions.
+
 ## 06.05.2024 - Steve Coordinates the Koinos Cluster v2.0.3 Upgrade
 
 On May 6, Steve [announced Koinos cluster v2.0.3 directly to node operators](https://t.me/koinos_community/260316). The release improved recovery from failed transactions during block production, detected nonce conflicts when transactions were submitted, and added a mempool RPC that wallets and dApps could use to display pending mana more accurately. He also warned operators to blacklist the new block-proposal RPC on public nodes, told them to update their configuration, and answered the immediate operational question with an unambiguous recommendation: all nodes should upgrade.
 
 This is a representative Steve milestone because it connects three audiences that are often separated in blockchain projects. The underlying work concerned block production and RPC security; the user-facing effects were fewer confusing nonce and mana errors; and the public message converted the release into concrete instructions for independent operators. His community value was not only architectural authorship, but making core changes deployable outside Koinos Group.
 
+## 13.05.2024 - Kuku Games Opens Live KOIN Prediction Pools
+
+Adriano's current public profile identifies **Kuku Games** as a personal project: a decentralized price-prediction prototype on Koinos. Telegram shows [live BTC/USD prediction-pool entries using KOIN on May 13](https://t.me/koinos_community/262280), and the following day Adriano [said he was working heavily on both Veive and Kuku](https://t.me/koinos_community/262697) while helping other developers when possible. By May 18 he had outlined a wider games, token, NFT, airdrop, and onboarding roadmap. The live prediction pools were the shipped portion; the later roadmap should be recorded as a plan rather than assumed to have been completed.
+
+Kuku matters as a product experiment because it put KOIN into a simple consumer loop rather than another infrastructure screen: choose a market direction, enter a time-bounded pool, and settle the prediction. It later became an important test case for Adriano's frictionless-wallet thesis. By January 2025 Kuku was integrating Sovrano, and in May Adriano said it was the only dApp then ready for the new authentication flow.
+
+The ownership history needs precision. Adriano's profile and his 2024 activity support identifying him as Kuku's original creator and developer, but in April 2025 he [explicitly said he was no longer its owner](https://t.me/koinos_community/347396). As of this July 2026 review, the public Kuku site returned a not-found response and its former GitHub organization no longer resolved. Kuku therefore belongs in Adriano's contribution record as a working prototype and early integration partner, not as a continuously maintained product under his control.
+
 ## 2024 - Ecosystem Becomes Concrete: dApps, Wallets, and Explorers
 
-During 2024, the official Koinos website began showing a more recognizable ecosystem. Projects such as Kollection, KoinDX, Koinos Blocks, Koiner.App, KoinCity, Kondor, and Sovrano represented different parts of the stack:
+During 2024, the official Koinos website and community channels began showing a more recognizable ecosystem. Projects such as Kollection, KoinDX, Koinos Blocks, Koiner.App, KoinCity, Kondor, Kuku Games, Veive, and Sovrano represented different parts of the stack:
 
 - **Kollection** as an NFT marketplace;
 - **KoinDX** as a decentralized exchange on Koinos;
 - **Koinos Blocks** as a block explorer;
 - **Koiner.App** as an explorer, network dashboard, portfolio tracker, and indexed GraphQL data service;
 - **KoinCity** as a token launchpad with staking and social interaction;
+- **Kuku Games** as a KOIN price-prediction experiment;
+- **Veive** as modular smart-account infrastructure;
 - **Kondor** and **Sovrano** as wallets for users and dApps.
 
 This mattered because a layer-one without an ecosystem remains abstract infrastructure. Wallets, DEXs, marketplaces, explorers, and launchpads made Koinos usable.
@@ -711,9 +737,9 @@ On November 13, 2024, Koinos community channels shared the Sovrano Auth testnet 
 
 The same date appears in Discord with more developer detail. A post by `adrihoke` announced that the Sovrano SDK was available for Koinos dApp integration, including account signup, user login, and transaction authorization through redirects. The message said the SDK was still on Harbinger testnet and added that Konio would be phased out in the coming months.
 
-This was the next step in Adriano Foschi's wallet work after Konio. His public GitHub profile identifies him as creator of Konio, Veive, and Sovrano. Konio had solved the earlier mobile-wallet gap. Veive and Sovrano moved the problem up a layer: instead of only giving users a mobile wallet, they tried to make smart accounts feel closer to familiar payment and login systems.
+This was the next step in Adriano Foschi's wallet work after Konio. Konio had solved the earlier mobile-wallet gap. Veive and Sovrano moved the problem up a layer: instead of only giving users a mobile wallet, they tried to make smart accounts feel closer to familiar payment and login systems. Adriano later clarified the boundary: Veive was the general modular framework, while Sovrano was a payment and authentication product built with those modules.
 
-That distinction matters. Koinos had always argued for fee-less, familiar user experience, but account abstraction is where that promise becomes practical: recovery, permissions, spending limits, delegated actions, and dApp authorization can be handled through account logic rather than raw key management. As Konio became less maintained after KCS-4, Sovrano became the forward-looking continuation of Adriano's accessibility track. Discord evidence from July 2025 later described Sovrano as being in public beta, with social login support for Google, Twitter, Discord, and Telegram, fully fee-less asset management and identity, and a link to the upcoming Veive Protocol.
+That distinction matters. Koinos had always argued for fee-less, familiar user experience, but account abstraction is where that promise becomes practical: recovery, permissions, spending limits, delegated actions, and dApp authorization can be handled through account logic rather than raw key management. As Konio became less maintained after KCS-4, Sovrano became the forward-looking continuation of Adriano's accessibility track. Discord evidence from July 2025 described Sovrano as being in public beta, with social-login support for Google, Twitter, Discord, and Telegram and fee-less asset and identity management.
 
 ## 20.12.2024 - Roadmap Update and 2025 Plans
 
@@ -738,6 +764,14 @@ In April 2025, Andrew [repeated that he was open to advising or mentoring anyone
 This evidence supports calling Andrew an independent community advocate and potential mentor after December 2024, but not a later operational maintainer or Foundation leader. He was not listed among the founding members of the Koinos Community Foundation, and the infrastructure responsibilities that followed were taken on by other developers and operators. During 2025, community conversations also became more explicit that Koinos Group was no longer the center of the project and that some of its core architects were moving toward a new project, Respublica.
 
 This changes the tone of the chronology. Until then, many milestones could be read as company execution on top of a decentralized network. After this transition, the harder question became: if the company that launched the chain no longer leads it, can the community maintain the chain, infrastructure, and narrative by itself?
+
+## 02.01.2025 - Sovry Takes the Sovrano Model into Telegram
+
+On January 2, 2025, Adriano [released Sovry in beta](https://t.me/koinos_community/324196), a Telegram wallet based on Sovrano. It let the community test passkey accounts, token transfers, account attachment and recovery flows inside a familiar messaging application. On January 17 he [made the Veive and Sovrano repositories public](https://t.me/koinos_community/326423), turning the design from a product claim into inspectable modules and an integration SDK.
+
+The beta then exposed a real inclusion problem. In May, Adriano [reported that Sovrano was technically ready](https://t.me/KoinosTCB/1138) but that its Auth0 social-login dependency blocked users in countries such as Iran. He [replaced it with a self-hosted identity broker](https://t.me/KoinosTCB/1232), said the beta was ready on May 19, and [opened a tester group on May 20](https://t.me/KoinosTCB/1264). At that point Kuku was the only dApp he described as ready for Sovrano, while broader adoption still depended on other dApp teams integrating the SDK.
+
+The continuation was not sustained. In July 2025 Adriano said his planning work was stalled until Koinos had a working proposal system and Vortex; in November he [said family commitments and a shift toward AI development had taken him away from Koinos](https://t.me/koinos_community/362978). The public repositories preserve a serious technical experiment, but the product line did not become the maintained successor to Konio that its roadmap envisioned. That ending is part of the milestone: Adriano repeatedly built prototypes that pushed Koinos UX forward, but integration capacity, funding, legal overhead, and his available spare time limited their durability.
 
 ## 04-19.01.2025 - Frank Defines Koiner V2 as an Ecosystem Data Provider
 
@@ -817,6 +851,12 @@ The loss became more visible over the following months. Operators missed the net
 ## May-June 2025 - The Community Foundation Takes Shape
 
 In May and June 2025, `@KoinosTCB` discussed the need for a community entity, internal roles, and a GitHub project to organize future direction. This is where the later Koinos Community Foundation begins to appear as an operational answer rather than only a roadmap item.
+
+Adriano made one of the first attempts to turn that discussion into a visible work system. On June 3 he [created a `koinos-foundation` GitHub organization and Foundation Planning board](https://t.me/koinos_community/355994), based on an earlier document shared by Edje. He populated a backlog and proposed short Agile iterations, priorities, milestones, issue-based discussion, planning meetings, reviews, and retrospectives. The practical objective was captured in his own phrase: **"deliver value quickly and adapt to changes."** The board did not yet have an on-chain mandate or voting system, so it should be understood as an organizing prototype, not the legal or formally announced Foundation.
+
+His coordination extended into Vortex preparation. On June 27, after speaking with Justin, Ederaleng, Saleh, and other contributors, Adriano [listed four immediate bridge-launch problems](https://t.me/KoinosTCB/2538): find liquidity, recruit seven validators, decide whether the validator interface needed more work, and identify a legal entity that could support the bridge and application-store publication. He volunteered as a validator and offered to help with Kollection's Sovrano integration. This was project coordination and operational volunteering; Ederaleng and the bridge developers still owned the technical implementation.
+
+The limitations were explicit. On July 26 Adriano [said the GitHub tasks were no longer being updated](https://t.me/KoinosTCB/2937) and that work appeared stalled until the proposal system and Vortex were functional. When the Koinos Community Foundation was formally announced in September, he was not listed among its members. His historical contribution belongs in the pre-formation phase: creating an early backlog, pushing the community from discussion toward assigned work, and helping surface the concrete dependencies that had to be solved before Vortex could launch.
 
 The funding discussion had already become concrete in March. Welele summarized his view of what a sustainable ecosystem actually required with the line, [“a project has to be devs + sales + marketing + communication + operations”](https://t.me/koinos_community/342252). In feedback on an early funding proposal, he argued that a 25 KOIN submission fee was too low at then-current prices, suggested relating it to market conditions or the requested amount, and proposed limiting how much of the daily budget any one project could receive. His example cap was 20 percent. These were informal suggestions rather than adopted rules, but they show community members already thinking about spam resistance, capture, budget concentration, and accountability before the Foundation and KFS became formal milestones.
 
@@ -963,15 +1003,15 @@ The Koinos story has several distinct phases:
 7. **Testnet era:** microservices, Kondor and claim UX, Roamin's AssemblyScript/TypeScript smart contract path, fbslo's KoinoSwap joining forces with KoinDX, governance, KPoB, mana, tax concerns, and modular architecture take shape.
 8. **Mainnet:** Koinos launches on November 5, 2022, amid claim, wallet, exchange, and liquidity questions, then completes initial decentralization on December 5, 2022.
 9. **Snapshot and distribution debate:** KoinosScan claims data and the Cafe cluster show why fair launch did not eliminate concentration questions.
-10. **First mainnet year:** Koiner.App, BurnKoin, Fogata, KAP, The Koin Press, motoengineer videos, Koinos Army, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Konio, VonLooten and Ederaleng's KoinDX, Saleh Hawi's exchange-listing campaign, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
+10. **First mainnet year:** Koiner.App, BurnKoin, Fogata, KAP, The Koin Press, motoengineer videos, Koinos Army, Kollection, the Wachsman/HackerEarth campaign, the first in-band upgrade, Adriano's Konio launch and ecosystem-wide onboarding campaign, VonLooten and Ederaleng's KoinDX, Saleh Hawi's exchange-listing campaign, KoinosPro, Koinos Polls, Nicknames, KoinCity, Chainge, Rhubarb, and the Koinos Federation debate show the chain moving from launch to usage.
 11. **Governance proof:** Koinos demonstrates in-band upgradeability in 2023, and Julian Gonzalez's system-call proposal becomes the first community-driven forkless governance upgrade in 2024.
-12. **Developer and user tooling:** KCS-2/Kollection, Arkinos, KCS-4 work, Kondor, Konio, Sovrano, Veive, Manuscript, Michael's REST API, and ecosystem dApps make the chain more usable.
+12. **Developer and user tooling:** KCS-2/Kollection, Arkinos, KCS-4 work, Kondor, Konio, Kuku Games, Veive, Sovrano, Sovry, Manuscript, Michael's REST API, and ecosystem dApps make the chain more usable. Adriano's sequence is especially instructive: mobile wallet, smart-account modules, consumer dApp, Telegram wallet, and social-login SDK all attacked different layers of the same onboarding problem.
 13. **Community communication:** Andrew Levine's explainers, developer liaison work, campaigns, and public channel guidelines; Koinos en español; Koincast; Transeunte; `@nomad100x`; Saleh Hawi's onboarding and scam warnings; and Carlos Welele's bilingual explanations, Koinos Socials workflows, moderation, and fake-group reporting show that translation, amplification, and social guardrails became shared infrastructure.
 14. **Bridge failure and market pressure:** Chainge-related losses, price decline, MEXC delisting, weak CEX presence, Saleh's listing coordination, and the community listing fund force a DEX and multichain liquidity strategy.
 15. **Koinos Group transition:** after Koinos Group deploys resources such as the 1 million KOIN free-usage pool and ships Koinos.fun as a strong reference app for AI-generated NFTs over X, Andrew leaves but offers to mentor builders; Steve and Michael redirect their main effort toward the separate Respublica concept; and their September handoff transfers repositories, domains, and operational responsibility to community developers and infrastructure maintainers.
 16. **The Koiner sustainability lesson:** Frank's explorer grows into a shared indexing and GraphQL data layer, but closes after personally funded infrastructure, 60-70-hour workweeks, insufficient adoption, and an unproven paid-service model make it unsustainable.
 17. **Token overhang and tax reality:** the remaining Koinos Group tokens become a question of investor agreements, IRS losses, discounted sales, and possible community custody.
-18. **Community infrastructure:** KCF, KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains become community responsibilities.
+18. **Community infrastructure:** Adriano's early Foundation backlog and Vortex coordination precede the formal KCF; KFS, Vortex validators, API nodes, seed nodes, public testnet, and domains then become community responsibilities.
 19. **Infrastructure decentralization and experimentation:** `api.koinos.io` moves behind a Cloudflare load balancer with multiple node operators, while `@interfecto` explores EVM compatibility on testnet.
 20. **Rebuild signals:** Kondor v2 and `koinos-chain v1.5.2` show practical maintenance and recovery.
 
@@ -1094,6 +1134,22 @@ If that test succeeds, Koinos will not matter simply because it was another bloc
 - GitHub: [konio-io/konio-mobile](https://github.com/konio-io/konio-mobile)
 - Konio: [Welcome in our Medium space!](https://medium.com/@konio_io/welcome-9b49af842775)
 - GitHub: [Adriano Foschi](https://github.com/adrianofoschi)
+- Telegram: [Adriano announces Konio's first public mobile release](https://t.me/koinos_community/174532)
+- Telegram: [Konio becomes open source](https://t.me/koinos_community/174613)
+- Telegram: [E-Time backs Konio while it remains open source](https://t.me/koinos_community/182422)
+- Telegram: [Konio reaches the Apple App Store](https://t.me/koinos_community/183819)
+- Telegram: [Konio named a HackerEarth runner-up](https://t.me/koinos_community/190739)
+- Telegram: [Konio's major October 2023 wallet update](https://t.me/koinos_community/193815)
+- Telegram: [Konio ecosystem onboarding giveaway announcement](https://t.me/koinos_community/201228)
+- Veive: [Introduction article](https://medium.com/@veiveprotocol/veive-protocol-13c0f6f2a670)
+- Telegram: [Adriano introduces Veive](https://t.me/koinos_community/256226)
+- GitHub: [Veive modular smart-account repositories](https://github.com/veive-io)
+- GitHub: [Sovrano authentication SDK](https://github.com/sovrano-io/auth-sdk)
+- Telegram: [Sovry Telegram wallet beta release](https://t.me/koinos_community/324196)
+- Telegram: [Veive and Sovrano repositories made public](https://t.me/koinos_community/326423)
+- Telegram: [Adriano creates the early Koinos Foundation planning board](https://t.me/koinos_community/355994)
+- Telegram: [Adriano coordinates Vortex launch dependencies](https://t.me/KoinosTCB/2538)
+- Telegram: [Adriano explains his November 2025 pause from Koinos](https://t.me/koinos_community/362978)
 - Koinos Discord authenticated searches in the Koinos server, accessed on July 11, 2026: early `#general` searches for `Steem`, `DPoS`, `OpenOrchard`, `ODESI`, `Koinos whitepaper`, `no ICO`, `premine`, `fair launch`, `KOIN mining`, `mining begins`, `proof frequency`, `Infura`, `Ropsten`, `Uniswap`, `gas price`, `big miners`, `cafe`, `0x1337cafe`, `testnet launch`, `easy fork`, `smart contracts API`, `docker testnet`, `Kondor`, `governance contract`, `Proof of Burn`, `mana`, `AssemblyScript`, `Roamin`, `BurnKoin`, `snapshot complete`, `mainnet tomorrow`, `claim koin`, and `MEXC`; later ecosystem searches for `Konio`, `Sovrano`, `Veive`, and `Adriano`
 - MiXiBo: [The Koincity Project: Launchpad for the Koinos Blockchain](https://mixibo.medium.com/the-koincity-project-launchpad-for-the-koinos-blockchain-b7ed343e0229)
 - Andrew Levine on X: [Koinos Federation and Jon Rice](https://x.com/andrarchy/status/1715443278202429875)
