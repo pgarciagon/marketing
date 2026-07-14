@@ -149,10 +149,6 @@ On November 18, 2020, OpenOrchard was rebranded as Koinos Group.
 
 The rebrand made the project easier to understand publicly. OpenOrchard had been the company name, but Koinos was becoming the identity of the technology, the token, and the future chain.
 
-![Official OpenOrchard-to-Koinos Group rebrand artwork showing the founding team](images/koinos-chronicle/2020-openorchard-koinos-group-rebrand.jpg)
-
-*The official rebrand artwork visually joined the new Koinos Group identity to the founding team behind OpenOrchard. Source: [Koinos Group, “Rebranding OpenOrchard to Koinos Group”](https://medium.com/koinos-group/rebranding-openorchard-to-koinos-group-dbcfb050c3c7), November 18, 2020.*
-
 ## 22.11.2020-30.01.2021 - Koinos Club Makes Fair-Launch Mining Cheaper
 
 Julián's first major Koinos product appeared during the ERC-20 mining period, not after mainnet. On November 22, 2020, he and community developer `@pstaiano` [introduced **Koinos Club**](https://hive.blog/koinos/@jga/koinos-pool), a pool designed around the mining contract's beneficiary feature. Groups of five miners could share one Ethereum proof transaction while the mining contract still paid rewards directly to each miner's address. The design reduced gas expenditure by as much as roughly 60 percent without placing mined KOIN in a custodial withdrawal account.
