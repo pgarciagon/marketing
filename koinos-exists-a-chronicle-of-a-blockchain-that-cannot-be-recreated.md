@@ -148,11 +148,19 @@ On November 18, 2020, OpenOrchard was rebranded as Koinos Group.
 
 The rebrand made the project easier to understand publicly. OpenOrchard had been the company name, but Koinos was becoming the identity of the technology, the token, and the future chain.
 
+![Official OpenOrchard-to-Koinos Group rebrand artwork showing the founding team](images/koinos-chronicle/2020-openorchard-koinos-group-rebrand.jpg)
+
+*The official rebrand artwork visually joined the new Koinos Group identity to the founding team behind OpenOrchard. Source: [Koinos Group, “Rebranding OpenOrchard to Koinos Group”](https://medium.com/koinos-group/rebranding-openorchard-to-koinos-group-dbcfb050c3c7), November 18, 2020.*
+
 ## 22.11.2020-30.01.2021 - Koinos Club Makes Fair-Launch Mining Cheaper
 
 Julián's first major Koinos product appeared during the ERC-20 mining period, not after mainnet. On November 22, 2020, he and community developer `@pstaiano` [introduced **Koinos Club**](https://hive.blog/koinos/@jga/koinos-pool), a pool designed around the mining contract's beneficiary feature. Groups of five miners could share one Ethereum proof transaction while the mining contract still paid rewards directly to each miner's address. The design reduced gas expenditure by as much as roughly 60 percent without placing mined KOIN in a custodial withdrawal account.
 
 The [Koinos Club V2 announcement](https://hive.blog/koinos/@jga/koinos-pool-v2) on January 30, 2021 pushed the same idea further. Miners submitted frequent low-cost proofs to the pool, the pool paid rewards as WKOIN on Hive, and only sufficiently strong proofs were sent to Ethereum. Users did not have to register, deposit ETH into a pool account, or trust an operator to hold their native KOIN balance. A GUI miner and the Spanish community helped make the workflow more accessible.
+
+![Koinos Club V2 diagram showing miners submitting proofs to the pool and receiving fee-free WKOIN](images/koinos-chronicle/2021-koinos-club-v2-diagram.png)
+
+*Julián's V2 diagram documented the pool's original user-to-pool and WKOIN reward flow during the ERC-20 mining period. Source: [Julián González, “Koinos Pool V2”](https://hive.blog/koinos/@jga/koinos-pool-v2), January 30, 2021.*
 
 Koinos Club matters because it established the pattern that later defined Julián's work: identify a protocol-level capability, wrap it in a usable open tool, and reduce the cost of participation for people who cannot operate at the most technical layer. It was still an experimental pool and its fee savings depended on Ethereum gas and proof conditions. An October 2020 [`koinos-miner` pull request](https://github.com/koinos/koinos-miner/pull/85) in which Julián proposed using miner difficulty rather than the target also belongs to this period, but it was closed without being merged and should be remembered as an early technical intervention, not as an accepted core fix.
 
@@ -287,6 +295,10 @@ Luke should not be rewritten as the sole designer or implementer of Koinos conse
 ## 24.04.2022 - Dokterkraakbeen Launches Planet Koinos as a Community Visual Archive
 
 After several weeks of preparation, Dokterkraakbeen [announced Planet Koinos V1](https://t.me/koinos_community/78884) on April 24, 2022. The site collected social-media graphics, charts, roadmap material, stickers, a press kit, translation packages, and files that users could print locally or turn into merchandise. This was not a protocol or application release. It was a deliberately reusable communications layer: community members who lacked design skills could explain Koinos without rebuilding every visual from scratch.
+
+![Original black-and-white Planet Koinos logo preserved in the April 2022 site archive](images/koinos-chronicle/2022-planet-koinos-logo.png)
+
+*The original Planet Koinos logo was recovered from the site's first surviving launch-day archive; the current domain is no longer a reliable copy of the historical project. Source: [Planet Koinos snapshot, April 24, 2022](https://web.archive.org/web/20220424182710/http://www.planetkoinos.com/).*
 
 The following weeks show that the site was operated rather than merely published. Dokterkraakbeen solicited community votes for sticker designs, [accepted translated versions](https://t.me/koinos_community/80547), made the files free for social use and local printing, added a merchandise shop, and connected the site to the community marketing channel. That work also explains why KoinDX recruited him later in 2022: by then he already had a visible record of turning technical talking points into a coherent visual identity.
 
@@ -562,6 +574,10 @@ The communication role did become real. G Millie amplified a June 2023 AMA with 
 
 Justin Welch [thanked Eman Vallejos for the collection's art](https://t.me/thekoinosarmy/121713); Eman in turn [credited Glen, Adem, MiXiBo, and the community](https://t.me/thekoinosarmy/121744) and specifically [thanked Glen and Adem for doing the project with him](https://t.me/thekoinosarmy/121745). MiXiBo implemented the surviving contract and metadata repository, while Justin helped correct metadata during launch. The exact product and operational split between Glen and Adem is not documented closely enough to divide further. G Millie's strongest attributable role is initiating, structuring, promoting, and hosting the holder-community concept; Adem and Glen were its curators and organizers; Eman made the art; and MiXiBo wrote the surviving contract.
 
+![Koinos Army Journey artwork displayed in a virtual gallery](images/koinos-chronicle/2023-koinos-army-journey-art.jpg)
+
+*Eman Vallejos shared this Koinos Army Journey artwork while describing the collection as human-made art that recorded moments in Koinos history, curated by Glen and Adem. Source: [Eman's Koinos Army post](https://t.me/thekoinosarmy/114527), November 9, 2023.*
+
 The project's own X announcement [described a free digital-print entitlement, a proposed 70% royalty distribution to holders and community incentives, and a 50% share of future collaboration revenue](https://x.com/koinosarmy/status/1727646200164167871). Those are contemporaneous product terms, not proof that every projected royalty or collaboration payment was later delivered.
 
 The boundary with DeGems matters as well. G Millie's account and display name linked him publicly to DeGems Lounge, and the April plan referred to a separate Gem Chase channel for projects outside Koinos. In October 2023, however, participants explicitly distinguished the Koinos Army chat from the DeGems chat. Koinos Army remained the Koinos-specific room, even as the same organizer brought experience and audiences across both communities.
@@ -688,6 +704,10 @@ Andrew also intervened in the practical problem of participation. In September, 
 
 Konio's public milestone began earlier than the July release previously recorded in this chronology. On June 16, 2023, Adriano Foschi [announced the first native iOS and Android wallet for Koinos](https://t.me/koinos_community/174532) and, later the same day, [made its source code public](https://t.me/koinos_community/174613). The public alpha produced no critical issues, so on June 17 he began the TestFlight and Google Play beta process. Mainnet became the default network on June 25.
 
+![Konio launch card offering the first native Koinos wallet builds for Android and iOS](images/koinos-chronicle/2023-konio-mobile-wallet-launch.jpg)
+
+*Adriano's launch card offered Android and iOS pre-alpha builds and explicitly presented Konio as the first mobile Koinos wallet. Source: [Konio launch announcement](https://t.me/koinos_community/174532), June 16, 2023.*
+
 Konio v1.4, released on July 8, preserves a small but revealing cross-project design contribution. Adriano's [release announcement](https://t.me/c/1987244913/603) credited **“Coins logos by karlos.koin”** and gave special thanks to Karlos for logo design and testing. Days earlier, Adriano had [asked him for a VHP asset](https://t.me/koinos_community/178214), Frank [said that Karlos had already supplied the SVG used by Koiner](https://t.me/koinos_community/178222), and Karlos [clarified that the lightning bolt had won a community vote while the displayed drawing was his version](https://t.me/koinos_community/178225). This was shared visual infrastructure and practical testing across independent products. It should not be expanded into authorship of v1.4's interface restyling, UX refactor, wallet code, or VHP concept itself.
 
 The [July 25 release of Konio v1.5.2](https://t.me/koinos_community/182230) supplied the memorable product message: **"FAST, SIMPLE, FREE."** Two days later the Italian software house E-Time [announced its backing](https://t.me/koinos_community/182422), providing distribution and development resources while Adriano remained the sole developer and the project remained open source. Konio reached the [Apple App Store on August 4](https://t.me/koinos_community/183819), added KAP Domains integration in v1.6, and by v1.7 said it could connect to all Koinos dApps.
@@ -731,6 +751,10 @@ The maintenance story changed again over time. Saleh continued acting as a user-
 Teing's first surviving Koinos-specific public work was not promotional copy but holder-distribution research. On August 5, 2023, shortly after KoinDX promoted its whale-tracker channel, he [mapped a large holder's repeated transfers toward MEXC](https://x.com/TEingvvv/status/1687836239700140032) and separately argued that early holders selling into new activity could help explain why the market was not moving with ecosystem growth. Two days later he [distinguished transfers from confirmed sales](https://x.com/TEingvvv/status/1688506215977123840), explicitly saying that the available volume did not let him determine whether all the transferred KOIN had been sold. His December [“KOIN whale tracking” article](https://medium.com/@teingvvv/koin%E5%A4%A7%E6%88%B7%E8%B7%9F%E8%B8%AA-78d8c8eec594) extended that address-clustering exercise while warning that the data could contain omissions and was not investment advice. The analysis did **not** identify a civil owner and should not be used to attach Cafe or any other community identity to those wallets.
 
 In November and December he converted the same close-reading habit into a compact Chinese-language knowledge base. His November 14 [Koinos technical overview](https://medium.com/@teingvvv/%E4%B8%80%E6%96%87%E8%A7%A3%E8%AF%BB%E6%97%A0gas-0%E8%B4%B9%E7%94%A8%E7%9A%84l1%E5%85%AC%E9%93%BE-koinos-00c6ad7d6afd) explained Mana, delegated resources, WebAssembly, Protobuf, Proof of Burn, KOIN/VHP supply, wallets, KoinDX, KAP, Kollection, KoinCity, Kanvas, Koinos Garden, and the Koinos Federation from a Chinese user's perspective. On November 22 Xatakis [announced a wider Chinese-language edition](https://t.me/koinos_community/209003) through Daily Coin Research / CryptoWeSearch, crediting Teing for most of the content. This moved a community-authored explainer beyond Koinos' own channels into a Hong Kong and Taiwan-facing crypto publication.
+
+![Hero artwork for Teing's Chinese-language Koinos technical overview](images/koinos-chronicle/2023-teing-chinese-field-guide.jpg)
+
+*The artwork heading Teing's Chinese-language overview is visual evidence of the community's attempt to explain Koinos beyond its English- and Spanish-speaking channels. Source: [Teing, “一文解读无Gas、0费用的L1公链——Koinos”](https://medium.com/@teingvvv/%E4%B8%80%E6%96%87%E8%A7%A3%E8%AF%BB%E6%97%A0gas-0%E8%B4%B9%E7%94%A8%E7%9A%84l1%E5%85%AC%E9%93%BE-koinos-00c6ad7d6afd), November 14, 2023.*
 
 His December 9 [simplified Chinese mining tutorial](https://medium.com/@teingvvv/koin-%E6%8C%96%E7%9F%BF%E4%B8%AD%E6%96%87%E7%AE%80%E7%89%88%E6%95%99%E7%A8%8B-8bee599e6a3b) then documented how BurnKoin and Fogata pools exposed VHP deposits, rewards, withdrawal limits, reserve Mana, fees, and differing reinvestment intervals. It was operational education rather than an endorsement: he stated that the links were examples and that he did not guarantee pool safety.
 
@@ -779,6 +803,10 @@ Koinos Garden had reached public product activity by November 2023. The Konio on
 The [deployed Koinos Garden application](https://dapp.koinosgarden.com/) makes the product model inspectable. It describes a collection of **1,000 Goat NFTs** granting access to an investment DAO and exposes Mint, Verify, Vault, improvement-proposal, Project Hub, and Listing surfaces. A project listing asks for a token or NFT contract, quorum, description, and logo; creating a Koinos Garden Improvement Proposal requires payment to the protocol treasury. The [official Koinos ecosystem page](https://koinos.io/ecosystem) still lists the product as an investment DAO for collaborating on and funding promising Koinos projects.
 
 Nomad explained the governance layer publicly on December 21, 2024: any project could be listed for a decentralized vote, the model was comparable to Snapshot, **one NFT carried one vote**, and the project could choose its quorum. He said token-based projects and another dApp function were planned for early 2025, together with a rebranding vote. On December 30 he announced that Koinos Garden itself had opened a proposal to reduce the collection's total NFT supply. These messages prove a deployed interface and at least one internal governance action; the reviewed record does not prove that the proposed token support, new function, or rebrand was delivered, or establish the outcome of the supply vote.
+
+![Koinos Garden interface showing its Projects directory and governance navigation](images/koinos-chronicle/2024-koinos-garden-governance.jpg)
+
+*A community screenshot preserved Koinos Garden's deployed project directory and its Mint, Vault, KGIP, Project Hub, and Listing navigation. It demonstrates the product surface, not investment returns. Source: [Nomad100x's Koinos Garden post](https://t.me/koinos_community/321037), December 20, 2024.*
 
 The cross-chain record is less clear. A Koinos Garden-branded account using the separate handle [`@KoinosGardens`](https://x.com/KoinosGardens/status/1773012523635098051) announced a 1,000-Goat Solana mint in March 2024, while a later [Koinos community post](https://t.me/koinos_community/321037) linked the singular handle `@koinosgarden`. The matching collection size and branding justify recording a related cross-chain experiment, but the handle change and absence of shared public code do not justify calling it a verified port of the Koinos contract or assigning its implementation to Nomad.
 
@@ -851,6 +879,10 @@ Later speculation became much more personal and much less certain. Some analysis
 ## 21.11.2023 - Konio Coordinates an Ecosystem-Wide Onboarding Giveaway
 
 Konio also became a coordination vehicle rather than only a wallet. On November 13, Adriano [announced an onboarding giveaway beginning November 21](https://t.me/koinos_community/201228), with more than 3,000 USDT in prizes for ten winners. The sponsor list connected much of the live ecosystem: Kanvas, KAP, KoinCrew, KoinCity, Koiner.App, Koinos Garden, Koinos Raffles, KoinDX, Kollection, Koinos Blocks, and Planet Koinos.
+
+![Konio Koinos Onboarding Giveaway card announcing more than 3,000 USDT in prizes](images/koinos-chronicle/2023-konio-ecosystem-giveaway.jpg)
+
+*The original campaign card documented Konio's attempt to coordinate many independent Koinos products around one onboarding event. The prize figure is the organizers' contemporary announcement. Source: [Konio giveaway announcement](https://t.me/koinos_community/201228), November 13, 2023.*
 
 This deserves its own milestone because it was one of the earliest ecosystem-wide attempts to turn many small Koinos projects into one coordinated acquisition campaign. It also shows a second side of Adriano's contribution: he did not only write wallet code; he used the product and its relationships to organize onboarding and joint promotion. In 2025 he [remembered the campaign as a major success](https://t.me/KoinosTCB/2234) and noted that KOIN reached an all-time high during the event. The timing is verifiable, but it should not be read as proof that the giveaway alone caused the price movement.
 
@@ -1271,6 +1303,10 @@ He found a more sustainable route through publishing. [Mundo Koinos](https://mun
 
 His most visible artifact arrived on December 22. He [released a 79-second, 1080p promotional video for free community reuse](https://t.me/koinos_community/321281). Jon Rice called it “truly incredible,” [uploaded it to the official Koinos account](https://t.me/koinos_community/321292), and turned a volunteer artifact into official campaign material. Alberto [documented the production boundary](https://t.me/koinos_community/321358): he started with images he had already made, used AI for text, voice-over, music, and image animation, then assembled the result in roughly eight hours. The credit therefore belongs to him as concept creator, image maker, AI-assisted producer, and editor—not to an unidentified official studio or development team.
 
+![Frame from Transeunte's 2024 Koinos promotional video showing the Koinos wordmark over an animated chain](images/koinos-chronicle/2024-transeunte-promotional-video-frame.jpg)
+
+*A frame from Alberto / Transeunte's volunteer-made video, later republished by the official Koinos account. Source: [original 1080p community release](https://t.me/koinos_community/321281), December 22, 2024.*
+
 In January 2025 he also [assembled twenty-eight questions that a non-technical newcomer might ask](https://t.me/koinos_community/326598), covering KOIN value, Mana, spam, governance, nodes, comparisons, and developer tooling. He did not pretend to possess the technical answers; he asked the developer community to help convert audience questions into a document or video. Around the Koinos.fun launch he argued that “we are the marketing,” requested a clear English product demonstration, and created Koinos-themed avatar NFTs for social accounts. His February 10 retrospective estimated roughly one hundred Koinos.fun pieces and described two other KOIN collections; the first figure is his own count and the earlier collection history shows that the latter remained visual/test artifacts rather than demonstrated production products.
 
 This work matters because it captures a layer easily omitted from a technical chronology. Transeunte did not write protocol or application code. He translated ecosystem activity into plain language, surfaced the questions and trust barriers a newcomer actually encounters, and produced reusable media after Koinos Group's communication capacity weakened. The same record also preserves the limitation: volunteer creativity could generate assets, but without technical support, distribution, and a sustainable mandate it did not automatically become a lasting communication operation.
@@ -1465,6 +1501,10 @@ This episode is important because it compressed several Koinos tensions into one
 ## 14.10.2025 - Koinos Fund System Goes Live
 
 On October 14, 2025, community developer Julián González published [The Koinos Fund System is Live!](https://hive.blog/koinos/@jga/the-koinos-fund-system-is-live). The post described KFS as a decentralized and transparent funding mechanism approved through governance. It changed inflation from a 2% flow to block producers into a 4% split: 2% for block producers and 2% for the Koinos Fund.
+
+![Koinos Fund System launch artwork displayed to a community audience](images/koinos-chronicle/2025-koinos-fund-system.jpg)
+
+*The launch artwork accompanied Julián's publication that the governance-approved Koinos Fund System was live. Source: [Julián González, “The Koinos Fund System is Live!”](https://hive.blog/koinos/@jga/the-koinos-fund-system-is-live), October 14, 2025.*
 
 The design was conceptually influenced by Hive's Decentralized Hive Fund, a system Julián already knew from his pre-Koinos proposal tooling. Proposal submissions paid a dynamic fee; KOIN and VHP holders could distribute weighted votes across up to twenty projects; votes expired after six months; and the contract ranked proposals against a monthly budget. The fund could spend at most twice the current month's inflow, constraining how quickly accumulated reserves could be exhausted. Unlike a private grant committee, proposal, vote, ranking, and payment state were visible on-chain.
 
