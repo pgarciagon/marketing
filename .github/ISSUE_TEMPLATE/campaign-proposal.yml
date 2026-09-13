@@ -1,0 +1,73 @@
+name: Campaign proposal
+description: Propose a coordinated Koinos communication or branding campaign
+title: "[Campaign]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for a campaign with a defined audience and outcome. Do not include credentials, private correspondence, or sensitive personal information.
+  - type: input
+    id: audience
+    attributes:
+      label: Primary audience
+      description: Name one primary audience.
+      placeholder: Application developers evaluating a new chain
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What evidence shows that communication can change this situation?
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective and call to action
+      description: What should the audience understand or do?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and sources
+      description: Link primary sources and label any inference or unresolved claim.
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Proposed deliverables and channels
+      description: List the smallest useful set of materials and destinations.
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Proposed owner
+      description: Provide a public GitHub handle or established community name. Ownership does not grant official account authority.
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Publication authority
+      description: State which destination requires approval and whether the responsible role has been confirmed.
+    validations:
+      required: true
+  - type: textarea
+    id: measurement
+    attributes:
+      label: Success signal and review date
+      description: What result will inform a decision, and when will it be reviewed?
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks, dependencies, and disclosures
+      description: Include factual, reputational, platform, access, and sponsorship considerations.
+    validations:
+      required: true
